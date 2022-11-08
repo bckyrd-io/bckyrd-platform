@@ -5,203 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>backyard</title>
-    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="res/host.css">
-    <link rel="preload" href="res/AdobeCleanUX-Light.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="res/Roboto-Thin.woff2" as="font" type="font/woff2" crossorigin>
-    <!--META-OPTIMIZE--->
+    <!--SEO TAGS-->
     <meta name="keywords" 
         content="backyard workstation, backyard, workstation,
         electronics agency,software agency, arduino programming,
-        Smart Systems, web development, programmer, Android development">
+        Smart Systems, web development, programmer, intert of things,
+        Android development">
     <meta name="description"
-        content="An Electronics Company That Gets Your Systems Fixed.">
-</head>
-<body id="____HOME">
-    <nav class="__xnt" id="moveTop"> 
+        content="a place Where stuff gets built. we are one of 
+        electronics company that gets yours systems fixed. we try 
+        our best to keep your hustle running.">
+    <!--PRE LOAD FONTS-->
+    <link rel="preload" href="res/AdobeCleanUX-Light.woff2" 
+        as="font" type="font/woff2" crossorigin>
+    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="res/host.css">
+    
+ </head>
+
+<body>
+<!--NAVIGATION LINKS TO DESIGN-->
+    <nav id="move__top">
         <div class="col l">
-            <div id="navMOB" onclick="opnNAV()">
-                <i class="i"></i><i class="ii"></i><i class="iii"></i>
-            </div>
-            <div id="navLNK" hidden> 
+            <div id="nav_menu">
                 <a href="index.php" class="active">Home</a>
                 <a href="pgs/store.php">Store</a>
                 <a href="pgs/blog.php">Blog</a>
             </div>
-            <div id="navLNK" class="men"> 
-                <a href="index.php" class="active">Home</a>
-                <a href="pgs/store.php">Store</a>
-                <a href="pgs/blog.php">Blog</a>
+            <div id="nav_link" onclick="openNav()">
+                <span id="first"></span>
+                <span id="second"></span>
+                <span id="third"></span>
             </div>
-        </div>
-        <div class="col r">
-            <img hidden src="res/favicon.ico">
         </div>
     </nav>
 
 
-    <main class="__xnt">
-       <div class="x" id="_1">
-            <div class="col r">
-                <h1>An Electronics <br> Company That Gets <br> Your Systems <br> Fixed </h1>
+    <main>
+<!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
+        <section>
+            <div class="max inverted">
+                <div class="col l">
+                    <a href="#service__section"
+                        style="width:100%; height:auto">
+                        <img style="width:auto; height:70vh"
+                            src="etc/images.jpg" alt="backyard images">
+                    </a>
+                </div>
+                <div class="col r">
+                    <h1>where __stuff<br> gets builT.</h1>
+                    <p>start from here <a href="#service__section">&darr;</a></p>
+                </div>
             </div>
-            <div class="col l">
-                <img src="res/img.webp" alt="backyard-svg">
-            </div>
-       </div>
-       <div class="x" id="_2">
+        </section>
+
+
+<!--DESCRIPTION OF SERVICES OFFERED AT Store-->
+        <section id="service__section">
             <div class="mid" id="accordion">
                 <div class="panel">
-                    <h1 class="header">EMBEDDED SYSTEMS </h1>
-                    <div class="body">Make your stuff smart by the internet of things (iot) automation. 
-                        For farms, manufacturing, etc <a href="wikipedia.com/embeddedsystems" class="lit">more</a></div>
-                </div>
-                
-                <div class="panel">
-                    <h1 class="header" id="collapsible">NETWORK FiX</h1>
-                    <div class="body">Install and setup network for (homes , offices, etc). And
-                        also fix problems on your network <a href="wikipedia.com/wispnetwork" class="lit">more</a></div>
-                </div>
-                <div class="panel">
-                    <h1 class="header">SOFTWARE ENGiNEERiNG</h1>
-                    <div class="body">code apps, websites for business, personal, organisations
-                        that provide value and controls your systems. <a href="wikipedia.com/coding" class="lit">more</a></div>
-                </div>
-                <div class="panel">
-                    <h1 class="header">RESEARCH</h1>
-                    <div class="body">Unmaned vehicles is the next big thing we are going for ,so 
-                        we ventured in starting with fixing electronics. <a href="wikipedia.com/unmaneddrones" class="lit">more</a></div>
-                </div>
-                <p id="a"><a href="" class="active">work with us</a></p>
-                <div id="text">
-                    these are qualities that makes us owesome to work with. which makes you come 
-                    back for more projects.
-                </div>
-            </div>
-       </div>
-       <div class="x" id="_3">
-            <div class="mid">
-                <div>
-                    <h1>FASTER</h1>
-                    <p>we work as an agency to deriver product faster knowing that when a thing is requested
-                        you always need it now.
+                    <h2 class="header">EMBEDDED SYSTEMS</h2>
+                    <p class="body">Make Arduino automated electronics including IOT 
+                        enabled for controlling remotely.</p>
+                    <p class="body">And autonomous machines that are less Human operated. 
+                    <a class="active" href="">more</a>
                     </p>
-                    <p>upfront cost that you pay make us deriver faster .</p>
                 </div>
+                <div class="panel">
+                    <h2 class="header">SOFTWARE ENGINEERING</h2>
+                    <p class="body">Build android development which can include cross platform apps for 
+                        different devices support.</p>
+                    <p class="body">And web systems that offer API for extensibility of usage. 
+                    <a class="active" href="">more</a></p>
+                </div>
+                <div class="panel">
+                    <h2 class="header">DEVICE RECOVERY</h2>
+                    <p class="body">Provide systems restores on devices failures get it fixed and 
+                        working again.
+                    </p>
+                    <p class="body">And also device upgrades to keep up with technological 
+                        changes. <a href="http://">more</a>
+                    </p>
+                </div>
+                <div class="panel">
+                    <h2 class="header">RESEARCH</h2>
+                    <p class="body">Explore advancement in tech including replicating these
+                        internet projects.
+                    </p>
+                    <p class="body">
+                    And do reviews on electronics devices plus finding out altenatives . <a class="active" href="">more</a></p>
+                </div>
+            </div>
+        </section>
+
+
+        
+<!--OVERVIEW OF HOW WE WANNA WORK-->
+        <section id="approach__section">
+            <div class="left-heading">
+                <button id="work" href="host@bckyrd.io">Lets work</button>
+                <p>As an electronics company that gets your systems fixed we use these ideas to 
+                    keep your hustle running.</p>   
+            </div>
+            <div class="max">
+                <div class="col-section">
+                    <h2>FASTER</h2>
+                    <p>Depending on the Scale of Project, We often Teamup as an Agency.</p>
+                    <p>Which makes Milestones complete in Less Time.</p>
+                </div>
+                <div class="col-section">
+                    <h2>FLEXIBLE</h2>
+                    <p>Avoid being strict with tools usage, rather do what
+                        achieves solution at the moment.
+                    <p>Macgyver around to fix a problem and improve
+                         on it from Prototype.</p>
+                </div>
+                <div class="col-section">
+                    <h2>VALUE</h2>
+                    <p>The secret is to Understand what is needed, Then work together</p>
+                    <p>And also keep you Updated on what we help on.</p>
+                </div>
+                <div class="col-section">
+                    <h2>NON FORMAL</h2>
+                    <p>We dont do corporate stuff, rather communicate as Humans</p>
+                    <p>Making the processes smooth by removing knowledge gaps.</p>
+                </div>
+            </div>
+        </section>
+
+
+<!--OUR WORKSTATION VIDEOS CHANNEL-->
+        <section class="video__section">
+            <div class="mid">
+                <iframe src="https://www.youtube.com/embed/qJl9qFrHYm4? 
+                    controls">
+                </iframe>
+            </div>
+        </section>
+
+
+<!--PORTIFOLIO OF OUR PROJECTS GALLERY-->
+        <section id="portifolio__section">
+            <div class="left-heading">
+                <h1>PotifoliO</h1>
+                <p>Here are some projects that we have built. Be free to reach to us 
+                    to build more </p>   
+            </div>
+            <div class="max">
+                <div class="masonry-grid">
+                    <a href="" class="brick">
+                        <img src="etc/bckyrd.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/security.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/zalero.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/rise.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/mbumba.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/ps ctrl.png" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/workstation.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/management.jpg" alt="design">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+<!--UPCOMING EVENTS COLLABORATION-->
+        <section id="event__section">
+            <div class="mid" id="events">
                 <div>
-                    <h1>UNCONVENTIONAL</h1>
-                    <p>It also wows people that we accomplish challenging tasks, that others aint doing yet. </p>
-                    <p>we always macgyver around things ,which makes our owesomeness levels high.</p>
-                </div>
-                <div>
-                    <h1>VALUE</h1>
-                    <p>understanding what you need is the secret ,that makes us go same direction with you.</p>
-                    <p> At the same time we keep you updated on your project till your business picks up.</p>
-                </div>
-                <div>
-                    <h1>NONCORPORATE</h1>
-                    <p>Environment we work in provides no coorporate brokages 
-                        ,ensuring reachability and ideas flow.</p>
-                    <p>This makes geniuses around us thrive and build what they like.</p>
-                </div>
-           </div>
-       </div>
-       <div class="x" id="_4">
-            <p id="a"><a href="" class="active">Know Us</a></p>
-            <div id="text">We wanna take you in to our workstation, get the reviews on stuff we use 
-                and how we work.</div>
-            <iframe  id="#video"
-                src="https://www.youtube.com/embed/qJl9qFrHYm4? controls">
-            </iframe> 
-       </div>
-        <div class="x portifolio" id="_5">
-            <p id="a"><a href="" class="active">Portifolio</a></p>
-            <div id="text">the button has an external link to where we detail what we have done.</div>
-            <div id="horiz" class="container">
-                <div class="masonry">
-                    <!--images-->
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/riseapp.png">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/mbumba_desktop.png">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#manys">
-                        <img src="etc/mansys.jpg">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/host_mobile.png">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/host.bckyrd.io.png">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#chrab">
-                        <img src="etc/chrab.jpg">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/bckyrd_store.png">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/mbumba_mobile.png">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/ps ctrl.png">
-                    </a>
-                    <a class="brick" href="host.bckyrd.io/projects#pstrl">
-                        <img src="etc/bckyrd.io.png">
-                    </a>
-                    
-                   
+                    <p>Be part of the people, Building stuff in 
+                        Their backyards <br><a href=""class="active">Visit</a></p>
                 </div>
             </div>
-            <a href="https://host.bckyrd.io/"><button>projects details</button></a>
-            <div hidden id="overlay">
-                <p hidden>You know us already from our past projects. Some of the work
-                    we have done is displayed in the background. Our team is building amazing stuff @backyard and we wanna make more challenging tasks through this agency. You are the next 
-                    personal our team is hungry to work with. Contact us so that we can keep your
-                    hustle running.
-                </p>
-            </div>
-        </div>
-       <div class="x" id="_6" style="position:relative; top: -12vh;">
-            <p id="a"><a href="" class="active">Discover</a></p>
-            <div id="text"> we have a bunch of stuff that we are researching here mostly around electronics, 
-                of which you may jump in to be part of it.
-            </div>
-            <div class="mid" style="margin-bottom: 28vh;">
-                <div id="svg_blob"></div>
-                <div id="dis_msg">
-                    <a href="" hidden>WE ARE COLLECTING EWASTE</a>
-                    <h1 hidden>28</h1>
-                    <p>community of people <br> discussing inventions <br> 
-                    <a class="lit" href="https://host.bckyrd.io/pgs/"><u>join</u></a> </p>
-                </div>
-            </div>
-       </div>
-       <div class="x" id="_7">
-           <div class="top r">
-               <div class="txt">
-                <h1>BACKYARD <br> WORKSTATION</h1>
-                <p>You Wanna Make,<br>What You Wanna Have</p>
-                <a href="https://" ># whatsApp: <u class="active">(+265) 885 04 05 28</u></a><br>
-                <a href=""># upwork: <u class="active">bckyrd</u></a><br>
-                <a href=""># linkedIn: <u class="active">bckyrd</u></a><br>
-                <a href=""># email: <u class="active">host@bckyrd.io</u></a>
-               </div>
-           </div>
-           <a href="#moveTop"><img class="svg l" src="res/discovery.svg"></a>
-       </div>
+        </section>
     </main>
 
 
-    <footer class="__xnt">
-        <div class="l">Read <u><a href="bckyrd.pdf" class="lit">Terms</a></u></div>
+    
+<!--THE FOOTER INVERTED DESIGN-->
+    <footer>
+        <section id="footer__section">
+            <div class="max inverted">
+                <div class="col l">
+                    <a href="#move__top"><img src="res/discovery.svg" alt="inventor at backyard"></a>
+                </div>
+                <div class="col r">
+                    <h1>BACKYARD<br> WORKSTATION</h1>
+                    <p>Make What You<br> Wanna Have</p>
+                    <a href="" class="active">#linkedIn </a>
+                    <a href="" class="active">#github </a>
+                </div>
+            </div>
+        </div>
+        </section>
+        <p class="right">Email <a class="active" href="#="> host@bckyrd.io</a>.</p>
     </footer>
 
 
+    <script type="text/javascript" src="res/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="res/scrollreveal.min.js"></script>
-    <script type="text/javascript" src="res/jquery-3.3.1.min.js"> </script>
     <script type="text/javascript" src="res/host.js"></script>
-    
+
 </body>
 </html>

@@ -4,120 +4,233 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>backyard | electronics </title>
-    <link rel="shortcut icon" href="../res/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../res/host.css">
-    <!--META-OPTIMIZE--->
+    <title>backyard</title>
+    <!--SEO TAGS-->
     <meta name="keywords" 
         content="backyard workstation, backyard, workstation,
         electronics agency,software agency, arduino programming,
-        Smart Systems, web development, programmer, Android development ">
+        Smart Systems, web development, programmer, intert of things,
+        Android development">
     <meta name="description"
-        content="An Electronics Company That Gets Your Systems Fixed.">
-</head>
-<body id="____STORE">
-    <nav class="__xnt" id="moveTop"> 
+        content="a place Where stuff gets built. we are one of 
+        electronics company that gets yours systems fixed. we try 
+        our best to keep your hustle running.">
+    <!--PRE LOAD FONTS-->
+    <link rel="preload" href="../res/AdobeCleanUX-Light.woff2" 
+        as="font" type="font/woff2" crossorigin>
+    <link rel="shortcut icon" href="../res/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../res/host.css">
+    
+ </head>
+
+<body>
+<!--NAVIGATION LINKS TO DESIGN-->
+    <nav id="move__top">
         <div class="col l">
-            <div id="navMOB" onclick="opnNAV()">
-                <i class="i"></i>
-                <i class="ii"></i>
-                <i class="iii"></i>
-            </div>
-            <div id="navLNK" hidden> 
-                <a href="../index.php">Home</a>
+            <div id="nav_menu">
+                <a href="../index.php" >Home</a>
                 <a href="store.php" class="active">Store</a>
                 <a href="blog.php">Blog</a>
             </div>
-            <div id="navLNK" class="men"> 
-                <a href="../index.php">Home</a>
-                <a href="store.php" class="active">Store</a>
-                <a href="blog.php">Blog</a>
+            <div id="nav_link" onclick="openNav()">
+                <span id="first"></span>
+                <span id="second"></span>
+                <span id="third"></span>
             </div>
-        </div>
-        <div class="col r">
-            <img hidden src="../etc/favicon.ico" alt="bckyrd">
         </div>
     </nav>
 
 
-    <main class="__xnt">
-        <div class="x" id="_1">
-            <div class="COL" id="LEFT">
-                <div class="img" style="background-image:url('../etc/npcfztmw0hu4xr6kz5irlxm6tj6hkd342534.png')"></div>
-                <div class="img" style="background-image:url('../etc/dji-racing-goggles-electronics-binoculars-camera-bomb-transparent-png-543809.png')"></div>
-                <div class="img" style="background-image:url('../etc/kisspng-aerials-parabolic-antenna-4g-satellite-dish-mimo-parabolic-5b14c7e23b0f09.9158450715280885462419.png')"></div>
-                <div class="img" style="background-image:url('../etc/pngwing.com\(8\).png')"></div>
-            </div>
-            <div class="COL" id="RIGHT">
-                <div class="side" id="_1">
-                    <a href="">#accessories</a>
-                    <a href="">#dji drone</a>
-                    <a href="">#lenovo laptop</a>
-                    <a href="">#iphone 5</a>
-                    <a href="">#laptop power supply</a>
-                    <a href="">#gaming pc</a>
-                    <a href="">#mofi router</a>
-                    <a href="">accessories</a>
+
+    <main>
+<!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
+        <section>
+            <div class="max store-items inverted">
+                <div class="col l">
+                    <div class="item">
+                        <img src="../etc/3p9thrf69gavi7781n04kfqnygxc1e199802.png" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="../etc/kisspng-aerials-parabolic-antenna-4g-satellite-dish-mimo-parabolic-5b14c7e23b0f09.9158450715280885462419.png" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="../etc/npcfztmw0hu4xr6kz5irlxm6tj6hkd342534.png" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="../etc/3p9thrf69gavi7781n04kfqnygxc1e199802.png" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="../etc/npcfztmw0hu4xr6kz5irlxm6tj6hkd342534.png" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="../etc/kisspng-aerials-parabolic-antenna-4g-satellite-dish-mimo-parabolic-5b14c7e23b0f09.9158450715280885462419.png" alt="backyard electronic item">
+                    </div>
                 </div>
-                <div class="side" id="_2">
-                    <a href="" class="active" id="link">View All&rarr;</a>
+                <div class="col r">
+                    <div class="item-tags">
+                        <p>List of items available for sell and others to give out. So you can check them out and get whatever you want from our backyard.</p>
+                        <p>
+                            <a href="">laptop</a>
+                            <a href="">motor</a>
+                            <a href="">keyboard</a>
+                            <a href="">microphone</a>
+                            <a href="">drone</a>
+                            <a href="">monitors</a>
+                            <a href="">extensions</a>
+                            <a href="">lenovo</a>
+                            <a href="">iphone</a>
+                            <a href="">esp8266</a>
+                            <a href="">laptop</a>
+                            <a href="">motor</a>
+                            <a href="">keyboard</a>
+                            <a href="">microphone</a>
+                            <a href="">drone</a>
+                            <a href="">monitors</a>
+                            <a href="">extensions</a>
+                            <a href="">lenovo</a>
+                            <a href="">iphone</a>
+                            <a href="">esp8266</a>
+                        </p>
+                    </div>
+                    <p><a href="#wpstore" class="active">Next &rarr;</a></p>
                 </div>
                 
             </div>
-        </div>
-        <div class="x" id="_2">
-            <h1>Follow <a class="active" href="">Electronics<br></a>Systems Fixes</h1>
-            <input type="text" name="electronics" id="" placeholder="PUT CODE HERE !">
-        </div>  
+        </section>
 
-        <div class="x" id="_3">
-            <div class="gadgets">
-                <div class="div">
-                    <a class="active" href="" id="link">dji</a>
-                    <img src="../res/quadcopter.svg" alt="gadget-svg">
+
+<!--OUR WORKSTATION VIDEOS CHANNEL-->
+        <section id="search__section">
+            <div class="mid">
+                <h1>Some Of The Machines That You Can Send Us. </h1> 
+                <input type="text" placeholder="ask if you ant sure">
+                <button class="btn">send</button>
+            </div>
+        </section>
+
+
+<!--CHOOSE ITEMS TO DROP TO US-->
+        <section id="delivery__section">
+            <div class="max multi-tool">
+                <a class="col-section">
+                    <img src="../etc/quadcopter.svg" alt="" sizes="">
+                </a>
+                <a class="col-section">
+                    <img src="../etc/laptop.svg" alt="">
+                </a>
+                <a class="col-section">
+                    <img src="../etc/tablet.svg" alt="">
+                </a>
+                <a class="col-section">
+                    <img src="../etc/virtual.svg" alt="">
+                </a>
+                <a class="col-section">
+                    <img src="../etc/quadcopter.svg" alt="" sizes="">
+                </a>
+                <a class="col-section">
+                    <img src="../etc/laptop.svg" alt="">
+                </a>
+                <a class="col-section">
+                    <img src="../etc/tablet.svg" alt="">
+                </a>
+                <a class="col-section">
+                    <img src="../etc/virtual.svg" alt="">
+                </a>
+            </div>
+        </section>
+
+
+
+<!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
+        <section id="experience__section">
+            <div class="max store-items fixed inverted">
+                <div class="col l">
+                    <div class="item">
+                        <img src="../etc/IMG_20220228_135219.jpg" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="../etc/IMG_20220105_085703.jpg" alt="backyard electronic item">
+                    </div>
+                    
+                    <div class="item">
+                        <img src="../etc/IMG_20220304_152018.jpg" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="../etc/IMG_20220119_133008.jpg" alt="backyard electronic item">
+                    </div>
+                    
+                    <div class="item">
+                        <img src="../etc/IMG_20220105_085703.jpg" alt="backyard electronic item">
+                    </div>
                 </div>
-                <div class="div">
-                    <a class="active" href="" id="link">lenovo</a>
-                    <img src="../res/laptop.svg" alt="gadget-svg">
+                <div class="col r">
+                    <p class="fix-text">
+                    here is a bunch of devices we have 
+                    worked with. more stuff keep on
+                    coming for fixes.
+                    </p>
                 </div>
-                <div class="div">
-                    <a class="active" href="" id="link">apple</a>
-                    <img src="../res/tablet.svg" alt="gadget-svg">
+                
+            </div>
+        </section>
+
+
+
+        <section id="faq__section">
+            <div class="mid" id="accordion">
+                <div class="panel">
+                    <h2 class="header">HOW TO DROP ITEMS ?</h2>
+                    <p class="body">Integrate electronics on arduino microcontrollers with similar platforms,
+                    internet of things(iot) for remote posibilities, machines that enables precision ,
+                    and Autonomous systems which makes stuff self operate.<a class="active" href="">more</a></p>
                 </div>
-                <div class="div">
-                    <a class="active" href="" id="link">ocurus</a>
-                    <img src="../res/virtual.svg" alt="gadget-svg">
+                <div class="panel">
+                    <h2 class="header">DO WE CORRABORATE ?</h2>
+                    <p class="body">Building softwares for Android, those CrossPlatform Apps that are interoperable 
+                    on different devices, also combines extensible functions 
+                    with API's, and Web Systems that are responsive to screen sizes .<a class="active" href="">more</a></p>
                 </div>
-            </div>    
-            <p><a href="" class="active">Lets Fix Your<br>Systems Now</a></p>  
-            <img src="../etc/broken.png" alt="broken" id="broken">
-                                  
-                  
-        </div>
-           
-       
-       <div class="x" id="_7">
-           <div class="top r">
-               <div class="txt">
-                <h1>BACKYARD <br> WORKSTATION</h1>
-                <p>Take It Here,<br>We'll Take It Apart</p>
-                <a href="https://" ># whatsApp: <u class="active">(+265) 885 04 05 28</u></a><br>
-                <a href=""># linkedIn: <u class="active">bckyrd</u></a><br>
-                <a href=""># email: <u class="active">host@bckyrd.io</u></a>
-               </div>
-           </div>
-           <a href="#moveTop"><img class="svg l" src="../res/error.svg"></a>
-       </div>
+                <div class="panel">
+                    <h2 class="header">WHO DO WE HIRE ?</h2>
+                    <p class="body">Problem fixes with computers hardware, internet connectivity wireless,
+                    provide upgrades to keep up on technological changes. And make use of old broken 
+                    electronics. <a class="active" href="">more</a></p>
+                </div>
+                <div class="panel">
+                    <h2 class="header">ARE WE OPEN TO EVENTS ?</h2>
+                    <p class="body">work on ideas to contributing to advancements, Replicate internet 
+                    projects ,also Explore alternatives to problems .Including trying out new
+                    tech while sharing on different platforms. <a class="active" href="">more</a></p>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
 
-    <footer class="__xnt">
-        <div class="l">Read <u><a href="bckyrd.pdf" class="lit">Terms</a></u></div>
+
+
+    <footer>
+<!--THE FOOTER INVERTED DESIGN-->
+        <section id="footer__section">
+            <div class="max inverted">
+                <div class="col l">
+                    <a href="#move_top"><img src="../res/error.svg" alt="inventor at backyard"></a>
+                </div>
+                <div class="col r">
+                    <h1>BACKYARD<br> WORKSTATION</h1>
+                    <p>It Was Written<br> And Its Been Compiled</p>
+                    <a href="" class="active">#linkedIn</a>
+                    <a href="" class="active">#github</a>
+                </div>
+            </div>
+        </section>
+        <p class="right">Email <a class="active" href="#"> host@bckyrd.io</a>.</p>
     </footer>
 
-    <script type="text/javascript" src="../res/scrollreveal.min.js"></script>
+    <script src="../res/jquery-3.3.1.min.js"></script>
+    <script src="../res/scrollreveal.min.js"></script>
     <script type="text/javascript" src="../res/host.js"></script>
-  
 
 </body>
 </html>
