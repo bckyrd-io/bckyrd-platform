@@ -46,9 +46,7 @@ a.active:hover{color: var(--neo);}
 
 
 
-/**
-    ACCROSS ALL THE PAGES CSS
-* **/
+/**ACCROSS ALL THE PAGES CSS* **/
 nav{
     width: var(--def-width);
     margin: auto;
@@ -138,9 +136,7 @@ main .left-heading p{
 
 
 
-/**
-    SECTIONS INVERTED
-* **/
+/** SECTIONS INVERTED* **/
 section .inverted{ min-height: 90vh;}
 section .inverted .col.l{ justify-content: flex-end; }
 section .inverted h1{ margin: 0;}
@@ -148,9 +144,7 @@ section .inverted img{ height: 40vh; }
 
 
 
-/**
-    ACCORDION
-* **/
+/**ACCORDION* **/
 .panel h1:after{ content: '\002B'; float: right;}
 .panel div{
     text-align: justify;
@@ -261,9 +255,7 @@ section p a{
 
 
 
-/**
-    DROP ITEMS
-* **/
+/**DROP ITEMS* **/
 section .multi-tool{
     justify-content: flex-start;
     flex-direction: row-reverse;
@@ -294,14 +286,12 @@ section .multi-tool a{
 
 
 
-/**
-    MASONRY GRID PORTIFOLIO DESIGN
-* **/
+/** MASONRY GRID PORTIFOLIO DESIGN **/
 .masonry-grid{
     display: grid;
     grid-template-columns: repeat(32, 1fr);
-    grid-template-rows: repeat(12, 6vh);
-    gap: .25rem;
+    grid-template-rows: repeat(14, 2.5vh);/**6vh**/
+    gap: 2rem;/**0.25rem**/
     width: 100% !important;
 }
 .masonry-grid .brick{ 
@@ -317,14 +307,10 @@ section .multi-tool a{
     width: 100%;
     height: 100%;
 }
-.brick:nth-of-type(1){ grid-column: 1/ span 9; grid-row: 7 / span 6 ;}
-.brick:nth-of-type(2){ grid-column: 1/ span 9; grid-row: 1 / span 6 ;}
-.brick:nth-of-type(3){ grid-column: 10/ span 7; grid-row: 1 / span 4 ;}
-.brick:nth-of-type(4){ grid-column: 10/ span 7; grid-row: 5/ span 8 ;}
-.brick:nth-of-type(5){ grid-column: 17/ span 8; grid-row: 1/ span 6 ;}
-.brick:nth-of-type(6){ grid-column: 17/ span 5; grid-row: 7/ span 6 ;}
-.brick:nth-of-type(7){ grid-column: 25/ span 8; grid-row: 1/ span 6 ;}
-.brick:nth-of-type(8){ grid-column: 22/ span 11; grid-row: 7/ span 6 ;}
+.brick:nth-of-type(1){ grid-column: 1/ span 14; grid-row: 1 / span 12 ;}
+.brick:nth-of-type(2){ grid-column: 15/ span 10; grid-row: 1 / span 6 ;}
+.brick:nth-of-type(3){ grid-column: 15/ span 10; grid-row: 7 / span 6;}
+.brick:nth-of-type(4){ grid-column: 25/ span 8; grid-row: 1 / span 12 ;}
 .show {
     opacity: 1;
     visibility: visible;

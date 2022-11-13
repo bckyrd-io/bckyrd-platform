@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+<!--SEO TAGS-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--SEO TAGS-->
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title>backyard</title>
-    <link rel="shortcut icon" href="../res/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../res/host.css">
-    <!--PRE LOAD FONTS--->
-    <link rel="preload" href="../res/AdobeCleanUX-Light.woff2" as="font" type="font/woff2" crossorigin>
+ <!--PRE LOAD FONTS--->
+    <link rel="preload" href="res/AdobeCleanUX-Light.woff2" as="font" type="font/woff2" crossorigin>  
+    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="res/host.css">
+    <title>bckyrd | admn</title>
+    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
  </head>
 
 <body>

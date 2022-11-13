@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--SEO META TAGS-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>backyard</title>
-    <!--SEO TAGS-->
-    <meta name="keywords" 
-        content="backyard workstation, backyard, workstation,
-        electronics agency,software agency, arduino programming,
-        Smart Systems, web development, programmer, intert of things,
-        Android development">
-    <meta name="description"
-        content="a place Where stuff gets built. we are one of 
-        electronics company that gets yours systems fixed. we try 
-        our best to keep your hustle running.">
-    <!--PRE LOAD FONTS-->
-    <link rel="preload" href="res/AdobeCleanUX-Light.woff2" 
-        as="font" type="font/woff2" crossorigin>
-    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="backyard workstation, backyard, workstation,
+        electronics agency,software agency, arduino programming,">
+    <meta name="description" content="a place Where stuff gets built. 
+        we are one of electronics company that gets yours systems fixed.">
+<!--PRE LOAD FONTS-->
+    <link rel="preload" href="res/AdobeCleanUX-Light.woff2" as="font" 
+        type="font/woff2" crossorigin>
     <link rel="stylesheet" href="res/host.css">
-    
+    <title>backyard</title>
+    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
  </head>
 
 <body>
@@ -43,57 +37,56 @@
 
     <main>
 <!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
+    
+   
         <section>
-            <div class="max inverted">
+            
+            <div class="max inverted ">
                 <div class="col l">
-                    <a href="#service__section"
-                        style="width:100%; height:auto">
-                        <img style="width:auto; height:70vh"
-                            src="etc/images.jpg" alt="backyard images">
+                    <a href="#service__section">
+                        <img style="width:100%; height:auto; position: relative; top:10vh;"
+                            src="res/blocks.png" alt="backyard images">
                     </a>
                 </div>
                 <div class="col r">
-                    <h1>where __stuff<br> gets builT.</h1>
-                    <p>start from here <a href="#service__section">&darr;</a></p>
+                    <h1>where __stuff <br> gets builT.</h1>
+                    <p>what do we really do <a href="#service__section">?</a></p>
                 </div>
             </div>
+    
         </section>
+        
 
-
-<!--DESCRIPTION OF SERVICES OFFERED AT Store-->
+<!--DESCRIPTION OF SERVICES OFFERED AT STORE-->
         <section id="service__section">
             <div class="mid" id="accordion">
                 <div class="panel">
                     <h2 class="header">EMBEDDED SYSTEMS</h2>
                     <p class="body">Make Arduino automated electronics including IOT 
-                        enabled for controlling remotely.</p>
+                        enabled for controlling remotely. </p>
                     <p class="body">And autonomous machines that are less Human operated. 
-                    <a class="active" href="">more</a>
-                    </p>
+                        <a class="active" href="">more</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">SOFTWARE ENGINEERING</h2>
                     <p class="body">Build android development which can include cross platform apps for 
                         different devices support.</p>
                     <p class="body">And web systems that offer API for extensibility of usage. 
-                    <a class="active" href="">more</a></p>
+                        <a class="active" href="">more</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">DEVICE RECOVERY</h2>
                     <p class="body">Provide systems restores on devices failures get it fixed and 
-                        working again.
-                    </p>
+                        working again. </p>
                     <p class="body">And also device upgrades to keep up with technological 
-                        changes. <a href="http://">more</a>
-                    </p>
+                        changes. <a href="http://">more</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">RESEARCH</h2>
                     <p class="body">Explore advancement in tech including replicating these
-                        internet projects.
-                    </p>
-                    <p class="body">
-                    And do reviews on electronics devices plus finding out altenatives . <a class="active" href="">more</a></p>
+                        internet projects. </p>
+                    <p class="body"> And do reviews on electronics devices plus finding out
+                        altenatives .<a class="active" href="">more</a></p>
                 </div>
             </div>
         </section>
@@ -154,28 +147,16 @@
             <div class="max">
                 <div class="masonry-grid">
                     <a href="" class="brick">
-                        <img src="etc/bckyrd.jpg" alt="design">
-                    </a>
-                    <a href="" class="brick">
-                        <img src="etc/security.jpg" alt="design">
-                    </a>
-                    <a href="" class="brick">
-                        <img src="etc/zalero.jpg" alt="design">
-                    </a>
-                    <a href="" class="brick">
-                        <img src="etc/rise.jpg" alt="design">
-                    </a>
-                    <a href="" class="brick">
-                        <img src="etc/mbumba.jpg" alt="design">
-                    </a>
-                    <a href="" class="brick">
-                        <img src="etc/ps ctrl.png" alt="design">
-                    </a>
-                    <a href="" class="brick">
-                        <img src="etc/workstation.jpg" alt="design">
-                    </a>
-                    <a href="" class="brick">
                         <img src="etc/management.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/download.jpg" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/download.png" alt="design">
+                    </a>
+                    <a href="" class="brick">
+                        <img src="etc/download (1).jpg" alt="design">
                     </a>
                 </div>
             </div>
