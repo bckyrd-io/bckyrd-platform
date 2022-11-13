@@ -186,8 +186,8 @@
                 <div class="col r">
                     <h1>BACKYARD<br> WORKSTATION</h1>
                     <p>Make What You<br> Wanna Have</p>
-                    <a href="" class="active">#linkedIn </a>
-                    <a href="" class="active">#github </a>
+                    <a href="https://www.linkedin.com/company/bckyrdio/?viewAsMember=true" class="active">#linkedIn </a>
+                    <a href="https://github.com/h0zt?tab=repositories" class="active">#github </a>
                 </div>
             </div>
         </div>
