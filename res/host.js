@@ -6,16 +6,16 @@ const scrl2 = ScrollReveal({
   duration:700,reset:true
 });
 scrl2.reveal(
-  'h1, iframe, .col-section , #events p ,a img ',
-  {interval:350}
+  'h1, iframe, .col-section, a img, .left-heading',
+  {interval:300}
 );
 const scrl = ScrollReveal({ 
     origin: 'bottom',distance:'150px',
     duration:700,reset:true
 });
 scrl.reveal(
-  'h2, #post__section p, .left-heading ',
-  {interval:350}
+  'h2, #post__section p, #events p, .col-section p, footer p',
+  {interval:300}
 );
 
 
