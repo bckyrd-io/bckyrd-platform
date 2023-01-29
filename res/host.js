@@ -2,20 +2,20 @@
  * ON PAGE SCROLL
  * **/
 const scrl2 = ScrollReveal({ 
-  origin: 'bottom',distance:'120px',
-  duration:400,reset:true
+  origin: 'top',distance:'150px',
+  duration:700,reset:true
 });
 scrl2.reveal(
-  'h2,.item,#events p,.brick,.left-heading,iframe,.col img',
-  {interval:80}
+  'h1, iframe, .col-section , #events p ,a img ',
+  {interval:350}
 );
 const scrl = ScrollReveal({ 
-    origin: 'top',distance:'120px',
-    duration:400,reset:true
+    origin: 'bottom',distance:'150px',
+    duration:700,reset:true
 });
 scrl.reveal(
-  'h1,#events,#post__section p,.col-section',
-  {interval:80}
+  'h2, #post__section p, .left-heading ',
+  {interval:350}
 );
 
 
