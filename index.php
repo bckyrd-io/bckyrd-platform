@@ -1,3 +1,11 @@
+<?php 
+/** 
+    require('process.php');
+    $projects =$process->getProjects();**/
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,16 +13,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="backyard workstation, backyard, workstation,
-        electronics agency,software agency, arduino programming,">
-    <meta name="description" content="a place Where stuff gets built. 
-        we are one of electronics company that gets yours systems fixed.">
+    <meta name="keywords" content="Software Developer, Coding,
+        Backyard Workstation, Freelance Agency, Electronics Hacking,  Arduino Iot, Android Apps, Autonomous Machines">
+    <meta name="description" content="Discover a Company that works on Systems also freelance 
+        with a team that is obbsessed with Electronics and constantly builds on advances.">
 <!--PRE LOAD FONTS-->
     <link rel="preload" href="res/AdobeCleanUX-Light.woff2" as="font" 
         type="font/woff2" crossorigin>
     <link rel="stylesheet" href="res/host.css">
-    <title>backyard</title>
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
+    <title>bckyrd / where stuff gets built.</title>
  </head>
 
 <body>
@@ -23,8 +31,8 @@
         <div class="col l">
             <div id="nav_menu">
                 <a href="index.php" class="active">Home</a>
+                <a href="pgs/blog.php">Project</a>
                 <a href="pgs/store.php">Store</a>
-                <a href="pgs/blog.php">Blog</a>
             </div>
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
@@ -37,102 +45,52 @@
 
     <main>
 <!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
-    
-   
         <section>
-            
             <div class="max inverted ">
                 <div class="col l">
                     <a href="#service__section">
-                        <img style="width:100%; height:auto; position: relative; top:10vh;"
-                            src="res/blocks.png" alt="backyard images">
+                        <img style="width:100%; height:auto;"
+                            src="res/progressive_green.svg" alt="backyard embedded systems">
                     </a>
                 </div>
                 <div class="col r">
-                    <h1>where __stuff <br> gets builT.</h1>
-                    <p>what do we really do <a href="#service__section">?</a></p>
+                    <h1>What's Made @<a href="#service__section" class="active">bckyrd</a>.</h1>
+                    <p>Open As Freelance Developers and Also Follow Projects From Our Team. </p>
                 </div>
             </div>
-    
         </section>
         
 
 <!--DESCRIPTION OF SERVICES OFFERED AT STORE-->
         <section id="service__section">
             <div class="mid" id="accordion">
+                <div class="panel active">
+                    <h2 class="header">SOFTWARE CODE</h2>
+                    <p class="body">Build android development for cross platform apps with
+                        different devices support.</p>
+                    <p class="body">And web systems that offer API for extensibility of usage. 
+                        <a href="wikipedia: crossplatform apps development">learn more</a> </p>
+                </div>
                 <div class="panel">
                     <h2 class="header">EMBEDDED SYSTEMS</h2>
                     <p class="body">Make Arduino automated electronics including IOT 
                         enabled for controlling remotely. </p>
                     <p class="body">And autonomous machines that are less Human operated. 
-                        <a class="active" href="">more</a> </p>
-                </div>
-                <div class="panel">
-                    <h2 class="header">SOFTWARE ENGINEERING</h2>
-                    <p class="body">Build android development which can include cross platform apps for 
-                        different devices support.</p>
-                    <p class="body">And web systems that offer API for extensibility of usage. 
-                        <a class="active" href="">more</a> </p>
+                        <a href="wikipedia: systems that use autonomy">learn more</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">DEVICE RECOVERY</h2>
-                    <p class="body">Provide systems restores on devices failures get it fixed and 
-                        working again. </p>
-                    <p class="body">And also device upgrades to keep up with technological 
-                        changes. <a href="http://">more</a> </p>
+                    <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
+                    <p class="body">And also device reverse engineering to modify for upgrades 
+                        <a href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">RESEARCH</h2>
                     <p class="body">Explore advancement in tech including replicating these
                         internet projects. </p>
                     <p class="body"> And do reviews on electronics devices plus finding out
-                        altenatives .<a class="active" href="">more</a></p>
+                        altenatives .<a href="wikipedia.com%20%7C%20minimalism%20life">learn more</a></p>
                 </div>
-            </div>
-        </section>
-
-
-        
-<!--OVERVIEW OF HOW WE WANNA WORK-->
-        <section id="approach__section">
-            <div class="left-heading">
-                <button id="work" href="host@bckyrd.io">Lets work</button>
-                <p>As an electronics company that gets your systems fixed we use these ideas to 
-                    keep your hustle running.</p>   
-            </div>
-            <div class="max">
-                <div class="col-section">
-                    <h2>FASTER</h2>
-                    <p>Depending on the Scale of Project, We often Teamup as an Agency.</p>
-                    <p>Which makes Milestones complete in Less Time.</p>
-                </div>
-                <div class="col-section">
-                    <h2>FLEXIBLE</h2>
-                    <p>Avoid being strict with tools usage, rather do what
-                        achieves solution at the moment.
-                    <p>Macgyver around to fix a problem and improve
-                         on it from Prototype.</p>
-                </div>
-                <div class="col-section">
-                    <h2>VALUE</h2>
-                    <p>The secret is to Understand what is needed, Then work together</p>
-                    <p>And also keep you Updated on what we help on.</p>
-                </div>
-                <div class="col-section">
-                    <h2>NON FORMAL</h2>
-                    <p>We dont do corporate stuff, rather communicate as Humans</p>
-                    <p>Making the processes smooth by removing knowledge gaps.</p>
-                </div>
-            </div>
-        </section>
-
-
-<!--OUR WORKSTATION VIDEOS CHANNEL-->
-        <section class="video__section">
-            <div class="mid">
-                <iframe src="https://www.youtube.com/embed/qJl9qFrHYm4? 
-                    controls">
-                </iframe>
             </div>
         </section>
 
@@ -141,23 +99,22 @@
         <section id="portifolio__section">
             <div class="left-heading">
                 <h1>PotifoliO</h1>
-                <p>Here are some projects that we have built. Be free to reach to us 
-                    to build more </p>   
+                <p>Here is a Big Picture of what kinda Projects we have Been making. <a href="">view more</a> </p>   
             </div>
             <div class="max">
                 <div class="masonry-grid">
-                    <a href="" class="brick">
-                        <img src="etc/management.jpg" alt="design">
+                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
+                        <img src="etc/p1.png" alt="<?=$pro['name']?>-Design">
                     </a>
-                    <a href="" class="brick">
-                        <img src="etc/download.jpg" alt="design">
+                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
+                        <img src="etc/p5.png" alt="<?=$pro['name']?>-Design">
                     </a>
-                    <a href="" class="brick">
-                        <img src="etc/download.png" alt="design">
+                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
+                        <img src="etc/p6.png" alt="<?=$pro['name']?>-Design">
                     </a>
-                    <a href="" class="brick">
-                        <img src="etc/download (1).jpg" alt="design">
-                    </a>
+                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
+                        <img src="etc/p2.png" alt="<?=$pro['name']?>-Design">
+                    </a>       
                 </div>
             </div>
         </section>
@@ -172,8 +129,123 @@
                 </div>
             </div>
         </section>
-    </main>
+  
 
+
+<!--OVERVIEW OF HOW WE WANNA WORK-->
+        <section id="approach__section">
+            <div class="left-heading">
+                <button id="work" href="work@bckyrd.io">Let's work</button>
+                <p>As an electronics company that gets your systems fixed we use these ideas to 
+                    keep your hustle running.</p>   
+            </div>
+            <div class="max">
+                <div class="col-section">
+                    <h2>FLEXIBLE</h2>
+                    <p>We dont do corporate stuff, rather communicate as Humans</p>
+                    <p>Making the processes smooth by removing knowledge gaps.</p>
+                </div>
+                <div class="col-section">
+                    <h2>VALUE</h2>
+                    <p>The secret is to Understand what is needed, Then work together</p>
+                    <p>And also keep you Updated on what we help on.</p>
+                </div>
+                <div class="col-section">
+                    <h2>FASTER</h2>
+                    <p>Depending on the Scale of Project, We often Teamup as an Agency.</p>
+                    <p>Which makes Milestones complete in Less Time.</p>
+                </div>
+                <div class="col-section">
+                    <h2>MODULAR</h2>
+                    <p>Avoid being strict with tools usage, rather do what
+                        achieves solution at the moment.
+                    <p>Macgyver around to fix a problem and improve
+                         on it from Prototype.</p>
+                </div>
+            </div>
+        </section>
+
+
+<!--OUR WORKSTATION VIDEOS CHANNEL-->
+        <section id="video__section">
+            <div class="mid">
+                <iframe src="https://www.youtube.com/embed/qJl9qFrHYm4? 
+                    controls">
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+    
+
+<!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
+    <section id="experience__section">
+        <div class="max store-items fixed inverted">
+            <div class="col l">
+                <div class="item">
+                    <img src="res/virtual_reality_ft.svg" alt="backyard electronic item">
+                </div>  
+                <div class="item">
+                    <img src="res/printer_ft.svg" alt="backyard electronic item">
+                </div> 
+                <div class="item">
+                    <img src="res/drone_ft.svg" alt="backyard electronic item">
+                </div> 
+                <div class="item">
+                    <img src="res/router_ft.svg" alt="backyard electronic item">
+                </div> 
+                <div class="item">
+                    <img src="res/driller_ft.svg" alt="backyard electronic item">
+                </div> 
+                <div class="item">
+                    <img src="res/gamer_ft.svg" alt="backyard electronic item">
+                </div> 
+            </div>
+            <div class="col r">
+                <p class="fix-text">
+                the obbsessions with breaking (stuff) througout the years , has led people
+                to  ask us for repairs. But we only do, if there is a need to; not Often.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+
+<!--FREQUENTRY ASKED QUESTIONS-->
+    <section id="faq__section">
+        <div class="mid" id="accordion">
+            <div class="panel active">
+                <h2 class="header">WHO DO WE HIRE ?</h2>
+                <p class="body">anybody passionate of technology doesnt matter 
+                    the field. From Scientist ,Engineers ,Handyman. etc
+                </p>
+                <p class="body">our jobs depends on the project scale, so freelancers
+                    are good fit 
+                    <a href="wikipedia: crossplatform apps development">learn more</a> </p>
+            </div>
+            <div class="panel">
+                <h2 class="header">WORK FOR WHAT CLIENTS ?</h2>
+                <p class="body">Make Arduino automated electronics including IOT 
+                    enabled for controlling remotely. </p>
+                <p class="body">And autonomous machines that are less Human operated. 
+                    <a href="wikipedia: systems that use autonomy">learn more</a> </p>
+            </div>
+            <div class="panel">
+                <h2 class="header">WHAT'S OUR FUTURE ?</h2>
+                <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
+                <p class="body">And also device reverse engineering to modify for upgrades 
+                    <a href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
+            </div>
+            <div class="panel">
+                <h2 class="header">WHICH EWASTE CAN U SEND ?</h2>
+                <p class="body">Explore advancement in tech including replicating these
+                    internet projects. </p>
+                <p class="body"> And do reviews on electronics devices plus finding out
+                    altenatives .<a href="wikipedia.com%20%7C%20minimalism%20life">learn more</a></p>
+            </div>
+        </div>
+    </section>
 
     
 <!--THE FOOTER INVERTED DESIGN-->
@@ -192,7 +264,7 @@
             </div>
         </div>
         </section>
-        <p class="right">Email <a class="active" href="#="> host@bckyrd.io</a>.</p>
+        <p class="right">Email <a class="active" href="#="> work@bckyrd.io</a>.</p>
     </footer>
 
 
