@@ -452,7 +452,7 @@ section .fixed div.item img{
     footer section{ height:auto}
     footer section .inverted{
         min-height: auto !important;}
-    section .store-items div.item{height: 50vh;}
+    section .store-items div.item{height: 35vh; }
     section .col.r {margin-bottom: 20vh;}
     section .store-items .col.r {
         height: auto;
@@ -500,14 +500,12 @@ section .fixed div.item img{
         margin: auto;
         margin-top: 2rem;
     }
-    .brick:nth-of-type(1){ grid-column: 1/ span 4; grid-row: 1 / span 4 ;}
-    .brick:nth-of-type(2){ grid-column: 1/ span 2; grid-row: 5 / span 2 ;}
-    .brick:nth-of-type(3){ grid-column: 3/ span 2; grid-row: 5 / span 2 ;}
-    .brick:nth-of-type(4){ grid-column: 1/ span 4; grid-row: 7/ span 3 ;}
-    .brick:nth-of-type(5){ grid-column: 1/ span 4; grid-row: 10/ span 5 ;}
-    .brick:nth-of-type(6){ grid-column: 1/ span 4; grid-row: 15/ span 4 ;}
-    .brick:nth-of-type(7){ grid-column: 1/ span 4; grid-row: 19/ span 4 ;}
-    .brick:nth-of-type(8){ grid-column: 1/ span 4; grid-row: 23/ span 8 ;}
+    .brick:nth-of-type(1){ grid-column: 1/ span 2; grid-row: 1 / span 2;}
+    .brick:nth-of-type(2){ grid-column: 1/ span 2; grid-row: 3 / span 2;}
+    .brick:nth-of-type(3){ grid-column: 1/ span 2; grid-row: 5 / span 2;}
+    .brick:nth-of-type(4){ grid-column: 1/ span 2; grid-row: 7/ span 2;}
+    section .fixed div.item:nth-child(1){margin-top: 15vh;}
+    section .fixed div.item{ height: 30vh; }
 }
 
 
@@ -522,11 +520,6 @@ section .fixed div.item img{
         --def-width:92%;
     }
     section div.col-section{ width: 100%; }
-    .masonry-grid{
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(28, 8vh);/**6vh**/
-        gap: 1rem;/**0.25rem**/
-    } 
 }
 
 

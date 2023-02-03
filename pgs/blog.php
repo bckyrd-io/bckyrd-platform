@@ -50,39 +50,19 @@
         <section id="post__section">
             <div class="left-heading">
                 <h1>#workStation</h1>
-                <p>THERE IS SOME EXPLAINING TO DO RIGHT HERE 
-                    ON THE MATTER OF HACKING SYSTEMS TO THIS STUFF
+                <p>WE ARE WORKING ON THE TOOLS TO PROGRESS CREATIVITY DONE IN BACKYARDS
                 </p>   
             </div>
             <div class="mid">
-                <img src="../etc/software agency.jpg" alt="post">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti eum ut vero voluptatibus labore harum. Assumenda commodi quasi excepturi id itaque aut odio vitae obcaecati, unde magnam. Ullam cum et inventore, nesciunt id, excepturi natus rerum perferendis debitis tempore quam exercitationem magnam pariatur! Sapiente repellendus quaerat doloremque repellat, officiis iusto.</p>
+                <img src="../etc/software_agency.jpg" alt="post">
+                <p><a>@Backyard</a> has been a place where creativity has always started. Many cool things were started in these places. The motivations to build/invent stuff at backyards has been just to see there imagination fluition. Most startups have started in their <a>garages</a>
+                to making impact in the world.</p>
+                <p>But the problem has been the progress for these project, that they dont get pushed to be used
+                by others who might like to test there <a>usefulness</a>. We wanna join in as the company that got started from backyard, to push what we have seen built in these backyards to make these projects finish and be useful </p>
+                <p>Imagine if most companies are within our backyards, stuff will be cheaper, be delivered faster and be built by people who love their craft. With most automation coming, stuff might be designed in another backyard and get <a>3dPrinted</a> in another backyard where its needed. Being one of the companies in this space we wanna contribute to the progress. <a>work.bckyrd.io</a> is a platform you should watch for as an opensource to build these things together.</p>
+
             </div>
-        </section>
-        <section id="post__section">
-            <div class="left-heading">
-                <h1>#realHacking</h1>
-                <p>THERE IS SOME EXPLAINING TO DO RIGHT HERE 
-                    ON THE MATTER OF HACKING SYSTEMS TO THIS STUFF
-                </p>   
-            </div>
-            <div class="mid">
-                <img src="../etc/f5.jpg" alt="post">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti eum ut vero voluptatibus labore harum. Assumenda commodi quasi excepturi id itaque aut odio vitae obcaecati, unde magnam. Ullam cum et inventore, nesciunt id, excepturi natus rerum perferendis debitis tempore quam exercitationem magnam pariatur! Sapiente repellendus quaerat doloremque repellat, officiis iusto.</p>
-            </div>
-        </section>
-        <section id="post__section">
-            <div class="left-heading">
-                <h1>#realHacking</h1>
-                <p>THERE IS SOME EXPLAINING TO DO RIGHT HERE 
-                    ON THE MATTER OF HACKING SYSTEMS TO THIS STUFF
-                </p>   
-            </div>
-            <div class="mid">
-                <img src="../etc/f5.jpg" alt="post">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti eum ut vero voluptatibus labore harum. Assumenda commodi quasi excepturi id itaque aut odio vitae obcaecati, unde magnam. Ullam cum et inventore, nesciunt id, excepturi natus rerum perferendis debitis tempore quam exercitationem magnam pariatur! Sapiente repellendus quaerat doloremque repellat, officiis iusto.</p>
-            </div>
-        </section>
+        </section>      
         <?php// } ?>
     </main>
 

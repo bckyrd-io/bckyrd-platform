@@ -106,15 +106,19 @@
                     <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
                         <img src="etc/p1.png" alt="<?=$pro['name']?>-Design">
                     </a>
-                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
-                        <img src="etc/p5.png" alt="<?=$pro['name']?>-Design">
-                    </a>
-                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
+                     <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
                         <img src="etc/p6.png" alt="<?=$pro['name']?>-Design">
                     </a>
                     <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
                         <img src="etc/p2.png" alt="<?=$pro['name']?>-Design">
-                    </a>       
+                    </a>
+                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
+                        <img src="etc/p5.png" alt="<?=$pro['name']?>-Design">
+                    </a>
+                           
+                    
+                   
+                    
                 </div>
             </div>
         </section>
@@ -203,7 +207,7 @@
             </div>
             <div class="col r">
                 <p class="fix-text">
-                the obbsessions with breaking (stuff) througout the years , has led people
+                the obbsessions with Breaking (stuff) througout the years , has led people
                 to  ask us for repairs. But we only do, if there is a need to; not Often.
                 </p>
             </div>
@@ -225,20 +229,20 @@
                     <a href="wikipedia: crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">WORK FOR WHAT CLIENTS ?</h2>
+                <h2 class="header">WHICH CLIENTS ?</h2>
                 <p class="body">Make Arduino automated electronics including IOT 
                     enabled for controlling remotely. </p>
                 <p class="body">And autonomous machines that are less Human operated. 
                     <a href="wikipedia: systems that use autonomy">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">WHAT'S OUR FUTURE ?</h2>
+                <h2 class="header">WHAT'S THE FUTURE ?</h2>
                 <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
                 <p class="body">And also device reverse engineering to modify for upgrades 
                     <a href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">WHICH EWASTE CAN U SEND ?</h2>
+                <h2 class="header">SEND WHICH EWASTE ?</h2>
                 <p class="body">Explore advancement in tech including replicating these
                     internet projects. </p>
                 <p class="body"> And do reviews on electronics devices plus finding out

@@ -45,35 +45,11 @@
                 <div class="col l">
                     <?php //foreach($items as $item){ ?>
                     <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
+                        <img src="../etc/empty_box.png" alt="backyard electronic item">
                     </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
-                    <div class="item">
-                        <img src="../etc/b1.png" alt="backyard electronic item">
-                    </div>
+                 
+                 
+                  
                    <?php //} ?>
                 </div>
                 <div class="col r">
@@ -81,7 +57,7 @@
                         <p>List of items available for sell and others to give out. So you can check them out and get whatever you want from our backyard.</p>
                         <p>
                         <?php //foreach($tags as $tag){ ?>
-                            <a href="">#name</a>
+                            <a href="">#empty</a>
                         <?php //}?>                            
                         </p>
                     </div>
@@ -96,7 +72,7 @@
         <section id="search__section">
             <form class="mid" method="POST">
                 <h1>Let us Know. </h1> 
-                <p>Lorem ipsum dolor , dolorem voluptates sunt ipsum dignissimos recusandae culpa accusamus reiciendis a.</p>
+                <p>take time to ask any question that you have, eg. how you can send us ewaste for prototyping</p>
                 <textarea name="name" 
                     placeholder="Your Contact, Your Question Here"></textarea>
                 <button type="submit" name="quest" class="btn">SEND</button>
@@ -117,7 +93,7 @@
                 </div>
                 <div class="col r">
                     <h1>BACKYARD<br> WORKSTATION</h1>
-                    <p>It Was Written<br> And Its Been Compiled</p>
+                    <p>Break / Fix And <br> Learn From The Process.</p>
                     <a href="" class="active">#linkedIn</a>
                     <a href="" class="active">#github</a>
                 </div>
