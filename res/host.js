@@ -11,45 +11,12 @@ scrl2.reveal(
 );
 const scrl = ScrollReveal({ 
     origin: 'bottom',distance:'100px',
-    duration:600,reset:true
+    duration:400,reset:true
 });
 scrl.reveal(
   'h2, #post__section p, #events p, .col-section p, footer p',
-  {interval:200}
+  {interval:100}
 );
-
-
-
-
-
-
-/***
- * SHUFFLE THE GALLERY 
- * MASONRY IMAGES
- */
- var counter = 0;
-$('.brick img').each(function(i) {
-   if (i == 0) {counter = 0;} else {counter++; }
-   if (counter < 9) { $(this).addClass('show');
-   } else { $(this).addClass('hide');}
-});
-function shuffleRandomLogos(remove, add) {
-  const logo = $("."+remove).toArray();
-  //const logo = $('.images'+remove).toArray();
-  //const logo = $(".images img").toArray();
-  const logoLength = logo.length;
-  const randomNum = Math.floor(Math.random()*logoLength);
-  const randomLogo = logo[randomNum];
-  $(randomLogo).removeClass(remove);
-  $(randomLogo).addClass(add);
-}
-window.setInterval(function(){
-  // remove a cat
-  shuffleRandomLogos("show", "hide");
-  // display a cat
-  shuffleRandomLogos("hide", "show");
-}, 500);
-
 
 
 

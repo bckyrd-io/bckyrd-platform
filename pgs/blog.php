@@ -15,8 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Software Developer, Coding,
         Backyard Workstation, Freelance Agency, Electronics Hacking,  Arduino Iot, Android Apps, Autonomous Machines">
-    <meta name="description" content="Discover a Company that works on Systems also freelance 
-        with a team that is obbsessed with Electronics and constantly builds on advances.">
 <!--PRE LOAD FONTS-->
     <link rel="preload" href="../res/AdobeCleanUX-Light.woff2" 
         as="font" type="font/woff2" crossorigin>
@@ -31,8 +29,8 @@
         <div class="col l">
             <div id="nav_menu">
                 <a href="../index.php" >Home</a>
-                <a href="blog.php" class="active">Project</a>
-                <a href="store.php" >Store</a>
+                <a href="project.php">Project</a>
+                <a href="blog.php" class="active" >Blog</a>
             </div>
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
@@ -49,7 +47,7 @@
         <?php// foreach($articles as $article){ ?>
         <section id="post__section">
             <div class="left-heading">
-                <h1>#workStation</h1>
+                <h1># About</h1>
                 <p>WE ARE WORKING ON THE TOOLS TO PROGRESS CREATIVITY DONE IN BACKYARDS
                 </p>   
             </div>
@@ -84,7 +82,7 @@
             </div>
         </div>
         </section>
-        <p class="right">Email <a class="active" href="#">host@bckyrd.io</a></p>
+        <p class="right">Email <a class="active" href="#">work@bckyrd.io</a></p>
     </footer>
 
     <script src="../res/jquery-3.3.1.min.js"></script>

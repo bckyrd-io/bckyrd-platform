@@ -31,8 +31,8 @@
         <div class="col l">
             <div id="nav_menu">
                 <a href="index.php" class="active">Home</a>
-                <a href="pgs/blog.php">Project</a>
-                <a href="pgs/store.php">Store</a>
+                <a href="pgs/project.php">Project</a>
+                <a href="pgs/blog.php">Blog</a>
             </div>
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
@@ -190,9 +190,6 @@
                     <img src="res/virtual_reality_ft.svg" alt="backyard electronic item">
                 </div>  
                 <div class="item">
-                    <img src="res/printer_ft.svg" alt="backyard electronic item">
-                </div> 
-                <div class="item">
                     <img src="res/drone_ft.svg" alt="backyard electronic item">
                 </div> 
                 <div class="item">
@@ -220,29 +217,28 @@
     <section id="faq__section">
         <div class="mid" id="accordion">
             <div class="panel active">
-                <h2 class="header">WHO DO WE HIRE ?</h2>
-                <p class="body">anybody passionate of technology doesnt matter 
-                    the field. From Scientist ,Engineers ,Handyman. etc
-                </p>
+                <h2 class="header">FUTURE </h2>
+                <p class="body">anybod passionate of technology doesnt matter 
+                    the field. From Scientist ,Engineers ,Handyman. etc </p>
                 <p class="body">our jobs depends on the project scale, so freelancers
                     are good fit 
                     <a href="wikipedia: crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">WHICH CLIENTS ?</h2>
+                <h2 class="header">HIRE </h2>
                 <p class="body">Make Arduino automated electronics including IOT 
                     enabled for controlling remotely. </p>
                 <p class="body">And autonomous machines that are less Human operated. 
                     <a href="wikipedia: systems that use autonomy">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">WHAT'S THE FUTURE ?</h2>
+                <h2 class="header">HIRES </h2>
                 <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
                 <p class="body">And also device reverse engineering to modify for upgrades 
                     <a href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">SEND WHICH EWASTE ?</h2>
+                <h2 class="header">EWASTE </h2>
                 <p class="body">Explore advancement in tech including replicating these
                     internet projects. </p>
                 <p class="body"> And do reviews on electronics devices plus finding out
@@ -257,7 +253,7 @@
         <section id="footer__section">
             <div class="max inverted">
                 <div class="col l">
-                    <a href="#move__top"><img src="res/discovery.svg" alt="inventor at backyard"></a>
+                    <a href="#move__top"><img src="res/error.svg" alt="inventor at backyard"></a>
                 </div>
                 <div class="col r">
                     <h1>BACKYARD<br> WORKSTATION</h1>
