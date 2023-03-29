@@ -56,7 +56,7 @@
                 <p>"Hey everyone! Have you checked out the awesome inventions made in people's backyards? 
                     We believe backyard-made products are just as good (if not better!) than those made by big corporations.
                     coz individuals always adapt faster than big companies.
-                     .. #diy #cuttingedge #backyardmade"  <a href="https://www.researchgate.net/publication/228264507_A_Garage_and_an_Idea_What_More_Does_an_Entrepreneur_Need">link</a> </p>
+                     .. #diy #cuttingedge #backyardmade"  <a class="active" href="https://www.researchgate.net/publication/228264507_A_Garage_and_an_Idea_What_More_Does_an_Entrepreneur_Need">link</a> </p>
            </div>
         </section> 
 
@@ -67,9 +67,9 @@
                 </p>   
             </div>
             <div class="mid">
-                <img src="../etc/workstation.png" alt="post">
+                <img src="../etc/estate.png" alt="post">
                 <p>We're developing a web platform tool that streamlines backyard development and collaboration. Think of it as a GitHub for all types of developers, not just coders. Our platform will enable faster development and enhance collaboration among backyard innovators 
-                    <a href="https://work.bckyrd.io">link</a>
+                    <a class="active" href="https://work.bckyrd.io">link</a>
                 </p>
             </div>
         </section>
@@ -82,7 +82,8 @@
             </div>
             <div class="mid">
                 <img src="../etc/mgmt.png" alt="post">
-                <p>"After creating multiple systems, we noticed similarities among them and decided to develop a management project. We've packaged it online to simplify the process and reduce costs. Our aim is to provide an efficient solution that streamlines system management for businesses. <a href="https://bckyrd.io/host/mgmt">link</a>
+                <p>"After creating multiple systems, we noticed similarities among them and decided to develop a management project. We've packaged it online to simplify the process and reduce costs. Our aim is to provide an efficient solution that streamlines system management for businesses.
+                     <a class="active" href="https://bckyrd.io/host/mgmt">link</a>
                 </p>
             </div>
         </section>
@@ -95,7 +96,7 @@
             </div>
             <div class="mid">
                 <img src="../etc/embedded.png" alt="post">
-                <p>Many believe that having all the tools and materials is necessary to create cool things, but we've learned otherwise. By starting with e-waste and building prototypes, we've found that you can refine and create usable products. You don't need everything from the start. Start with what you have and let creativity guide you <a href="https://bckyrd.io/host/mgmt">link</a>
+                <p>Many believe that having all the tools and materials is necessary to create cool things, but we've learned otherwise. By starting with e-waste and building prototypes, we've found that you can refine and create usable products. You don't need everything from the start. Start with what you have and let creativity guide you <a class="active" href="https://bckyrd.io/host/mgmt">link</a>
                 </p>
             </div>
         </section>      
@@ -124,7 +125,7 @@
             </div>
         </section>      
 
-        <section id="post__section">
+        <section  id="post__section" hidden>
             <div class="left-heading">
                 <h1># Estate</h1>
                 <p>FREELANCED ON A FAMILY BUSINESS WEBSITE. FOR THEIR ONLINE PRESENCE TO EXTENDED REACHABILITY
@@ -156,7 +157,7 @@
             <div class="mid">
                 <img src="../etc/cydt.png" alt="post">
                 <p>We developed a website for a youth organization, highlighting their mission and showcasing their work. The site also features a donation portal, improving the organization's online presence and facilitating contributions from interested supporters.
-                    <a href="https://www.cydt.org">link</a>
+                    <a class="active" href="https://www.cydt.org">link</a>
                 </p>
             </div>
         </section>      
@@ -175,8 +176,8 @@
                 <div class="col r">
                     <h1>BACKYARD<br> WORKSTATION</h1>
                     <p>It Was Written<br> And Its Been Compiled</p>
-                    <a href="" class="active">#linkedIn</a>
-                    <a href="" class="active">#github</a>
+                    <a href="https://www.linkedin.com/company/bckyrdio/?viewAsMember=true" class="active">#linkedIn </a>
+                    <a href="https://github.com/h0zt?tab=repositories" class="active">#github </a>
                 </div>
             </div>
         </div>

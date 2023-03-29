@@ -64,28 +64,35 @@
 <!--DESCRIPTION OF SERVICES OFFERED AT STORE-->
         <section id="service__section">
             <div class="mid" id="accordion">
-                <div class="panel">
-                    <h2 class="header">EMBEDDED </h2>
-                    <p class="body">Make Arduino automated electronics including IOT 
-                        enabled for controlling remotely
-                        <a href="wikipedia.com?reverse engineering">select</a> </p>
-                </div>
                 <div class="panel active">
                     <h2 class="header">MOBILE</h2>
-                    <p class="body">Build android development for cross platform apps with
-                        different devices support
-                        <a href="google.com?crossplatform apps development">select</a> </p>
+                    <p class="body">Develop android apps with better 
+                        <a href="https://www.google.com/ crossplatform apps development">UX</a>
+                         built for crossplatforms
+                        devices support.
+                        <a href="calendry.com" class="active">select</a> </p>
                 </div>
                 <div class="panel">
-                    <h2 class="header">MACHINES</h2>
-                    <p class="body">And autonomous machines that are less Human operated 
-                        <a href="google.com? systems that use autonomy">select</a> </p>
+                    <h2 class="header">EMBEDDED </h2>
+                    <p class="body">Make Arduino automated electronics including 
+                        <a href="https://www.google.com/ modular iot electronics">IOT</a>
+                        enabled for controlling remotely
+                        <a href="calendry.com" class="active">select</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">WEB API</h2>
-                    <p class="body">Make Arduino automated electronics including IOT 
-                        enabled for controlling remotely
-                        <a href="google.com? systems that use autonomy">select</a></p>
+                    <p class="body">Develop responsive web systems that are are
+                        <a href="https://www.google.com/ api extensibility">Extensible</a>
+                        to other devices.
+                        <a href="calendry" class="active">select</a></p>
+                </div>
+                <div class="panel">
+                    <h2 class="header">MACHINES</h2>
+                    <p class="body">And systems for
+                        <a href="https://www.google.com/ systems that are autonomous">Autonomy</a>
+                        on mechanical systems and
+                        others that increase efficiency.
+                        <a href="calendry" class="active">select</a> </p>
                 </div>
             </div>
         </section>
@@ -94,8 +101,8 @@
 <!--PORTIFOLIO OF OUR PROJECTS GALLERY-->
         <section id="portifolio__section">
             <div class="left-heading">
-                <h1>PotifoliO</h1>
-                <p>Here is a Big Picture of what kinda Projects we have Been making. <a href="pgs/blog.php?project_id=id">view more</a> </p>   
+                <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
+                <p>Here is a Big Picture of what kinda Projects we have Been making. <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>   
             </div>
             <div class="max">
                 <div class="masonry-grid">
@@ -106,7 +113,7 @@
                         <img src="etc/pmodule.png" alt="Backyard-Design">
                     </a>
                     <a href="pgs/blog.php?project_id=id" class="brick">
-                        <img src="etc/workstation.png" alt="Backyard-Design">
+                        <img src="etc/estate.png" alt="Backyard-Design">
                     </a>
                     <a href="pgs/blog.php?project_id=id" class="brick">
                         <img src="etc/riseapp.png" alt="Backyard-Design">
@@ -121,7 +128,7 @@
             <div class="mid" id="events">
                 <div>
                     <p>Be part of the people, Building stuff in 
-                        Their backyard workstations. <br><a href=""class="active">Visit</a></p>
+                        Their backyard workstations. <br><a href="https://work.bckyrd.io"class="active">Visit</a></p>
                 </div>
             </div>
         </section>
@@ -131,7 +138,7 @@
 <!--OVERVIEW OF HOW WE WANNA WORK-->
         <section id="approach__section">
             <div class="left-heading">
-                <button id="work" href="work@bckyrd.io">Let's work</button>
+                <a class="button" id="work" href="work@bckyrd.io">Let's work</a>
                 <p>As an electronics company that gets your systems fixed we use these ideas to 
                     keep your hustle running.</p>   
             </div>
@@ -176,13 +183,13 @@
                     <img src="res/virtual_reality_ft.svg" alt="backyard electronic item">
                 </div>  
                 <div class="item">
-                    <img src="res/drone_ft.svg" alt="backyard electronic item">
+                    <img src="res/driller_ft.svg" alt="backyard electronic item">
                 </div> 
                 <div class="item">
                     <img src="res/router_ft.svg" alt="backyard electronic item">
                 </div> 
                 <div class="item">
-                    <img src="res/driller_ft.svg" alt="backyard electronic item">
+                    <img src="res/drone_ft.svg" alt="backyard electronic item">
                 </div> 
                 <div class="item">
                     <img src="res/gamer_ft.svg" alt="backyard electronic item">
@@ -190,7 +197,8 @@
             </div>
             <div class="col r">
                 <p class="fix-text">
-                our obbsession with breaking devices througout the years, has led people
+                our obbsession with 
+                hardware devices througout the years, has led people
                 to  ask us for fixes. Which we only do, if there is a need; </p>
             </div>
         </div>
@@ -206,14 +214,14 @@
                     the field. From Scientist ,Engineers ,Handyman. etc </p>
                 <p class="body">our jobs depends on the project scale, so freelancers
                     are good fit 
-                    <a href="wikipedia: crossplatform apps development">learn more</a> </p>
+                    <a class="active" href="wikipedia.com/ crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">RESEARCH</h2>
                 <p class="body">Make Arduino automated electronics including IOT 
                     enabled for controlling remotely. </p>
                 <p class="body">And autonomous machines that are less Human operated. 
-                    <a href="wikipedia: systems that use autonomy">learn more</a> </p>
+                    <a href="wikipedia.com/ systems that use autonomy">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">HIRE </h2>
