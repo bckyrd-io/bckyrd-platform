@@ -1,5 +1,5 @@
 # bckyrd.io
-electronics company
--for the freelancing agency
+our brand website for freelancing on systems
+as an electronics company
 
-you should  only commit if you prove its working correctly on your machine
+? only commit if you prove its working correctly on your machine
