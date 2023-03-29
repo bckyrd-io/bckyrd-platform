@@ -70,21 +70,21 @@
                         <a href="https://www.google.com/ cross platform apps development">UX</a>
                          built for crossplatforms
                         devices support.
-                        <a href="calendry.com" class="active">select</a> </p>
+                        <a href="calendry.com" class="active-panel">select</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">EMBEDDED </h2>
                     <p class="body">Make Arduino automated electronics including 
                         <a href="https://www.google.com/ modular iot electronics">IOT</a>
                         enabled for controlling remotely
-                        <a href="calendry.com" class="active">select</a> </p>
+                        <a href="calendry.com" class="active-panel">select</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">WEB API</h2>
                     <p class="body">Develop responsive web systems that are are
                         <a href="https://www.google.com/ api extensibility">Extensible</a>
                         to other devices.
-                        <a href="calendry" class="active">select</a></p>
+                        <a href="calendry" class="active-panel">select</a></p>
                 </div>
                 <div class="panel">
                     <h2 class="header">MACHINES</h2>
@@ -92,7 +92,7 @@
                         <a href="https://www.google.com/ systems that are autonomous">Autonomy</a>
                         on mechanical systems and
                         others that increase efficiency.
-                        <a href="calendry" class="active">select</a> </p>
+                        <a href="calendry" class="active-panel">select</a> </p>
                 </div>
             </div>
         </section>
@@ -214,27 +214,27 @@
                     the field. From Scientist ,Engineers ,Handyman. etc </p>
                 <p class="body">our jobs depends on the project scale, so freelancers
                     are good fit 
-                    <a class="active" href="wikipedia.com/ crossplatform apps development">learn more</a> </p>
+                    <a class="active-panel" href="wikipedia.com/ crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">RESEARCH</h2>
                 <p class="body">Make Arduino automated electronics including IOT 
                     enabled for controlling remotely. </p>
                 <p class="body">And autonomous machines that are less Human operated. 
-                    <a href="wikipedia.com/ systems that use autonomy">learn more</a> </p>
+                    <a class="active-panel" href="wikipedia.com/ systems that use autonomy">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">HIRE </h2>
                 <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
                 <p class="body">And also device reverse engineering to modify for upgrades 
-                    <a href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
+                    <a class="active-panel" href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">RECOVERY </h2>
                 <p class="body">Explore advancement in tech including replicating these
                     internet projects. </p>
                 <p class="body"> And do reviews on electronics devices plus finding out
-                    altenatives .<a href="wikipedia.com%20%7C%20minimalism%20life">learn more</a></p>
+                    altenatives .<a class="active-panel" href="wikipedia.com%20%7C%20minimalism%20life">learn more</a></p>
             </div>
         </div>
     </section>

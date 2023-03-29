@@ -32,9 +32,9 @@ html,body{
     color: var(--clr);
 }
 body a{ color: var(--lnk-clr) !important; text-decoration: none; }
-body a:hover{color:var(--neo) !important; text-shadow: var(--shd); text-decoration: underline;}
+body a:hover{color:var(--neo) !important; text-shadow: var(--shd);}
 a:hover{color:var(--neo) !important; text-shadow: var(--shd);}
-a.active{ color:var(--neo) !important}
+a.active,a.active-panel{ color:var(--neo) !important}
 .col{ display: flex;flex-direction: column;width: 50%;}
 .col.r{align-content: flex-end;text-align: right;}
 .col.r p{align-content: flex-end;text-align: justify;}
