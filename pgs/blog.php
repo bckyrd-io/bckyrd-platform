@@ -29,8 +29,8 @@
         <div class="col l">
             <div id="nav_menu">
                 <a href="../index.php" >Home</a>
-                <a href="project.php">Project</a>
-                <a href="blog.php" class="active" >Blog</a>
+                <a href="blog.php?project_id=id" class="active" >Project</a>
+                <a href="blog.php">Blog</a>
             </div>
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
@@ -47,18 +47,117 @@
         <?php// foreach($articles as $article){ ?>
         <section id="post__section">
             <div class="left-heading">
-                <h1># About</h1>
-                <p>WE ARE WORKING ON THE TOOLS TO PROGRESS CREATIVITY DONE IN BACKYARDS
+                <h1># About.1</h1>
+                <p>WE WANNA TAKE ADVANTAGE ON THE FUTURE OF BUILDING STUFF. ALSO CREATE PLATFORM FOR IT.
                 </p>   
             </div>
             <div class="mid">
                 <img src="../etc/software_agency.jpg" alt="post">
-                <p><a>@Backyard</a> has been a place where creativity has always started. Many cool things were started in these places. The motivations to build/invent stuff at backyards has been just to see there imagination fluition. Most startups have started in their <a>garages</a>
-                to making impact in the world.</p>
-                <p>But the problem has been the progress for these project, that they dont get pushed to be used
-                by others who might like to test there <a>usefulness</a>. We wanna join in as the company that got started from backyard, to push what we have seen built in these backyards to make these projects finish and be useful </p>
-                <p>Imagine if most companies are within our backyards, stuff will be cheaper, be delivered faster and be built by people who love their craft. With most automation coming, stuff might be designed in another backyard and get <a>3dPrinted</a> in another backyard where its needed. Being one of the companies in this space we wanna contribute to the progress. <a>work.bckyrd.io</a> is a platform you should watch for as an opensource to build these things together.</p>
+                <p>"Hey everyone! Have you checked out the awesome inventions made in people's backyards? 
+                    We believe backyard-made products are just as good (if not better!) than those made by big corporations.
+                    coz individuals always adapt faster than big companies.
+                     .. #diy #cuttingedge #backyardmade"  <a href="https://www.researchgate.net/publication/228264507_A_Garage_and_an_Idea_What_More_Does_an_Entrepreneur_Need">link</a> </p>
+           </div>
+        </section> 
 
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># workStation</h1>
+                <p>WE ARE WORKING ON THE TOOLS TO PROGRESS CREATIVITY DONE IN BACKYARDS
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/workstation.png" alt="post">
+                <p>We're developing a web platform tool that streamlines backyard development and collaboration. Think of it as a GitHub for all types of developers, not just coders. Our platform will enable faster development and enhance collaboration among backyard innovators 
+                    <a href="https://work.bckyrd.io">link</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># Mgmt</h1>
+                <p>A SAAS PROJECT THAT WE WORKED ON TO INTERGRATE  MANAGEMENT SYSTEMS
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/mgmt.png" alt="post">
+                <p>"After creating multiple systems, we noticed similarities among them and decided to develop a management project. We've packaged it online to simplify the process and reduce costs. Our aim is to provide an efficient solution that streamlines system management for businesses. <a href="https://bckyrd.io/host/mgmt">link</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># Electronics.2</h1>
+                <p> YOU CAN PROTOTYPE YOUR COOL STUFF FROM EWASTE THEN TO PRODUCTS LATER
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/embedded.png" alt="post">
+                <p>Many believe that having all the tools and materials is necessary to create cool things, but we've learned otherwise. By starting with e-waste and building prototypes, we've found that you can refine and create usable products. You don't need everything from the start. Start with what you have and let creativity guide you <a href="https://bckyrd.io/host/mgmt">link</a>
+                </p>
+            </div>
+        </section>      
+
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># RiseApp</h1>
+                <p>PRODUCTIVITY APP FOR THOSE WHO TRAVEL WITH THEIR WORKSPACES
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/riseapp.png" alt="post">
+                <p>Our latest app is specifically designed for individuals who frequently travel with their workspaces and need to stay productive while on-the-go. With our app, you can easily access essential tools and resources from your everyday carry bag, allowing you to work efficiently regardless of where you are or what you need to accomplish.</p>
+            </div>
+        </section>      
+
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># pModule</h1>
+                <p>MAKES CONTROLLING MULTIPLE MICRO POWER STATION EASIER ON ANDROID INTERFACE
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/pmodule.png" alt="post">
+                <p>Our module uses multiple micropower station combined to reduce power failures with an Android app for efficient energy allocation while providing engineers with a simplified interface for complete control over the process. .</p>
+            </div>
+        </section>      
+
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># Estate</h1>
+                <p>FREELANCED ON A FAMILY BUSINESS WEBSITE. FOR THEIR ONLINE PRESENCE TO EXTENDED REACHABILITY
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/estate.PNG" alt="post">
+                <p>We worked on a family business website to enhance its online presence and ensure maximum reachability. By utilizing digital marketing strategies such as SEO, social media marketing, and email campaigns, I helped the business to connect with a larger audience, boosting engagement and driving sales.</p>
+        </section>      
+
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># bckyrd</h1>
+                <p>WE BUILT OUR ON WEBSITE WITH OUR TEST OF DESIGN THAT IS DIFFERENT
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/bckyrd.png" alt="post">
+                <p>Our website serves as both a portfolio for showcasing our current projects and systems, and a blog where we share our insights and industry news. We've set ourselves apart with a unique black theme, making it easy for clients to find us and inquire about freelance projects they need completed.</p>
+            </div>
+        </section>      
+
+        <section id="post__section">
+            <div class="left-heading">
+                <h1># Cydt</h1>
+                <p>WE FREELANCED ON A YOUTH ORGANISATION WEBSITE THAT DRIVES TRAFFIK FOR DONATIONS
+                </p>   
+            </div>
+            <div class="mid">
+                <img src="../etc/cydt.png" alt="post">
+                <p>We developed a website for a youth organization, highlighting their mission and showcasing their work. The site also features a donation portal, improving the organization's online presence and facilitating contributions from interested supporters.
+                    <a href="https://www.cydt.org">link</a>
+                </p>
             </div>
         </section>      
         <?php// } ?>

@@ -31,7 +31,7 @@
         <div class="col l">
             <div id="nav_menu">
                 <a href="index.php" class="active">Home</a>
-                <a href="pgs/project.php">Project</a>
+                <a href="pgs/blog.php?project_id=id">Project</a>
                 <a href="pgs/blog.php">Blog</a>
             </div>
             <div id="nav_link" onclick="openNav()">
@@ -54,8 +54,8 @@
                     </a>
                 </div>
                 <div class="col r">
-                    <h1>What's Made @<a href="#service__section" class="active">bckyrd</a>.</h1>
-                    <p>Open As Freelance Developers and Also Follow Projects From Our Team. </p>
+                    <h1 style="color:#626262; font-size: 4.8em">Explore Stuff<br>We Build @<a href="#service__section" class="active">bckyrd</a></h1>
+                    <h1 hidden style="color:#626262">For Your Next Project <a href="#"> #Hire</a> Our Team </h1>
                 </div>
             </div>
         </section>
@@ -64,32 +64,28 @@
 <!--DESCRIPTION OF SERVICES OFFERED AT STORE-->
         <section id="service__section">
             <div class="mid" id="accordion">
-                <div class="panel active">
-                    <h2 class="header">SOFTWARE CODE</h2>
-                    <p class="body">Build android development for cross platform apps with
-                        different devices support.</p>
-                    <p class="body">And web systems that offer API for extensibility of usage. 
-                        <a href="wikipedia: crossplatform apps development">learn more</a> </p>
-                </div>
                 <div class="panel">
-                    <h2 class="header">EMBEDDED SYSTEMS</h2>
+                    <h2 class="header">EMBEDDED </h2>
                     <p class="body">Make Arduino automated electronics including IOT 
-                        enabled for controlling remotely. </p>
-                    <p class="body">And autonomous machines that are less Human operated. 
-                        <a href="wikipedia: systems that use autonomy">learn more</a> </p>
+                        enabled for controlling remotely
+                        <a href="wikipedia.com?reverse engineering">select</a> </p>
+                </div>
+                <div class="panel active">
+                    <h2 class="header">MOBILE</h2>
+                    <p class="body">Build android development for cross platform apps with
+                        different devices support
+                        <a href="google.com?crossplatform apps development">select</a> </p>
                 </div>
                 <div class="panel">
-                    <h2 class="header">DEVICE RECOVERY</h2>
-                    <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
-                    <p class="body">And also device reverse engineering to modify for upgrades 
-                        <a href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
+                    <h2 class="header">MACHINES</h2>
+                    <p class="body">And autonomous machines that are less Human operated 
+                        <a href="google.com? systems that use autonomy">select</a> </p>
                 </div>
                 <div class="panel">
-                    <h2 class="header">RESEARCH</h2>
-                    <p class="body">Explore advancement in tech including replicating these
-                        internet projects. </p>
-                    <p class="body"> And do reviews on electronics devices plus finding out
-                        altenatives .<a href="wikipedia.com%20%7C%20minimalism%20life">learn more</a></p>
+                    <h2 class="header">WEB API</h2>
+                    <p class="body">Make Arduino automated electronics including IOT 
+                        enabled for controlling remotely
+                        <a href="google.com? systems that use autonomy">select</a></p>
                 </div>
             </div>
         </section>
@@ -99,26 +95,22 @@
         <section id="portifolio__section">
             <div class="left-heading">
                 <h1>PotifoliO</h1>
-                <p>Here is a Big Picture of what kinda Projects we have Been making. <a href="">view more</a> </p>   
+                <p>Here is a Big Picture of what kinda Projects we have Been making. <a href="pgs/blog.php?project_id=id">view more</a> </p>   
             </div>
             <div class="max">
                 <div class="masonry-grid">
-                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
-                        <img src="etc/p1.png" alt="<?=$pro['name']?>-Design">
+                    <a href="pgs/blog.php?project_id=id" class="brick">
+                        <img src="etc/mgmt.png" alt="Backyard-Design">
                     </a>
-                     <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
-                        <img src="etc/p6.png" alt="<?=$pro['name']?>-Design">
+                     <a href="pgs/blog.php?project_id=id" class="brick">
+                        <img src="etc/pmodule.png" alt="Backyard-Design">
                     </a>
-                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
-                        <img src="etc/p2.png" alt="<?=$pro['name']?>-Design">
+                    <a href="pgs/blog.php?project_id=id" class="brick">
+                        <img src="etc/workstation.png" alt="Backyard-Design">
                     </a>
-                    <a href="https://host.bckyrd.io/pgs/profile.php?pro_id=<?=$pro['id']?>" class="brick">
-                        <img src="etc/p5.png" alt="<?=$pro['name']?>-Design">
+                    <a href="pgs/blog.php?project_id=id" class="brick">
+                        <img src="etc/riseapp.png" alt="Backyard-Design">
                     </a>
-                           
-                    
-                   
-                    
                 </div>
             </div>
         </section>
@@ -129,7 +121,7 @@
             <div class="mid" id="events">
                 <div>
                     <p>Be part of the people, Building stuff in 
-                        Their backyards <br><a href=""class="active">Visit</a></p>
+                        Their backyard workstations. <br><a href=""class="active">Visit</a></p>
                 </div>
             </div>
         </section>
@@ -146,25 +138,19 @@
             <div class="max">
                 <div class="col-section">
                     <h2>FLEXIBLE</h2>
-                    <p>We dont do corporate stuff, rather communicate as Humans</p>
-                    <p>Making the processes smooth by removing knowledge gaps.</p>
+                    <p>We dont do corporate stuff, rather communicate as Humans.</p>
                 </div>
                 <div class="col-section">
                     <h2>VALUE</h2>
-                    <p>The secret is to Understand what is needed, Then work together</p>
-                    <p>And also keep you Updated on what we help on.</p>
+                    <p>The secret is to Understand what is needed, Then work together..</p>
                 </div>
                 <div class="col-section">
                     <h2>FASTER</h2>
                     <p>Depending on the Scale of Project, We often Teamup as an Agency.</p>
-                    <p>Which makes Milestones complete in Less Time.</p>
                 </div>
                 <div class="col-section">
                     <h2>MODULAR</h2>
-                    <p>Avoid being strict with tools usage, rather do what
-                        achieves solution at the moment.
-                    <p>Macgyver around to fix a problem and improve
-                         on it from Prototype.</p>
+                    <p>Avoid being strict with tools usage, rather do what fixes.</p>
                 </div>
             </div>
         </section>
@@ -204,11 +190,9 @@
             </div>
             <div class="col r">
                 <p class="fix-text">
-                the obbsessions with Breaking (stuff) througout the years , has led people
-                to  ask us for repairs. But we only do, if there is a need to; not Often.
-                </p>
+                our obbsession with breaking devices througout the years, has led people
+                to  ask us for fixes. Which we only do, if there is a need; </p>
             </div>
-            
         </div>
     </section>
 
@@ -217,28 +201,28 @@
     <section id="faq__section">
         <div class="mid" id="accordion">
             <div class="panel active">
-                <h2 class="header">FUTURE </h2>
-                <p class="body">anybod passionate of technology doesnt matter 
+                <h2 class="header">FUTURE</h2>
+                <p class="body">anybody passionate of technology doesnt matter 
                     the field. From Scientist ,Engineers ,Handyman. etc </p>
                 <p class="body">our jobs depends on the project scale, so freelancers
                     are good fit 
                     <a href="wikipedia: crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">HIRE </h2>
+                <h2 class="header">RESEARCH</h2>
                 <p class="body">Make Arduino automated electronics including IOT 
                     enabled for controlling remotely. </p>
                 <p class="body">And autonomous machines that are less Human operated. 
                     <a href="wikipedia: systems that use autonomy">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">HIRES </h2>
+                <h2 class="header">HIRE </h2>
                 <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
                 <p class="body">And also device reverse engineering to modify for upgrades 
                     <a href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
             </div>
             <div class="panel">
-                <h2 class="header">EWASTE </h2>
+                <h2 class="header">RECOVERY </h2>
                 <p class="body">Explore advancement in tech including replicating these
                     internet projects. </p>
                 <p class="body"> And do reviews on electronics devices plus finding out
@@ -253,7 +237,7 @@
         <section id="footer__section">
             <div class="max inverted">
                 <div class="col l">
-                    <a href="#move__top"><img src="res/error.svg" alt="inventor at backyard"></a>
+                    <a href="#move__top"><img src="res/web.svg" alt="inventor at backyard"></a>
                 </div>
                 <div class="col r">
                     <h1>BACKYARD<br> WORKSTATION</h1>
@@ -264,7 +248,7 @@
             </div>
         </div>
         </section>
-        <p class="right">Email <a class="active" href="#="> work@bckyrd.io</a>.</p>
+        <p class="right">Email <a href="#="> work@bckyrd.io</a>.</p>
     </footer>
 
 
