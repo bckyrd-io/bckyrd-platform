@@ -70,21 +70,21 @@
                         <a href="https://www.google.com/ cross platform apps development">UX</a>
                          built for crossplatforms
                         devices support.
-                        <a href="calendry.com" class="active-panel">select</a> </p>
+                        <a href="https://calendly.com/bckyrd-io" class="active-panel">select</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">EMBEDDED </h2>
                     <p class="body">Make Arduino automated electronics including 
                         <a href="https://www.google.com/ modular iot electronics">IOT</a>
                         enabled for controlling remotely
-                        <a href="calendry.com" class="active-panel">select</a> </p>
+                        <a href="https://calendly.com/bckyrd-io" class="active-panel">select</a> </p>
                 </div>
                 <div class="panel">
                     <h2 class="header">WEB API</h2>
                     <p class="body">Develop responsive web systems that are are
                         <a href="https://www.google.com/ api extensibility">Extensible</a>
                         to other devices.
-                        <a href="calendry" class="active-panel">select</a></p>
+                        <a href="https://calendly.com/bckyrd-io" class="active-panel">select</a></p>
                 </div>
                 <div class="panel">
                     <h2 class="header">MACHINES</h2>
@@ -92,7 +92,7 @@
                         <a href="https://www.google.com/ systems that are autonomous">Autonomy</a>
                         on mechanical systems and
                         others that increase efficiency.
-                        <a href="calendry" class="active-panel">select</a> </p>
+                        <a href="https://calendly.com/bckyrd-io" class="active-panel">select</a> </p>
                 </div>
             </div>
         </section>
@@ -138,7 +138,7 @@
 <!--OVERVIEW OF HOW WE WANNA WORK-->
         <section id="approach__section">
             <div class="left-heading">
-                <a class="button" id="work" href="work@bckyrd.io">Let's work</a>
+                <a class="button" id="work" href="https://calendly.com/bckyrd-io/">Let's work</a>
                 <p>As an electronics company that gets your systems fixed we use these ideas to 
                     keep your hustle running.</p>   
             </div>
@@ -256,7 +256,7 @@
             </div>
         </div>
         </section>
-        <p class="right">Email <a href="#="> work@bckyrd.io</a>.</p>
+        <p class="right">Email <a href="mailto:work@bckyrd.io"> work@bckyrd.io</a>.</p>
     </footer>
 
 
