@@ -32,14 +32,12 @@ html,body{
     color: var(--clr);
 }
 body a{ color: var(--lnk-clr) !important; text-decoration: none; }
-body a:hover{color:var(--neo) !important; text-shadow: var(--shd); text-decoration: none;}
-a:hover{color:var(--neo) !important; text-shadow: var(--shd);}
+body a:hover{color:var(--neo) !important; text-shadow: var(--shd); text-decoration: underline;}
 a.active,a.active-panel{ color:var(--neo) !important}
 .col{ display: flex;flex-direction: column;width: 50%;}
 .col.r{align-content: flex-end;text-align: right;}
 .col.r p{align-content: flex-end;text-align: justify;}
 .col.l{ align-items: flex-start; }
-
 
 
 
