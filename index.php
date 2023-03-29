@@ -49,9 +49,10 @@
             <div class="max inverted ">
                 <div class="col l">
                     <a href="#service__section">
-                        <img style="width:100%; height:auto;"
+                        <img 
                             src="res/progressive_green.svg" alt="backyard embedded systems">
                     </a>
+                    
                 </div>
                 <div class="col r">
                     <h1 class="about">Explore Stuff<br>We Build @<a href="#service__section" class="active">bckyrd</a></h1>
