@@ -67,7 +67,7 @@
                 <div class="panel active">
                     <h2 class="header">MOBILE</h2>
                     <p class="body">Develop android apps with better 
-                        <a href="https://www.google.com/ crossplatform apps development">UX</a>
+                        <a href="https://www.google.com/ cross platform apps development">UX</a>
                          built for crossplatforms
                         devices support.
                         <a href="calendry.com" class="active">select</a> </p>
