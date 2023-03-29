@@ -33,7 +33,7 @@ html,body{
 }
 body a{ color: var(--lnk-clr) !important; text-decoration: none; }
 body a:hover{color:var(--neo) !important; text-shadow: var(--shd); text-decoration: underline;}
-a:hover{color:var(--neo) !important; text-shadow: var(--shd); text-decoration: underline;}
+a:hover{color:var(--neo) !important; text-shadow: var(--shd);}
 a.active{ color:var(--neo) !important}
 .col{ display: flex;flex-direction: column;width: 50%;}
 .col.r{align-content: flex-end;text-align: right;}
