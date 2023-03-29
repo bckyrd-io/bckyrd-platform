@@ -1,6 +1,4 @@
-/**
- * ON PAGE SCROLL
- * **/
+/* ON PAGE SCROLL */
 const scrl2 = ScrollReveal({ 
   origin: 'top',distance:'100px',
   duration:600,reset:true
@@ -21,10 +19,8 @@ scrl.reveal(
 
 
 
-/**
- * ACCORDION
- */
- function initAccordion(accordionElem){
+/* ACCORDION SERVICES */
+function initAccordion(accordionElem){
   //when panel is clicked, handlePanelClick is called.          
   function handlePanelClick(event){
       showPanel(event.currentTarget);
@@ -35,6 +31,7 @@ scrl.reveal(
       if (expandedPanel){expandedPanel.classList.remove("active");}
       panel.classList.add("active");  //Show new one
   }
+  //
   var allPanelElems = accordionElem.querySelectorAll(".panel");
   for (var i = 0, len = allPanelElems.length; i < len; i++){
         allPanelElems[i].addEventListener("click", handlePanelClick);
@@ -45,10 +42,7 @@ initAccordion(document.getElementById("accordion"));
 
 
 
-
- /**
-  * NAVIGATION MOBILE MENU
-  * **/
+/* NAVIGATION MOBILE MENU */
 function openNav(){
   var nav_menu = document.getElementById("nav_menu")
   var nav_link = document.getElementById("nav_link")

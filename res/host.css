@@ -1,7 +1,7 @@
-/**
+/* *
     IMPORT EXTRA FONTS RESOURCES 
     ALL NECESSARY CSS VARIABLES
-* **/
+* * */
 @font-face {
     src: url("AdobeCleanUX-Light.woff2") format("opentype");
     font-family: 'Adobe';
@@ -11,7 +11,7 @@
     --ltr-clr:#191b20;
     --lnk-clr: #fff;
     --clr:#626262;
-    --bggr-fnt-size:2.8em;
+    --bggr-fnt-size:3em;
     --md-fnt-size:2em;
     --md-width:50%;
     --mx-width:100%;
@@ -20,6 +20,9 @@
     --neo:#00BFA6;
     --shd: 0px 0px 4px 1px var(--neo);
 }
+
+
+
 *{font-family: "Adobe" !important; font-weight: 100 !important;}
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar{ display: none;}
@@ -32,17 +35,16 @@ html,body{
     color: var(--clr);
 }
 body a{ color: var(--lnk-clr) !important; text-decoration: none; }
-body a:hover{color:var(--neo) !important; text-shadow: var(--shd); text-decoration: underline;}
+body a:hover{color:var(--neo) !important; text-shadow: var(--shd);}
 a.active,a.active-panel{ color:var(--neo) !important}
-.col{ display: flex;flex-direction: column;width: 50%;}
-.col.r{align-content: flex-end;text-align: right;}
-.col.r p{align-content: flex-end;text-align: justify;}
+.col{ display: flex; flex-direction: column; width: 50%;}
+.col.r{align-content: flex-end; text-align: right;}
+.col.r p{align-content: flex-end; text-align: justify;}
 .col.l{ align-items: flex-start; }
 
 
 
-
-/**ACCROSS ALL THE PAGES CSS* **/
+/* *ACCROSS ALL THE PAGES CSS* * */
 nav{
     width: var(--def-width);
     margin: auto;
@@ -70,10 +72,7 @@ nav a{
   cursor: pointer;
  
 }
-.button:hover{
-    box-shadow: var(--shd);
-    color: var(--neo);
-}
+.button:hover{box-shadow: var(--shd);color: var(--neo);}
 section{
     width: var(--def-width);
     margin: auto;
@@ -116,7 +115,8 @@ h1{
     font-size: var(--bggr-fnt-size);
     word-spacing: 1em !important;
 }
-h1 a{color: var(--lnk-clr); }
+h1.about{ color:var(--clr); font-size: 5em; }
+h1 a{color: var(--lnk-clr); text-decoration: none;}
 section p{font-size: var(--md-fnt-size);
     margin-top: 1vh;
     word-spacing: 1em;
@@ -140,8 +140,7 @@ main .left-heading p{
 
 
 
-
-/** SECTIONS INVERTED* **/
+/* * SECTIONS INVERTED* * */
 section .inverted{ min-height: 80vh;}
 section .inverted .col.l{ justify-content: flex-end; }
 section .inverted h1{ margin: 0;}
@@ -149,7 +148,7 @@ section .inverted img{ height: 40vh; }
 
 
 
-/**ACCORDION* **/
+/* *ACCORDION* * */
 .panel h2:after{ content: '\002B'; float: right;}
 .panel .header{cursor: pointer;}
 .panel .header:hover{box-shadow: var(--shd);}
@@ -168,10 +167,7 @@ section .inverted img{ height: 40vh; }
 
 
 
-
-/**
-    SECTIONS MID
-* **/
+/** SECTIONS MID * **/
 section .mid{
     display: flex;
     flex-direction: column;
@@ -240,7 +236,7 @@ section#service__section h2{
 
 
 
-/**FLEX HOLIZONTAL* **/
+/* *FLEX HOLIZONTAL* * */
 section div.col-section{
     width: 23.1%;
     height: 70vh;
@@ -259,12 +255,11 @@ section div.col-section p{
 
 
 
-
-/** MASONRY GRID PORTIFOLIO DESIGN **/
+/* * MASONRY GRID PORTIFOLIO DESIGN * */
 .masonry-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 40vh);
+    grid-template-rows: repeat(5, 35vh);
     gap: 2rem;/**0.25rem**/
     width: 100% !important;
 }
@@ -274,7 +269,10 @@ section div.col-section p{
     page-break-inside: avoid;
     break-inside: avoid;
     counter-increment: brick-counter;;
-    border:solid 0.03125rem var(--lnk-clr);
+    border:solid 2px var(--lnk-clr);
+}
+.masonry-grid .brick:hover{ 
+    border:solid 2px var(--neo);
 }
 .masonry-grid .brick img{
     object-fit: cover; 
@@ -288,10 +286,7 @@ section div.col-section p{
 
 
 
-
-/**
-    STORE
-**/
+/* * STORE * */
 main section .store-items{ margin-top: 0; }
 section .store-items .col.r{
     height: 100vh;
@@ -335,10 +330,7 @@ section .col.r{align-items: flex-end;}
 
 
 
-
-/**
-    STAGGERED LAYOUT
---- **/
+/* * STAGGERED LAYOUT  * */
 section .col.r .fix-text{
     align-items:center; 
     height:100%;
@@ -367,7 +359,8 @@ section .fixed div.item img{
 }
 
 
-/** RESPONSIVENESS SCREEN **/
+
+/* * RESPONSIVENESS SCREEN * */
 @media only screen and (max-width: 960px) {
     #nav_link{
         display: visible;
@@ -422,16 +415,16 @@ section .fixed div.item img{
 
 
 
-/** RESPONSIVEN ON TABLET **/
+/* * RESPONSIVEN ON TABLET * */
 @media only screen and (max-width: 820px) {
     :root{
-        --md-fnt-size:1.5em;
+        --md-fnt-size:2em;
         --md-width:80%;
-        --def-width:94%;
-    }
+        --def-width:94%; }
+    h1.about{ font-size: 3em; }
     .col{
         width: var(--mx-width);
-        height: max-content auto !important;}
+        height: max-content auto !important; }
     section .inverted{
         min-height: 80vh;
         flex-direction: column-reverse;}
@@ -471,12 +464,9 @@ section .fixed div.item img{
 
 
 
-
-
-/** RESPONSIVEN ON TABLET **/
+/* * RESPONSIVEN ON TABLET * */
 @media only screen and (max-width: 640px) {
     :root{
-        --md-fnt-size:1.6em;
         --def-width:80%;
     }
     section div.col-section{
@@ -497,12 +487,9 @@ section .fixed div.item img{
 
 
 
-
-
-/** RESPONSIVEN PHONE **/
+/* * RESPONSIVEN PHONE * */
 @media only screen and (max-width: 480px) {
     :root{
-        --md-fnt-size:1.4em;
         --md-width:98%;
         --def-width:92%;
     }

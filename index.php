@@ -54,7 +54,7 @@
                     </a>
                 </div>
                 <div class="col r">
-                    <h1 style="color:#626262; font-size: 4.8em">Explore Stuff<br>We Build @<a href="#service__section" class="active">bckyrd</a></h1>
+                    <h1 class="about">Explore Stuff<br>We Build @<a href="#service__section" class="active">bckyrd</a></h1>
                     <h1 hidden style="color:#626262">For Your Next Project <a href="#"> #Hire</a> Our Team </h1>
                 </div>
             </div>
@@ -88,10 +88,9 @@
                 </div>
                 <div class="panel">
                     <h2 class="header">MACHINES</h2>
-                    <p class="body">And systems for
+                    <p class="body">create for
                         <a href="https://www.google.com/ systems that are autonomous">Autonomy</a>
-                        on mechanical systems and
-                        others that increase efficiency.
+                        on mechanical systems and others that increase precision.
                         <a href="https://calendly.com/bckyrd-io" class="active-panel">select</a> </p>
                 </div>
             </div>
@@ -102,7 +101,7 @@
         <section id="portifolio__section">
             <div class="left-heading">
                 <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
-                <p>Here is a Big Picture of what kinda Projects we have Been making. <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>   
+                <p>Big Picture of what kinda Projects we have Been making. <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>   
             </div>
             <div class="max">
                 <div class="masonry-grid">
@@ -127,8 +126,8 @@
         <section id="event__section">
             <div class="mid" id="events">
                 <div>
-                    <p>Be part of the people, Building stuff in 
-                        Their backyard workstations. <br><a href="https://work.bckyrd.io"class="active">Visit</a></p>
+                    <p>Be part of the Inventor, working on Electronics  at 
+                        their Backyard Workstation. <br><a href="https://work.bckyrd.io"class="active">Visit</a></p>
                 </div>
             </div>
         </section>
@@ -139,25 +138,25 @@
         <section id="approach__section">
             <div class="left-heading">
                 <a class="button" id="work" href="https://calendly.com/bckyrd-io/">Let's work</a>
-                <p>As an electronics company that gets your systems fixed we use these ideas to 
-                    keep your hustle running.</p>   
+                <p>This is Our Approach to Keep the Hustle going, And get electronics fixed</p>   
             </div>
             <div class="max">
                 <div class="col-section">
                     <h2>FLEXIBLE</h2>
-                    <p>We dont do corporate stuff, rather communicate as Humans.</p>
+                    <p>first, break formal barrier and agree to understand requirements better.
+                    </p>
                 </div>
                 <div class="col-section">
-                    <h2>VALUE</h2>
-                    <p>The secret is to Understand what is needed, Then work together..</p>
-                </div>
-                <div class="col-section">
-                    <h2>FASTER</h2>
-                    <p>Depending on the Scale of Project, We often Teamup as an Agency.</p>
+                    <h2>TEAM</h2>
+                    <p>second, scale our freelance depending on project milestones to finnish fast.</p>
                 </div>
                 <div class="col-section">
                     <h2>MODULAR</h2>
-                    <p>Avoid being strict with tools usage, rather do what fixes.</p>
+                    <p>third, start from concepts that work as prototype and improve the system from that</p>
+                </div>
+                <div class="col-section">
+                    <h2>VALUE</h2>
+                    <p>finaly, deliver the needed solve, to profit and adapt to build better stuff</p>
                 </div>
             </div>
         </section>
@@ -210,11 +209,9 @@
         <div class="mid" id="accordion">
             <div class="panel active">
                 <h2 class="header">FUTURE</h2>
-                <p class="body">anybody passionate of technology doesnt matter 
-                    the field. From Scientist ,Engineers ,Handyman. etc </p>
-                <p class="body">our jobs depends on the project scale, so freelancers
-                    are good fit 
-                    <a class="active-panel" href="wikipedia.com/ crossplatform apps development">learn more</a> </p>
+                <p class="body">wanna build a workstation where we can work on systems with with others 
+                    . And improve building on the platform to progress inventions.
+                   <a class="active-panel" href="wikipedia.com/ crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">RESEARCH</h2>
@@ -225,9 +222,11 @@
             </div>
             <div class="panel">
                 <h2 class="header">HIRE </h2>
-                <p class="body">Provide systems restores on devices failures get it fixed and working again. </p>
-                <p class="body">And also device reverse engineering to modify for upgrades 
-                    <a class="active-panel" href="wikipedia.com%20/%20reverse%20engineering">learn more</a> </p>
+                <p class="body">anybody passionate of technology doesnt matter 
+                    the field. From Scientist ,Engineers ,Handyman. etc </p>
+                <p class="body">our jobs depends on the project scale, so freelancers
+                    are good fit 
+                    <a class="active-panel" href="wikipedia.com/ crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">RECOVERY </h2>
