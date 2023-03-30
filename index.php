@@ -49,7 +49,7 @@
             <div class="max inverted ">
                 <div class="col l">
                     <a href="#service__section">
-                        <img 
+                        <img style="width:80%"
                             src="res/progressive_green.svg" alt="backyard embedded systems">
                     </a>
                     
@@ -245,7 +245,10 @@
         <section id="footer__section">
             <div class="max inverted">
                 <div class="col l">
-                    <a href="#move__top"><img src="res/web.svg" alt="inventor at backyard"></a>
+                    <a href="#move__top">
+                        <img style="width:80%"
+                            src="res/web.svg" alt="inventor at backyard">
+                    </a>
                 </div>
                 <div class="col r">
                     <h1>BACKYARD<br> WORKSTATION</h1>

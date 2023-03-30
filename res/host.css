@@ -483,6 +483,7 @@ section .fixed div.item img{
     .brick:nth-of-type(4){ grid-column: 1/ span 2; grid-row: 7/ span 2;}
     section .fixed div.item:nth-child(1){margin-top: 15vh;}
     section .fixed div.item{ height: 30vh; }
+    section .mid#events div{ width: var(--mx-width); }
 }
 
 
