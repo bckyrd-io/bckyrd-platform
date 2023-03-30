@@ -132,7 +132,7 @@
                 </p>   
             </div>
             <div class="mid">
-                <img src="../etc/estate.PNG" alt="post">
+                <img src="../etc/estate" alt="post">
                 <p>We worked on a family business website to enhance its online presence and ensure maximum reachability. By utilizing digital marketing strategies such as SEO, social media marketing, and email campaigns, I helped the business to connect with a larger audience, boosting engagement and driving sales.</p>
         </section>      
 

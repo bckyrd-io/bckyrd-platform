@@ -196,10 +196,10 @@
                 </div> 
             </div>
             <div class="col r">
-                <p class="fix-text">
-                our obbsession with 
-                hardware devices througout the years, has led people
-                to  ask us for fixes. Which we only do, if there is a need; </p>
+                <p>our obbsession with 
+                    <a href="">text</a>
+                    hardware devices througout the years, has led people
+                    to  ask us for fixes. Which we only do, if there is a need; </p>
             </div>
         </div>
     </section>
@@ -210,17 +210,17 @@
         <div class="mid" id="accordion">
             <div class="panel active">
                 <h2 class="header">FUTURE</h2>
-                <p class="body">wanna build a workstation where we can work on systems with with others 
-                    . And improve building on the platform to progress inventions.
+                <p class="body">wanna build a workstation where we can work on systems with others 
+                    . And improve building on the platform to progress invention.
                    <a class="active-panel" href="wikipedia.com/ crossplatform apps development">learn more</a> </p>
             </div>
             <div class="panel">
                 <h2 class="header">RESEARCH</h2>
-                <p class="body">Make Arduino automated electronics including IOT 
-                    enabled for controlling remotely. </p>
-                <p class="body">And autonomous machines that are less Human operated. 
-                    <a class="active-panel" href="wikipedia.com/ systems that use autonomy">learn more</a> </p>
-            </div>
+                <p class="body">explore advancement in tech including replicating these
+                    internet projects. </p>
+                <p class="body"> And do reviews on electronics devices plus finding out
+                    altenatives .<a class="active-panel" href="wikipedia.com%20%7C%20minimalism%20life">learn more</a></p>
+           </div>
             <div class="panel">
                 <h2 class="header">HIRE </h2>
                 <p class="body">anybody passionate of technology doesnt matter 
