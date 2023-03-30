@@ -331,12 +331,15 @@ section .col.r{align-items: flex-end;}
 
 
 /* * STAGGERED LAYOUT  * */
+section#experience__section{ margin-bottom: 20vh;}
 section .fixed .col.r{
     height:max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
+}
+section .fixed .col.r p{
+    margin-bottom: 15vh;
 }
 section .fixed .col.l{
     display: inline-block;
@@ -349,14 +352,13 @@ section .fixed div.item{
     height: auto;
     border-radius: 0;
     background: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: first baseline;
 }
 section .fixed div.item:nth-child(1){margin-top: 30vh;}
 section .fixed div.item img{
     display: block;
     width: 30%;
+    height: 40vh;
+    margin-top: 2vh;
     margin-bottom: 2vh;
 }
 

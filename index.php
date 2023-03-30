@@ -196,10 +196,11 @@
                 </div> 
             </div>
             <div class="col r">
-                <p>our obbsession with 
-                    <a href="">text</a>
-                    hardware devices througout the years, has led people
-                    to  ask us for fixes. Which we only do, if there is a need; </p>
+                <p>Most of the <a href="">team</a> have a background in taking apart devices, figuring out how <a href="">machines</a> work, obviously 
+                    we are obbsessed with <a href="">electronics</a> here. Now have aquired 
+                    skills throughout these years. And have made the <a href="">carrier</a> from 
+                    the craft we understand .
+                </p>
             </div>
         </div>
     </section>
