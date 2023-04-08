@@ -179,8 +179,8 @@
                 <div class="col r">
                     <h1>BACKYARD<br> WORKSTATION</h1>
                     <p>It Was Written<br> And Its Been Compiled</p>
-                    <a href="https://www.linkedin.com/company/bckyrdio/?viewAsMember=true" class="active">#linkedIn </a>
-                    <a href="https://github.com/h0zt?tab=repositories" class="active">#github </a>
+                    <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active">#linkedIn </a>
+                    <a href="https://github.com/bckyrd-io?tab=repositories" class="active">#github </a>
                 </div>
             </div>
         </div>
