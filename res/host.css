@@ -61,7 +61,6 @@ nav a{
 .button{
   background-color: var(--dpr-bg);
   color: var(--lnk-clr);
-  border-radius: .5rem;
   padding: .5rem;
   padding-left:2.5rem;
   padding-right:2.5rem;
