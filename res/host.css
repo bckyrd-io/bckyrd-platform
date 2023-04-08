@@ -2,31 +2,31 @@
     IMPORT EXTRA FONTS RESOURCES 
     ALL NECESSARY CSS VARIABLES
 * * */
-@font-face {
+/* @font-face {
     src: url("AdobeCleanUX-Light.woff2") format("opentype");
     font-family: 'Adobe';
-}
+} */
 :root{
     --dpr-bg:black;
-    --ltr-clr:#191b20;
+    --ltr-clr:#161b22;
     --lnk-clr: #fff;
-    --clr:#626262;
+    --clr:#7d8590;
     --bggr-fnt-size:3em;
     --md-fnt-size:2em;
     --md-width:50%;
     --mx-width:100%;
     --def-width:96%;
     --mx-height:100vh;
-    --neo:#00BFA6;
+    --neo: #00ffde; /* #7ee787;; */
     --shd: 0px 0px 4px 1px var(--neo);
 }
 
 
 
-*{font-family: "Adobe" !important; font-weight: 100 !important;}
+*{font-family: "Segoe UI Light" !important; font-weight: 100 !important;}
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar{ display: none;}
-html{overflow-y: scroll;scroll-behavior: smooth;}
+html{overflow-y: scroll; scroll-behavior: smooth;}
 html,body{
     padding: 0; margin: 0;
     width: var(--mx-width);
@@ -61,12 +61,12 @@ nav a{
 .button{
   background-color: var(--dpr-bg);
   color: var(--lnk-clr);
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  border-radius: .5rem;
+  padding: .5rem;
   padding-left:2.5rem;
   padding-right:2.5rem;
   font-size: var(--bggr-fnt-size);
-  border: solid 2px var(--lnk-clr);
+  border: solid 1px var(--lnk-clr);
   margin-bottom: 2vh;
   width: max-content;
   cursor: pointer;
@@ -102,7 +102,7 @@ footer p.right{
     font-size: var(--md-fnt-size);
 }
 footer .col.r a{ 
-    word-spacing: 1em;
+    word-spacing: .5em;
     margin-bottom: .5vh !important;
     margin-top: .5vh !important;
     color: var(--neo);
@@ -113,13 +113,13 @@ h1{
     margin: 0; 
     color: var(--lnk-clr); 
     font-size: var(--bggr-fnt-size);
-    word-spacing: 1em !important;
+    word-spacing: .5em !important;
 }
 h1.about{ color:var(--clr); font-size: 5em; }
 h1 a{color: var(--lnk-clr); text-decoration: none;}
 section p{font-size: var(--md-fnt-size);
     margin-top: 1vh;
-    word-spacing: 1em;
+    word-spacing: .5em;
 }
 main .left-heading{
     display: flex;
@@ -128,7 +128,8 @@ main .left-heading{
     align-items: flex-end;
     align-content: flex-end;
     text-align: flex-end;
-    margin-bottom: 4vh;
+    margin-bottom: 6vh;
+    height: max-content;
 }
 main .left-heading h1{text-align: right;}
 main .left-heading p{
@@ -185,7 +186,7 @@ section .mid#events div{
     background: var(--dpr-bg);
     width: 80%;
     border: solid 3px var(--ltr-clr);
-    border-radius: 4px;
+    border-radius: .5vh;
     margin: auto;
 }
 section .mid#events div p{ 
@@ -197,7 +198,7 @@ section .mid#events div p{
 section .mid h2{
     background-color: var(--ltr-clr);
     width: max-content;
-    border-radius: 4px;
+    border-radius: .5vh;
     
 }
 section .mid h2:after{
@@ -212,22 +213,10 @@ section .mid video{
     min-height: 30vh;
     height: 70vh; 
     width: 100%;
-    border-radius: 4px;
+    border-radius: .5vh;
     border: solid var(--ltr-clr) 3px;
     object-fit: cover;
 }
-section .mid input,select,textarea{
-    min-height: 6vh;
-    padding: 2vh;
-    border-radius: 1vh;
-    border: 2px solid var(--ltr-clr);
-    margin-top: 1rem;
-    text-align: left;
-    color: var(--neo);
-    font-size: var(--md-fnt-size);
-    background: var(--dpr-bg);
-}
-section .mid textarea{height: 18vh;}
 section#service__section h2{
     background:none;
     border: var(--ltr-clr) 2px solid;
@@ -241,10 +230,9 @@ section div.col-section{
     width: 23.1%;
     height: 70vh;
     min-height: max-content !important;
-    border-radius: 1vh;
+    border-radius: .5vh;
     text-align: center;
     background-color: var(--ltr-clr);
-    border: 2px solid var(--ltr-clr);
 }
 section div.col-section p{
     padding: 4vh;
@@ -319,7 +307,7 @@ section .store-items div.item{
     width: 48%;
     height: 60vh;
     margin-top: 4%;
-    border-radius: 1vh;
+    border-radius: .5vh;
 }
 section .store-items div.item:hover{box-shadow: var(--shd);}
 section .store-items div.item img{
@@ -331,7 +319,7 @@ section .col.r{align-items: flex-end;}
 
 
 /* * STAGGERED LAYOUT  * */
-section#experience__section{ margin-bottom: 20vh;}
+section#experience__section{ margin-bottom: 30vh;}
 section .fixed .col.r{
     height:max-content;
     display: flex;

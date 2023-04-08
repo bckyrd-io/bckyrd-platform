@@ -55,8 +55,9 @@
                     
                 </div>
                 <div class="col r">
-                    <h1 class="about">Explore Stuff<br>We Build @<a href="#service__section" class="active">bckyrd</a></h1>
-                    <h1 hidden style="color:#626262">For Your Next Project <a href="#"> #Hire</a> Our Team </h1>
+                    <h1 class="about">Where Stuff<br>Gets Built <a href="#service__section" class="active">@bckyrd</a></h1>
+                    <h1 hidden class="about">Explore Systems<br>We Create @<a href="#service__section" class="active">bckyrd</a></h1>
+                    <h1 hidden style="color:#7d8590">For Your Next Project <a href="#"> #Hire</a> Our Team </h1>
                 </div>
             </div>
         </section>
