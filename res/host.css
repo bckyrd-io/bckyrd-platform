@@ -384,18 +384,17 @@ section .fixed div.item img{
         top: 10vh;
         padding-top: 10vh !important;
     }
-    #nav_menu.nav{display: flex;}
+    #nav_menu.nav{ display: flex;}
     #nav_link.change #first{
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-14px, 10px);
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg) translate(-6px, 6px);
     }
-    #nav_link.change #second{opacity: 0;}
-    #nav_link.change #third{
+    #nav_link.change #second{
         -webkit-transform: rotate(45deg);
-        transform: rotate(45deg) translate(-9px, -6px);
+        transform: rotate(45deg) translate(-6px, -6px);
     }
+    #nav_link.change #third{ opacity: 0; }
     :root{
-        --md-fnt-size:2em;
         --md-width:70%;
         --def-width:94%;
     }
@@ -411,7 +410,8 @@ section .fixed div.item img{
 /* * RESPONSIVEN ON TABLET * */
 @media only screen and (max-width: 820px) {
     :root{
-        --md-fnt-size:2em;
+        --bggr-fnt-size:2.4em;
+        --md-fnt-size:1.7em;
         --md-width:80%;
         --def-width:94%; }
     h1.about{ font-size: 3em; }

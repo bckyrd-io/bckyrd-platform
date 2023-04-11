@@ -37,7 +37,7 @@
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
                 <span id="second"></span>
-                <span id="third"></span>
+                <span id="third" style="width:60%"></span>
             </div>
         </div>
     </nav>
