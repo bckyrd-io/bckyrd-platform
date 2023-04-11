@@ -253,8 +253,8 @@
                     </a>
                 </div>
                 <div class="col r">
-                    <h1>BACKYARD<br> WORKSTATION</h1>
-                    <p>Make What You<br> Wanna Have</p>
+                    <h1>Follow</h1>
+                    <p>we were LoSoMo <br>we are MoLoSo now</p>
                     <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active">#linkedIn </a>
                     <a href="https://github.com/bckyrd-io?tab=repositories" class="active">#github </a>
                 </div>
