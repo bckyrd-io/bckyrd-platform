@@ -22,7 +22,7 @@
     <link rel="preload" href="res/AdobeCleanUX-Light.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="res/host.css">
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
-    <title>bckyrd / where stuff gets built.</title>
+    <title>bckyrd :where stuff gets built.</title>
 </head>
 
 <body>
