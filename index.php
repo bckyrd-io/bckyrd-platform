@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-section">
                     <h2>VALUE</h2>
-                    <p>Finally, deliver the required outcome that gains and constantly advance to build even better.</p>
+                    <p>Finally, deliver the required outcome that gains and benefit us to constantly advance the build.</p>
                 </div>
             </div>
         </section>
