@@ -147,7 +147,7 @@
                 </div>
                 <div class="col-section">
                     <h2>MODULAR</h2>
-                    <p>Thirdly, leverage available ideas and resources to iterate and improve prototypes quickly.</p>
+                    <p>Thirdly, utilize available resources and ideas to quickly iterate and improve on the prototype</p>
                 </div>
                 <div class="col-section">
                     <h2>VALUE</h2>
