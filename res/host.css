@@ -268,23 +268,28 @@ section .inverted img {
     transition: max-height 0.5s ease-out;
 }
 
-#accordion .panel {
+#faq__accordion .panel,
+#service__accordion .panel {
     transition: max-height 0.2s ease-out;
     margin-bottom: 4vh;
 }
 
-#accordion .body {
-    padding-left: 2vh;
+#faq__accordion .body,
+#service__accordion .body {
+    padding-left: 0vh;
+    padding-right: 0vh;
     display: none;
     margin-bottom: 0;
 }
 
-#accordion .active .header:after {
+#faq__accordion .active .header:after,
+#service__accordion .active .header:after {
     content: "\2212";
     color: var(--lnk-clr);
 }
 
-#accordion .active .body {
+#faq__accordion .active .body,
+#service__accordion .active .body {
     display: block;
 }
 

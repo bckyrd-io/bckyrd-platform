@@ -70,7 +70,7 @@
 
         <!--DESCRIPTION OF SERVICES OFFERED AT STORE-->
         <section id="service__section">
-            <div class="mid" id="accordion">
+            <div class="mid" id="service__accordion">
                 <div class="panel active">
                     <h2 class="header">MOBILE</h2>
                     <p class="body">Maximize your flexible work, with responsive systems featuring exceptional mobile UX and cross-platform app development including Android.
@@ -190,10 +190,14 @@
                 </div>
             </div>
             <div class="col r">
-                <p>We've been obsessed with taking apart devices. Especially anything with Electronics in it. We'll break that Machine and figure out out how it works. It's been our Passion for years.
-
-                </p>
-                <p>we've gained some Mad skills along the way. We've totally studied these Stuff and we keep getting damn good. And that's how we've crafted our Career </p>
+                <p>We've been
+                    <a href="https://dictionary.cambridge.org/dictionary/english/obsession">Obsessed</a> with taking apart Electronics. We'll break that
+                    <a href="https://www.scienceworld.ca/resource/take-apart/">Machine</a> and figure out out how it works. It's been our
+                    <a href="https://www.lifehack.org/articles/lifestyle/what-means-have-passion.html">Passion </a> for years.</p>
+                <p>we've gained some
+                    <a href="https://www.urbandictionary.com/define.php?term=mad%20skills">Mad skills</a> along the way.And We've totally studied these
+                    <a href="https://en.wikipedia.org/wiki/Device">Devices</a> and we keep getting damn good. That's how our
+                    <a href="https://www.quora.com/Who-are-passionate-engineers">Career</a> was crafted </p>
             </div>
         </div>
     </section>
@@ -201,30 +205,33 @@
 
     <!--FREQUENTRY ASKED QUESTIONS-->
     <section id="faq__section">
-        <div class="mid" id="accordion">
+        <div class="mid" id="faq__accordion">
             <div class="panel active">
                 <h2 class="header">FUTURE</h2>
-                <p class="body">wanna build a workstation where we can work on systems with others. And improve building on the platform to progress invention.
-                    <a class="active-panel" href="wikipedia.com/ crossplatform apps development">learn more</a>
+                <p class="body">Our vision for the future is to create a collaborative workstation where we can work on systems with others, and to constantly improve our platform to drive innovation forward.
+                    <a class="active-panel" href="https://medium.com/@mmartiniere/hack-the-world-how-the-maker-movement-is-impacting-innovation-bbc0b46bd820">
+                        learn more
+                    </a>
                 </p>
             </div>
             <div class="panel">
                 <h2 class="header">RESEARCH</h2>
-                <p class="body">explore advancement in tech including replicating these internet projects. </p>
-                <p class="body"> And do reviews on electronics devices plus finding out altenatives .<a class="active-panel" href="wikipedia.com%20%7C%20minimalism%20life">learn more</a>
+                <p class="body">At our facility, we not only explore tech advancements by replicating internet projects and reviewing electronic devices, but we also engage in reverse engineering. Our goal is to find alternatives and share our findings
+                    <a class="active-panel" href="https://hbr.org/2021/11/you-can-learn-anything-through-reverse-engineering">
+                        learn more
+                    </a>
                 </p>
             </div>
             <div class="panel">
                 <h2 class="header">HIRE </h2>
-                <p class="body">anybody passionate of technology doesnt matter the field. From Scientist ,Engineers ,Handyman. etc </p>
-                <p class="body">our jobs depends on the project scale, so freelancers are good fit
-                    <a class="active-panel" href="wikipedia.com/ crossplatform apps development">learn more</a>
+                <p class="body">We welcome anyone passionate about technology, regardless of their background, whether they are scientists, engineers, handymen, or others. As our job requirements vary with the project scale, we find that freelancers are a good fit.
+                    <a class="active-panel" href="https://www.quora.com/How-do-people-become-technology-enthusiasts-geeks-How-do-they-self-learn-engineering-skills">learn more</a>
                 </p>
             </div>
             <div class="panel">
                 <h2 class="header">RECOVERY </h2>
-                <p class="body">Explore advancement in tech including replicating these internet projects. </p>
-                <p class="body"> And do reviews on electronics devices plus finding out altenatives .<a class="active-panel" href="wikipedia.com%20%7C%20minimalism%20life">learn more</a>
+                <p class="body">Our ability to receive a wide range of electronics devices and machines enables us to build diverse and innovative prototypes. Additionally, by fixing and repurposing these devices, we promote sustainability and reduce electronic waste.
+                    <a class="active-panel" href="https://www.reddit.com/r/ZeroWaste/comments/i6ibdw/crafting_corner_for_all_your_repairing/">learn more</a>
                 </p>
             </div>
         </div>
