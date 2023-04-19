@@ -51,14 +51,19 @@
                     <a href="#service__section">
                         <img style="width:96%" src="res/progressive_green.svg" alt="backyard embedded systems">
                     </a>
+                </div>
 
-                </div>
-                <div class="col r">
-                    <h1 class="about">Where Stuff<br>Gets Built <a href="#service__section" class="active">@bckyrd</a>
+                <div class="col r" id="slide">
+                    <h1 class="about">Where Stuff<br>Gets Built @<a href="#service__section" class="active">bckyrd</a>
                     </h1>
-                    <h1 hidden class="about">Explore Systems<br>We Create @<a href="#service__section" class="active">bckyrd</a></h1>
-                    <h1 hidden style="color:#7d8590">For Your Next Project <a href="#"> #Hire</a> Our Team </h1>
+                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You #<a href="https://calendly.com/bckyrd-io">Chat</a>
+                    </h1>
+                    <h1 class="about" style="display:none ">Explore Systems<br>We Create @<a href="#service__section " class="active ">bckyrd</a>
+                    </h1>
+                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems &darr;<a href="#service__section">Bellow</a>
+                    </h1>
                 </div>
+
             </div>
         </section>
 
@@ -146,7 +151,7 @@
                 </div>
                 <div class="col-section">
                     <h2>VALUE</h2>
-                    <p>Finally, deliver the required outcome for profit and build even better as stuff advances.</p>
+                    <p>Finally, deliver the required outcome that gains and constantly advance to build even better.</p>
                 </div>
             </div>
         </section>
@@ -237,8 +242,8 @@
                 </div>
                 <div class="col r">
                     <h1>Follow</h1>
-                    <p>We were LoSoMo <br>, now we're MoLoSo</p>
-                    <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active">#linkedIn
+                    <p>We were LoSoMo, <br>Now we're MoLoSo</p>
+                    <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true " class="active ">#linkedIn
                     </a>
                     <a href="https://github.com/bckyrd-io?tab=repositories" class="active">#github </a>
                 </div>

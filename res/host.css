@@ -189,6 +189,11 @@ h1.about {
     font-size: 4em;
 }
 
+h1.about_text {
+    color: var(--clr);
+    text-align: justify;
+}
+
 h1 a {
     color: var(--lnk-clr);
     text-decoration: none;
