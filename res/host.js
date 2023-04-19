@@ -6,7 +6,7 @@ const scrl = ScrollReveal({
     reset: true
 });
 scrl.reveal(
-    'h2, #post__section p, #events p, .col-section p, footer p', { interval: 100 }
+    '#post__section p, iframe, .col-section p, footer p, .left-heading', { interval: 100 }
 );
 const scrl2 = ScrollReveal({
     origin: 'top',
@@ -15,29 +15,8 @@ const scrl2 = ScrollReveal({
     reset: true
 });
 scrl2.reveal(
-    'iframe, .col-section, .max.inverted a img, .left-heading', { interval: 200 }
+    'h2,  .col-section, .max.inverted a img', { interval: 200 }
 );
-
-
-
-// /* *ACCORDION SERVICES* */
-// function initAccordion(accordionElem) {
-//     function handlePanelClick(event) {
-//         showPanel(event.currentTarget);
-//     }
-
-//     function showPanel(panel) {
-//         var expandedPanel = accordionElem.querySelector(".active");
-//         if (expandedPanel) { expandedPanel.classList.remove("active"); }
-//         panel.classList.add("active");
-//     }
-//     var allPanelElems = accordionElem.querySelectorAll(".panel");
-//     for (var i = 0, len = allPanelElems.length; i < len; i++) {
-//         allPanelElems[i].addEventListener("click", handlePanelClick);
-//     }
-//     showPanel(allPanelElems[0])
-// }
-// initAccordion(document.getElementById("accordion"));
 
 
 
