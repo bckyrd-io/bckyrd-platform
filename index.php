@@ -56,7 +56,7 @@
                 <div class="col r" id="slide">
                     <h1 class="about">Where Stuff<br>Gets Built @<a href="#service__section" class="active">bckyrd</a>
                     </h1>
-                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You #<a href="https://calendly.com/bckyrd-io">Chat</a>
+                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You #<a href="https://calendly.com/bckyrd-io">Contact</a>
                     </h1>
                     <h1 class="about" style="display:none ">Explore Systems<br>We Create @<a href="#service__section " class="active ">bckyrd</a>
                     </h1>

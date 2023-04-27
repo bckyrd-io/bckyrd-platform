@@ -20,7 +20,7 @@
     <link rel="preload" href="../res/AdobeCleanUX-Light.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="../res/host.css">
     <link rel="shortcut icon" href="../res/favicon.ico" type="image/x-icon">
-    <title>bckyrd :blog. what projects we work on</title>
+    <title>bckyrd :blog. our experience on projects we are working on</title>
 </head>
 
 <body>
@@ -47,21 +47,7 @@
         <?php// foreach($articles as $article){ ?>
             <section id="post__section">
                 <div class="left-heading">
-                    <h1># About.1</h1>
-                    <p>WE WANNA TAKE ADVANTAGE ON THE FUTURE OF BUILDING STUFF. ALSO CREATE PLATFORM FOR IT.
-                    </p>
-                </div>
-                <div class="mid">
-                    <img src="../etc/software_agency.jpg" alt="post">
-                    <p>"Hey everyone! Have you checked out the awesome inventions made in people's backyards? We believe backyard-made products are just as good (if not better!) than those made by big corporations. coz individuals always adapt faster than
-                        big companies. .. #diy #cuttingedge #backyardmade" <a class="active" href="https://www.researchgate.net/publication/228264507_A_Garage_and_an_Idea_What_More_Does_an_Entrepreneur_Need">link</a>
-                    </p>
-                </div>
-            </section>
-
-            <section id="post__section">
-                <div class="left-heading">
-                    <h1># workStation</h1>
+                    <h1># Platform</h1>
                     <p>WE ARE WORKING ON THE TOOLS TO PROGRESS CREATIVITY DONE IN BACKYARDS
                     </p>
                 </div>

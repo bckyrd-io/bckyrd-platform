@@ -11,7 +11,7 @@
 
 :root {
     --dpr-bg: black;
-    --ltr-clr: #161b22;
+    --ltr-clr: #0e1012;
     --lnk-clr: #fff;
     --clr: #7d8590;
     --bggr-fnt-size: 3em;
@@ -110,7 +110,7 @@ nav a {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-size: var(--bggr-fnt-size);
-    font-weight: 500 !important;
+    font-weight: 700 !important;
     border: solid 1px var(--lnk-clr);
     margin-bottom: 2vh;
     width: max-content;
@@ -180,7 +180,7 @@ h1 {
     margin: 0;
     color: var(--lnk-clr);
     font-size: var(--bggr-fnt-size);
-    font-weight: 500 !important;
+    font-weight: 700 !important;
     word-spacing: .5em !important;
 }
 
@@ -197,7 +197,7 @@ h1.about_text {
 h1 a {
     color: var(--lnk-clr);
     text-decoration: none;
-    font-weight: 500 !important;
+    font-weight: 700 !important;
 }
 
 section p {
@@ -343,6 +343,7 @@ section .mid h2:after {
 section .mid p {
     text-align: justify;
     margin-top: 2vh;
+    margin-left: 2vh;
 }
 
 section .mid iframe,
@@ -354,12 +355,6 @@ section .mid video {
     border-radius: var(--rad);
     border: solid var(--ltr-clr) 3px;
     object-fit: cover;
-}
-
-section#service__section h2 {
-    background: none;
-    border: var(--ltr-clr) 2px solid;
-    color: var(--lnk-clr);
 }
 
 
