@@ -11,11 +11,11 @@ scrl.reveal(
 const scrl2 = ScrollReveal({
     origin: 'top',
     distance: '100px',
-    duration: 600,
+    duration: 400,
     reset: true
 });
 scrl2.reveal(
-    'h2,  .col-section, .max.inverted a img', { interval: 200 }
+    'h2,  .col-section, .max.inverted a img', { interval: 100 }
 );
 
 
