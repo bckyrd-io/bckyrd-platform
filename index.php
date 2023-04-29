@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /** 
     require('process.php');
     $projects =$process->getProjects();**/
@@ -52,7 +53,6 @@
                         <img style="width:96%" src="res/progressive_green.svg" alt="backyard embedded systems">
                     </a>
                 </div>
-
                 <div class="col r" id="slide">
                     <h1 class="about">Where Stuff<br>Gets Built @<a href="#service__section" class="active">bckyrd</a>
                     </h1>
@@ -63,7 +63,6 @@
                     <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems &darr;<a href="#service__section">Bellow</a>
                     </h1>
                 </div>
-
             </div>
         </section>
 
@@ -101,19 +100,19 @@
                 <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
             </div>
             <div class="max">
-                <div class="masonry-grid">
-                    <a href="pgs/blog.php?project_id=id" class="brick">
-                        <img src="etc/mgmt.png" alt="Backyard-Design">
-                    </a>
-                    <a href="pgs/blog.php?project_id=id" class="brick">
-                        <img src="etc/pmodule.png" alt="Backyard-Design">
-                    </a>
-                    <a href="pgs/blog.php?project_id=id" class="brick">
-                        <img src="etc/estate.png" alt="Backyard-Design">
-                    </a>
-                    <a href="pgs/blog.php?project_id=id" class="brick">
-                        <img src="etc/riseapp.png" alt="Backyard-Design">
-                    </a>
+                <div class="gallery-grid">
+                    <div class="brick" style="background-image: url('etc/bckyrd.png');">
+                        <p>dsdf</p>
+                    </div>
+                    <div class="brick" style="background-image: url('etc/pmodule.png');">
+                        <p>dsdf</p>
+                    </div>
+                    <div class="brick" style="background-image: url('etc/bckyrd.png');">
+                        <p>dsdf</p>
+                    </div>
+                    <div class="brick" style="background-image: url('etc/pmodule.png');">
+                        <p>dsdf</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -147,7 +146,7 @@
                 </div>
                 <div class="col-section">
                     <h2>MODULAR</h2>
-                    <p>Thirdly, utilize available resources and ideas to quickly iterate and improve on the prototype</p>
+                    <p>Thirdly, utilize available resources and ideas to quickly iterate and improve on the prototype.</p>
                 </div>
                 <div class="col-section">
                     <h2>VALUE</h2>
@@ -166,76 +165,82 @@
             </div>
         </section>
 
+        <!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
+        <section id="experience__section">
+            <div class="left-heading">
+                <h1><a href="https://github.com/h0zt/bckyrd">Background</a></h1>
+            </div>
+            <div class="max fixed inverted">
+                <div class="col l">
+                    <div class="item">
+                        <img src="res/virtual_reality_ft.svg" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="res/driller_ft.svg" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="res/router_ft.svg" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="res/drone_ft.svg" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="res/gamer_ft.svg" alt="backyard electronic item">
+                    </div>
+                    <div class="item">
+                        <img src="res/gamer_ft.svg" alt="backyard electronic item">
+                    </div>
+                </div>
+                <div class="col r">
+                    <p>We've been
+                        <a href="https://dictionary.cambridge.org/dictionary/english/obsession">Obsessed</a> with taking apart Electronics. We'll break that
+                        <a href="https://www.scienceworld.ca/resource/take-apart/">Machine</a> and figure out out how it works. It's been our
+                        <a href="https://www.lifehack.org/articles/lifestyle/what-means-have-passion.html">Passion </a> for years.
+                    </p>
+                    <p>we've gained some mad
+                        <a href="https://www.urbandictionary.com/define.php?term=mad%20skills">Skills</a> along the way.And We've totally studied these
+                        <a href="https://en.wikipedia.org/wiki/Device">Devices</a> and we keep getting damn good. That's how our
+                        <a href="https://www.quora.com/Who-are-passionate-engineers">Career</a> was crafted.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--FREQUENTRY ASKED QUESTIONS-->
+        <section id="faq__section">
+            <div class="mid" id="faq__accordion">
+                <div class="panel active">
+                    <h2 class="header">FUTURE</h2>
+                    <p class="body">Our vision for the future is to create a collaborative workstation where we can work on systems with others, and to constantly improve our platform to drive innovation forward.
+                        <a class="active-panel" href="https://medium.com/@mmartiniere/hack-the-world-how-the-maker-movement-is-impacting-innovation-bbc0b46bd820">
+                            learn more
+                        </a>
+                    </p>
+                </div>
+                <div class="panel">
+                    <h2 class="header">RESEARCH</h2>
+                    <p class="body">At our facility, we not only explore tech advancements by replicating internet projects and reviewing electronic devices, but we also engage in reverse engineering. Our goal is to find alternatives and share our findings
+                        <a class="active-panel" href="https://hbr.org/2021/11/you-can-learn-anything-through-reverse-engineering">
+                            learn more
+                        </a>
+                    </p>
+                </div>
+                <div class="panel">
+                    <h2 class="header">HIRE </h2>
+                    <p class="body">We welcome anyone passionate about technology, regardless of their background, whether they are scientists, engineers, handymen, or others. As our job requirements vary with the project scale, we find that freelancers are a good fit.
+                        <a class="active-panel" href="https://www.quora.com/How-do-people-become-technology-enthusiasts-geeks-How-do-they-self-learn-engineering-skills">learn more</a>
+                    </p>
+                </div>
+                <div class="panel">
+                    <h2 class="header">RECOVERY </h2>
+                    <p class="body">Our ability to receive a wide range of electronics devices and machines enables us to build diverse and innovative prototypes. Additionally, by fixing and repurposing these devices, we promote sustainability and reduce electronic waste.
+                        <a class="active-panel" href="https://www.reddit.com/r/ZeroWaste/comments/i6ibdw/crafting_corner_for_all_your_repairing/">learn more</a>
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
-
-
-    <!--DESCRIPTIVE BIG TEXT WITH IMAGE -->
-    <section id="experience__section">
-        <div class="max fixed inverted">
-            <div class="col l">
-                <div class="item">
-                    <img src="res/virtual_reality_ft.svg" alt="backyard electronic item">
-                </div>
-                <div class="item">
-                    <img src="res/driller_ft.svg" alt="backyard electronic item">
-                </div>
-                <div class="item">
-                    <img src="res/router_ft.svg" alt="backyard electronic item">
-                </div>
-                <div class="item">
-                    <img src="res/drone_ft.svg" alt="backyard electronic item">
-                </div>
-                <div class="item">
-                    <img src="res/gamer_ft.svg" alt="backyard electronic item">
-                </div>
-            </div>
-            <div class="col r">
-                <p>We've been
-                    <a href="https://dictionary.cambridge.org/dictionary/english/obsession">Obsessed</a> with taking apart Electronics. We'll break that
-                    <a href="https://www.scienceworld.ca/resource/take-apart/">Machine</a> and figure out out how it works. It's been our
-                    <a href="https://www.lifehack.org/articles/lifestyle/what-means-have-passion.html">Passion </a> for years.</p>
-                <p>we've gained some
-                    <a href="https://www.urbandictionary.com/define.php?term=mad%20skills">Mad skills</a> along the way.And We've totally studied these
-                    <a href="https://en.wikipedia.org/wiki/Device">Devices</a> and we keep getting damn good. That's how our
-                    <a href="https://www.quora.com/Who-are-passionate-engineers">Career</a> was crafted </p>
-            </div>
-        </div>
-    </section>
-
-
-    <!--FREQUENTRY ASKED QUESTIONS-->
-    <section id="faq__section">
-        <div class="mid" id="faq__accordion">
-            <div class="panel active">
-                <h2 class="header">FUTURE</h2>
-                <p class="body">Our vision for the future is to create a collaborative workstation where we can work on systems with others, and to constantly improve our platform to drive innovation forward.
-                    <a class="active-panel" href="https://medium.com/@mmartiniere/hack-the-world-how-the-maker-movement-is-impacting-innovation-bbc0b46bd820">
-                        learn more
-                    </a>
-                </p>
-            </div>
-            <div class="panel">
-                <h2 class="header">RESEARCH</h2>
-                <p class="body">At our facility, we not only explore tech advancements by replicating internet projects and reviewing electronic devices, but we also engage in reverse engineering. Our goal is to find alternatives and share our findings
-                    <a class="active-panel" href="https://hbr.org/2021/11/you-can-learn-anything-through-reverse-engineering">
-                        learn more
-                    </a>
-                </p>
-            </div>
-            <div class="panel">
-                <h2 class="header">HIRE </h2>
-                <p class="body">We welcome anyone passionate about technology, regardless of their background, whether they are scientists, engineers, handymen, or others. As our job requirements vary with the project scale, we find that freelancers are a good fit.
-                    <a class="active-panel" href="https://www.quora.com/How-do-people-become-technology-enthusiasts-geeks-How-do-they-self-learn-engineering-skills">learn more</a>
-                </p>
-            </div>
-            <div class="panel">
-                <h2 class="header">RECOVERY </h2>
-                <p class="body">Our ability to receive a wide range of electronics devices and machines enables us to build diverse and innovative prototypes. Additionally, by fixing and repurposing these devices, we promote sustainability and reduce electronic waste.
-                    <a class="active-panel" href="https://www.reddit.com/r/ZeroWaste/comments/i6ibdw/crafting_corner_for_all_your_repairing/">learn more</a>
-                </p>
-            </div>
-        </div>
-    </section>
 
 
     <!--THE FOOTER INVERTED DESIGN-->
