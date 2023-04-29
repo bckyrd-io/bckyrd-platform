@@ -38,7 +38,7 @@
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
                 <span id="second"></span>
-                <span id="third" style="width:60%"></span>
+                <span id="third"></span>
             </div>
         </div>
     </nav>
@@ -50,18 +50,20 @@
             <div class="max inverted ">
                 <div class="col l">
                     <a href="#service__section">
-                        <img style="width:96%" src="res/progressive_green.svg" alt="backyard embedded systems">
+                        <img style="width:90%; height: auto;" src="res/herobg.webp" alt="backyard embedded systems">
                     </a>
                 </div>
                 <div class="col r" id="slide">
                     <h1 class="about">Where Stuff<br>Gets Built @<a href="#service__section" class="active">bckyrd</a>
                     </h1>
+
                     <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You #<a href="https://calendly.com/bckyrd-io">Contact</a>
                     </h1>
                     <h1 class="about" style="display:none ">Explore Systems<br>We Create @<a href="#service__section " class="active ">bckyrd</a>
                     </h1>
                     <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems &darr;<a href="#service__section">Bellow</a>
                     </h1>
+
                 </div>
             </div>
         </section>
@@ -101,17 +103,17 @@
             </div>
             <div class="max">
                 <div class="gallery-grid">
-                    <div class="brick" style="background-image: url('etc/bckyrd.png');">
-                        <p>dsdf</p>
+                    <div class="brick" style="background-image: url('etc/mgmt.png');">
+                        <p>Ximp0</p>
                     </div>
-                    <div class="brick" style="background-image: url('etc/pmodule.png');">
-                        <p>dsdf</p>
+                    <div class="brick" style="background-image: url('etc/riseapp.png');">
+                        <p>Pmodule</p>
                     </div>
-                    <div class="brick" style="background-image: url('etc/bckyrd.png');">
-                        <p>dsdf</p>
+                    <div class="brick" style="background-image: url('etc/mgmt.png');">
+                        <p>Platform</p>
                     </div>
-                    <div class="brick" style="background-image: url('etc/pmodule.png');">
-                        <p>dsdf</p>
+                    <div class="brick" style="background-image: url('etc/riseapp.png');">
+                        <p>RiseApp</p>
                     </div>
                 </div>
             </div>
@@ -188,7 +190,7 @@
                         <img src="res/gamer_ft.svg" alt="backyard electronic item">
                     </div>
                     <div class="item">
-                        <img src="res/gamer_ft.svg" alt="backyard electronic item">
+                        <img src="res/virtual_reality_ft.svg" alt="backyard electronic item">
                     </div>
                 </div>
                 <div class="col r">
@@ -254,10 +256,11 @@
                 </div>
                 <div class="col r">
                     <h1>Follow</h1>
-                    <p>We were LoSoMo, <br>Now we're MoLoSo</p>
-                    <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true " class="active ">#linkedIn
-                    </a>
-                    <a href="https://github.com/bckyrd-io?tab=repositories" class="active">#github </a>
+                    <p>It Was Written<br> And Its Been Compiled</p>
+                    <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active"># linkedIn</a>
+                    <a href="https://github.com/bckyrd-io?tab=repositories" class="active"># github</a>
+                    <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active"># linkedIn</a>
+                    <a href="https://github.com/bckyrd-io?tab=repositories" class="active"># github</a>
                 </div>
             </div>
         </section>

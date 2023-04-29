@@ -21,13 +21,13 @@ font-family: 'Adobe';
     --def-width: 96%;
     --mx-height: 100vh;
     --neo: #00ac95;
-    --shd: 0px 0px 4px 1px var(--neo);
+    --shd: 0px 0px 3px 1px var(--lnk-clr);
     --rad: 0.5vh;
 }
 
 * {
     font-family: "Segoe UI" !important;
-    font-weight: 100 !important;
+    font-weight: 300 !important;
 }
 
  ::-webkit-scrollbar-thumb,
@@ -56,13 +56,18 @@ body a {
 }
 
 body a:hover {
-    color: var(--neo) !important;
-    text-shadow: var(--shd);
+    background-clip: text;
+    background: -webkit-linear-gradient(315deg, #b4fff5 25%, var(--neo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a.active,
 a.active-panel {
-    color: var(--neo) !important;
+    background-clip: text;
+    background: -webkit-linear-gradient(315deg, #b4fff5 25%, var(--neo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .col {
@@ -104,22 +109,19 @@ nav a {
 }
 
 .button {
-    background-color: var(--dpr-bg);
-    color: var(--lnk-clr);
     padding: 0.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-size: var(--bggr-fnt-size);
     font-weight: 700 !important;
-    border: solid 1px var(--lnk-clr);
     margin-bottom: 2vh;
     width: max-content;
     cursor: pointer;
-}
-
-.button:hover {
-    box-shadow: var(--shd);
-    color: var(--neo);
+    border: solid .5px white;
+    background-clip: text;
+    background: -webkit-linear-gradient(315deg, #b4fff5 25%, var(--neo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 section {
@@ -166,8 +168,11 @@ footer .col.r a {
     word-spacing: 0.5em;
     margin-bottom: var(--rad) !important;
     margin-top: var(--rad) !important;
-    color: var(--neo);
     font-size: var(--md-fnt-size);
+    background-clip: text;
+    background: -webkit-linear-gradient(315deg, #b4fff5 25%, var(--neo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 footer .col.r p,
@@ -285,6 +290,7 @@ section .inverted img {
     padding-right: 0vh;
     display: none;
     margin-bottom: 0;
+    margin-left: 2vh;
 }
 
 #faq__accordion .active .header:after,
@@ -348,7 +354,6 @@ section .mid h2:after {
 section .mid p {
     text-align: justify;
     margin-top: 2vh;
-    margin-left: 2vh;
 }
 
 section .mid iframe,
@@ -393,10 +398,29 @@ section div.col-section p {
 }
 
 .gallery-grid .brick {
-    border: solid 2px var(--lnk-clr);
+    border: solid 2px var(--ltr-clr);
     width: 48.5%;
     height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
     margin-bottom: 2.5%;
+    border-radius: .5vh;
+}
+
+.gallery-grid .brick:hover {
+    border: solid 2px var(--neo);
+}
+
+.gallery-grid .brick p {
+    margin: 0;
+    padding: 3%;
+    background-color: #0c0d11f6;
+    color: var(--clr);
+    font-weight: 700 !important;
 }
 
 
@@ -433,7 +457,8 @@ section .fixed div.item {
 
 section .fixed div.item img {
     display: block;
-    width: 30%;
+    width: 20%;
+    /*30%*/
     height: auto;
     margin-bottom: 38vh;
     margin-top: 2vh;
@@ -496,6 +521,9 @@ section .fixed .col.r p {
     #nav_link.change #second {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg) translate(-6px, -6px);
+    }
+    #nav_link #third {
+        width: 60% !important;
     }
     #nav_link.change #third {
         opacity: 0;
@@ -615,6 +643,11 @@ section .fixed .col.r p {
     }
     section#experience__section {
         margin-bottom: 10vh;
+    }
+    .gallery-grid .brick {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 6%;
     }
 }
 
