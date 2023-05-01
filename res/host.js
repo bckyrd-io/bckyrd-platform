@@ -9,13 +9,13 @@ scrl.reveal(
     '#post__section p, iframe, .col-section p, footer p, .left-heading', { interval: 100 }
 );
 const scrl2 = ScrollReveal({
-    origin: 'top',
+    origin: 'right',
     distance: '100px',
     duration: 400,
     reset: true
 });
 scrl2.reveal(
-    'h2,  .col-section, .max.inverted a img', { interval: 100 }
+    'h2, .brick,  .col-section, .max.inverted a img', { interval: 100 }
 );
 
 

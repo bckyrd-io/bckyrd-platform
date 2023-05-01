@@ -163,7 +163,7 @@
             <div class="max inverted">
                 <div class="col l">
                     <a href="#move__top">
-                        <img style="width:96%" src="../res/error.svg" alt="inventor at backyard">
+                        <img style="width:90%; height: auto;" src="../res/error.svg" alt="inventor at backyard">
                     </a>
                 </div>
                 <div class="col r">
