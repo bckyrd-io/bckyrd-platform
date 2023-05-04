@@ -50,20 +50,16 @@
             <div class="max inverted ">
                 <div class="col l">
                     <a href="#service__section">
-                        <img style="width:90%; height: auto;" src="res/herobg.webp" alt="backyard embedded systems">
+                        <img style="width:90%; height: auto;" src="res/web.svg" alt="backyard embedded systems">
                     </a>
                 </div>
                 <div class="col r" id="slide">
-                    <h1 class="about">Where Stuff<br>Gets Built @<a href="#service__section" class="active">bckyrd</a>
+                    <h1 class="about">Explore Systems<br>We Build Here <br> @<a href="#portifolio__section " class="active ">bckyrd</a>
                     </h1>
-
-                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You #<a href="https://calendly.com/bckyrd-io">Contact</a>
+                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You Contact <br> #<a href="https://calendly.com/bckyrd-io">Hire</a>
                     </h1>
-                    <h1 class="about" style="display:none ">Explore Systems<br>We Create @<a href="#service__section " class="active ">bckyrd</a>
+                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems Bellow <br> &darr;<a href="#service__section">Get Started</a>
                     </h1>
-                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems &darr;<a href="#service__section">Bellow</a>
-                    </h1>
-
                 </div>
             </div>
         </section>
@@ -101,20 +97,14 @@
                 <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
                 <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
             </div>
-            <div class="max">
-                <div class="gallery-grid">
-                    <div class="brick" style="background-image: url('etc/mgmt.png');">
-                        <p>Ximp0</p>
-                    </div>
-                    <div class="brick" style="background-image: url('etc/riseapp.png');">
-                        <p>Pmodule</p>
-                    </div>
-                    <div class="brick" style="background-image: url('etc/mgmt.png');">
-                        <p>Platform</p>
-                    </div>
-                    <div class="brick" style="background-image: url('etc/riseapp.png');">
-                        <p>RiseApp</p>
-                    </div>
+            <div class="gallery-grid">
+                <div class="brick" style="background-image: url('etc/mgmt.png');">
+                </div>
+                <div class="brick" style="background-image: url('etc/riseapp.png');">
+                </div>
+                <div class="brick" style="background-image: url('etc/mgmt.png');">
+                </div>
+                <div class="brick" style="background-image: url('etc/riseapp.png');">
                 </div>
             </div>
         </section>
@@ -251,7 +241,7 @@
             <div class="max inverted">
                 <div class="col l">
                     <a href="#move__top">
-                        <img style="width:90%; height: auto;" src="res/web.svg" alt="inventor at backyard">
+                        <img style="width:90%; height: auto;" src="res/error.svg" alt="inventor at backyard">
                     </a>
                 </div>
                 <div class="col r">

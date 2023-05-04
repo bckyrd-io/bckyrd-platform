@@ -23,6 +23,7 @@ font-family: 'Adobe';
     --neo: #00ac95;
     --shd: 0px 0px 3px 1px var(--lnk-clr);
     --rad: 0.5vh;
+    --weight: 600;
 }
 
 * {
@@ -150,15 +151,18 @@ nav a {
 #nav_link.change #first {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg) translate(-6px, 6px);
+    width: 50% !important;
 }
 
 #nav_link.change #second {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg) translate(-6px, -6px);
+    width: 50% !important;
 }
 
 #nav_link #third {
-    width: 60% !important;
+    width: 50% !important;
+    background: -webkit-linear-gradient(315deg, #b4fff5 25%, var(--neo));
 }
 
 #nav_link.change #third {
@@ -170,7 +174,7 @@ nav a {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-size: var(--bggr-fnt-size);
-    font-weight: 700 !important;
+    font-weight: var(--weight) !important;
     margin-bottom: 2vh;
     width: max-content;
     cursor: pointer;
@@ -222,7 +226,7 @@ footer p.right {
 }
 
 footer .col.r a {
-    word-spacing: 0.5em;
+    word-spacing: 0.3em;
     margin-bottom: var(--rad) !important;
     margin-top: var(--rad) !important;
     font-size: var(--md-fnt-size);
@@ -242,8 +246,8 @@ h1 {
     margin: 0;
     color: var(--lnk-clr);
     font-size: var(--bggr-fnt-size);
-    font-weight: 700 !important;
-    word-spacing: 0.5em !important;
+    font-weight: var(--weight) !important;
+    word-spacing: 0.3em !important;
 }
 
 h1.about {
@@ -259,13 +263,13 @@ h1.about_text {
 h1 a {
     color: var(--lnk-clr);
     text-decoration: none;
-    font-weight: 700 !important;
+    font-weight: var(--weight) !important;
 }
 
 section p {
     font-size: var(--md-fnt-size);
     margin-top: 1vh;
-    word-spacing: 0.5em;
+    word-spacing: 0.3em;
 }
 
 main .left-heading {
@@ -446,12 +450,15 @@ section div.col-section p {
 
 /* * MASONRY GRID PORTIFOLIO DESIGN * */
 
+#portifolio__section {}
+
 .gallery-grid {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 0;
 }
 
 .gallery-grid .brick {
@@ -460,24 +467,12 @@ section div.col-section p {
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: flex-start;
     margin-bottom: 2.5%;
     border-radius: .5vh;
 }
 
 .gallery-grid .brick:hover {
     border: solid 2px var(--neo);
-}
-
-.gallery-grid .brick p {
-    margin: 0;
-    padding: 3%;
-    background-color: #0c0d11f6;
-    color: var(--clr);
-    font-weight: 700 !important;
 }
 
 
@@ -574,13 +569,15 @@ section .fixed .col.r p {
     #nav_link.change #first {
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg) translate(-6px, 6px);
+        width: 50% !important;
     }
     #nav_link.change #second {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg) translate(-6px, -6px);
+        width: 50% !important;
     }
     #nav_link #third {
-        width: 60% !important;
+        width: 50% !important;
     }
     #nav_link.change #third {
         opacity: 0;
@@ -605,7 +602,7 @@ section .fixed .col.r p {
 
 @media only screen and (max-width: 820px) {
      :root {
-        --bggr-fnt-size: 2.4em;
+        --bggr-fnt-size: 2.3em;
         --md-fnt-size: 1.7em;
         --md-width: 80%;
         --def-width: 94%;

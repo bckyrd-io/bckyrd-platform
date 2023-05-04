@@ -1,6 +1,6 @@
 /* *ON PAGE SCROLL* */
 const scrl = ScrollReveal({
-    origin: 'bottom',
+    origin: 'top',
     distance: '100px',
     duration: 400,
     reset: true
@@ -9,7 +9,7 @@ scrl.reveal(
     '#post__section p, iframe, .col-section p, footer p, .left-heading', { interval: 100 }
 );
 const scrl2 = ScrollReveal({
-    origin: 'right',
+    origin: 'bottom',
     distance: '100px',
     duration: 400,
     reset: true
