@@ -54,7 +54,7 @@
                     </a>
                 </div>
                 <div class="col r" id="slide">
-                    <h1 class="about">Explore Systems<br>We Build Here <br> @<a href="#portifolio__section " class="active ">bckyrd</a>
+                    <h1 class="about">Explore Systems<br>We Build @<a href="#portifolio__section " class="active ">bckyrd</a>
                     </h1>
                     <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You Contact <br> #<a href="https://calendly.com/bckyrd-io">Hire</a>
                     </h1>
