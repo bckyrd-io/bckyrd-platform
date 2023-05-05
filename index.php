@@ -98,13 +98,13 @@
                 <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
             </div>
             <div class="gallery-grid">
-                <div class="brick" style="background-image: url('etc/riseapp.png');">
+                <div class="brick" style="background-image: url('etc/bckyrd.png');">
                 </div>
                 <div class="brick" style="background-image: url('etc/mgmt.png');">
                 </div>
                 <div class="brick" style="background-image: url('etc/pmodule.png');">
                 </div>
-                <div class="brick" style="background-image: url('etc/bckyrd.png');">
+                <div class="brick" style="background-image: url('etc/riseapp.png');">
                 </div>
             </div>
         </section>
