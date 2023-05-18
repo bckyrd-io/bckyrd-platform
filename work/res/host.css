@@ -4,38 +4,33 @@ ALL NECESSARY CSS VARIABLES
 * * */
 
 @font-face {
-    src: url("Segoe\ UI\ Bold.ttf") format("opentype");
-    font-family: "Heavy";
+    src: url("gt-walsheim-regular-webfont.woff2") format("opentype");
+    font-family: "gt-walsheim-regular";
 }
 
 @font-face {
-    src: url("Segoe\ UI.ttf") format("opentype");
-    font-family: "Light";
+    src: url("GT\ Walsheim\ Light.woff") format("opentype");
+    font-family: "gt-walsheim-light";
 }
 
-:root {
+ :root {
     --dpr-bg: #000000;
-    --ltr-clr: #161b22;
+    --ltr-clr: #16181d;
     --lnk-clr: #fff;
     --clr: #7d8590;
-    --bggr-fnt-size: 2.8em;
+    --bggr-fnt-size: 3em;
     --md-fnt-size: 1.8em;
     --md-width: 50%;
     --mx-width: 100%;
-    --def-width: 95%;
+    --def-width: 96%;
     --mx-height: 100vh;
     --neo: #00bfa6;
     --shd: 0px 0px 3px 1px var(--lnk-clr);
     --rad: 0.5vh;
-    --weight: 600;
 }
 
-* {
-    font-weight: 100 !important;
-}
-
-::-webkit-scrollbar-thumb,
-::-webkit-scrollbar {
+ ::-webkit-scrollbar-thumb,
+ ::-webkit-scrollbar {
     display: none;
 }
 
@@ -52,14 +47,14 @@ body {
     min-height: var(--mx-height);
     background-color: var(--dpr-bg);
     color: var(--clr);
-    word-spacing: 0.5em;
+    font-family: "gt-walsheim-light";
     line-height: 2.4em;
-    font-family: Helvetica, Arial, sans-serif;
+    word-spacing: 0.4em;
 }
 
 body a {
-    color: var(--lnk-clr) !important;
     text-decoration: none;
+    color: var(--clr);
 }
 
 body a:hover {
@@ -106,7 +101,8 @@ nav {
 nav a {
     font-size: var(--md-fnt-size);
     margin-right: 10vh;
-    line-height: 12vh;
+    margin-bottom: 0.8em;
+    color: var(--lnk-clr);
 }
 
 
@@ -118,15 +114,26 @@ nav a {
     width: 5vh;
     position: absolute;
     cursor: pointer;
+    margin-top: 1vh;
 }
 
 #nav_link span {
     width: 100%;
-    height: 0.275vh;
+    height: 0.1875em !important;
     background: var(--clr);
     display: flex;
     flex-direction: column;
     margin-top: 1.5vh;
+    border-radius: var(--rad);
+}
+
+#nav_link span#second {
+    width: 50%;
+}
+
+#nav_link span:hover {
+    background-color: var(--lnk-clr) !important;
+    width: 100% !important;
 }
 
 #nav_menu {
@@ -160,27 +167,18 @@ nav a {
     width: 50% !important;
 }
 
-#nav_link #third {
-    width: 50% !important;
-    color: var(--neo);
-}
-
-#nav_link.change #third {
-    opacity: 0;
-}
-
 .button {
     padding: 0.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-size: var(--bggr-fnt-size);
-    font-weight: var(--weight) !important;
+    font-family: "gt-walsheim-regular";
+    line-height: 1.4em;
     margin-bottom: 2vh;
     width: max-content;
     cursor: pointer;
     border: solid 0.1px white;
     color: var(--neo);
-    line-height: 1.5em;
 }
 
 section {
@@ -213,16 +211,6 @@ footer section .inverted {
     height: 100vh;
 }
 
-footer p.right {
-    height: 4vh;
-    width: var(--def-width);
-    margin: auto;
-    padding-top: 2vh;
-    line-height: 0;
-    text-align: right;
-    font-size: var(--md-fnt-size);
-}
-
 footer .col.r a {
     margin-bottom: var(--rad) !important;
     margin-top: var(--rad) !important;
@@ -240,8 +228,8 @@ h1 {
     margin: 0;
     color: var(--lnk-clr);
     font-size: var(--bggr-fnt-size);
-    font-weight: var(--weight) !important;
-    line-height: 1.5em;
+    font-family: "gt-walsheim-regular";
+    line-height: 1.4em;
 }
 
 h1.about {
@@ -257,7 +245,6 @@ h1.about_text {
 h1 a {
     color: var(--lnk-clr);
     text-decoration: none;
-    font-weight: var(--weight) !important;
 }
 
 section p {
@@ -527,54 +514,6 @@ section .fixed .col.r p {
 /* * RESPONSIVENESS SCREEN * */
 
 @media only screen and (max-width: 960px) {
-    #nav_link {
-        display: visible;
-        height: 10vh;
-        width: 5vh;
-        position: absolute;
-        cursor: pointer;
-    }
-    #nav_link span {
-        width: 100%;
-        height: 0.275vh;
-        background: var(--clr);
-        display: flex;
-        flex-direction: column;
-        margin-top: 1.5vh;
-    }
-    #nav_menu {
-        height: 80vh;
-        margin: 0 !important;
-        padding: 0 !important;
-        position: absolute;
-        z-index: 3;
-        margin: auto;
-        width: var(--def-width);
-        display: none;
-        flex-direction: column;
-        background: var(--dpr-bg);
-        top: 10vh;
-        padding-top: 10vh !important;
-    }
-    #nav_menu.nav {
-        display: flex;
-    }
-    #nav_link.change #first {
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg) translate(-6px, 6px);
-        width: 50% !important;
-    }
-    #nav_link.change #second {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg) translate(-6px, -6px);
-        width: 50% !important;
-    }
-    #nav_link #third {
-        width: 50% !important;
-    }
-    #nav_link.change #third {
-        opacity: 0;
-    }
      :root {
         --md-width: 70%;
         --def-width: 94%;

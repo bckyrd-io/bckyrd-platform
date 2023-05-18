@@ -36,7 +36,6 @@
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
                 <span id="second"></span>
-                <span id="third"></span>
             </div>
         </div>
     </nav>
@@ -47,7 +46,7 @@
         <!--OUR WORKSTATION VIDEOS CHANNEL-->
         <section id="post__section">
             <div class="left-heading">
-                <h1># Platform</h1>
+                <h1><a href=""># OurPlatform</a></h1>
                 <p>WE ARE WORKING ON THE TOOLS TO PROGRESS CREATIVITY DONE IN BACKYARDS
                 </p>
             </div>
@@ -62,7 +61,7 @@
 
         <section id="post__section">
             <div class="left-heading">
-                <h1># Mgmt</h1>
+                <h1><a href=""># GoboWebApp</a></h1>
                 <p>A SAAS PROJECT THAT WE WORKED ON TO INTERGRATE MANAGEMENT SYSTEMS
                 </p>
             </div>
@@ -77,21 +76,21 @@
 
         <section id="post__section">
             <div class="left-heading">
-                <h1># Electronics.2</h1>
+                <h1><a href=""># Electronics.2</a></h1>
                 <p> YOU CAN PROTOTYPE YOUR COOL STUFF FROM EWASTE THEN TO PRODUCTS LATER
                 </p>
             </div>
             <div class="mid">
                 <img src="../etc/embedded.png" alt="post">
                 <p>Many believe that having all the tools and materials is necessary to create cool things, but we've learned otherwise. By starting with e-waste and building prototypes, we've found that you can refine and create usable products. You
-                    don't need everything from the start. Start with what you have and let creativity guide you <a class="active" href="https://bckyrd.io/host/mgmt">link</a>
+                    don't need everything from the start. Start with what you have and let creativity guide you. <a class="active" href="https://bckyrd.io/host/mgmt">View</a>
                 </p>
             </div>
         </section>
 
         <section id="post__section">
             <div class="left-heading">
-                <h1># RiseApp</h1>
+                <h1><a href=""># RiseApp</a></h1>
                 <p>PRODUCTIVITY APP FOR THOSE WHO TRAVEL WITH THEIR WORKSPACES
                 </p>
             </div>
@@ -104,7 +103,7 @@
 
         <section id="post__section">
             <div class="left-heading">
-                <h1># pModule</h1>
+                <h1><a href="">PModule</a></h1>
                 <p>MAKES CONTROLLING MULTIPLE MICRO POWER STATION EASIER ON ANDROID INTERFACE
                 </p>
             </div>
@@ -116,7 +115,7 @@
 
         <section id="post__section" hidden>
             <div class="left-heading">
-                <h1># Estate</h1>
+                <h1><a href=""># EstateWebsite</a></h1>
                 <p>FREELANCED ON A FAMILY BUSINESS WEBSITE. FOR THEIR ONLINE PRESENCE TO EXTENDED REACHABILITY
                 </p>
             </div>
@@ -128,20 +127,7 @@
 
         <section id="post__section">
             <div class="left-heading">
-                <h1># bckyrd</h1>
-                <p>WE BUILT OUR ON WEBSITE WITH OUR TEST OF DESIGN THAT IS DIFFERENT
-                </p>
-            </div>
-            <div class="mid">
-                <img src="../etc/bckyrd.png" alt="post">
-                <p>Our website serves as both a portfolio for showcasing our current projects and systems, and a blog where we share our insights and industry news. We've set ourselves apart with a unique black theme, making it easy for clients to find
-                    us and inquire about freelance projects they need completed.</p>
-            </div>
-        </section>
-
-        <section id="post__section">
-            <div class="left-heading">
-                <h1># Cydt</h1>
+                <h1><a href=""># Cydt</a></h1>
                 <p>WE FREELANCED ON A YOUTH ORGANISATION WEBSITE THAT DRIVES TRAFFIK FOR DONATIONS
                 </p>
             </div>

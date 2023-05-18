@@ -2,20 +2,20 @@
 const scrl = ScrollReveal({
     origin: 'top',
     distance: '100px',
-    duration: 400,
+    duration: 300,
     reset: true
 });
 scrl.reveal(
-    '#post__section p, iframe, .col-section p, footer p, .left-heading', { interval: 100 }
+    '#post__section p, iframe, .col-section p, footer p, .left-heading', { interval: 50 }
 );
 const scrl2 = ScrollReveal({
     origin: 'bottom',
-    distance: '100px',
-    duration: 400,
+    distance: '50px',
+    duration: 300,
     reset: true
 });
 scrl2.reveal(
-    'h2, .brick,  .col-section, .max.inverted a img', { interval: 100 }
+    'h2, .brick,  .col-section, .max.inverted a img', { interval: 10 }
 );
 
 
@@ -67,7 +67,7 @@ function shuffleLinks() {
             if (i >= text.length) {
                 clearInterval(type);
             }
-        }, speed + (Math.random() * 100)); // Add some randomness to the speed
+        }, speed + (Math.random() * 50)); // Add some randomness to the speed
     });
 }
 

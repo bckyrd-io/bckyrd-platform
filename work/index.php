@@ -1,12 +1,3 @@
-<?php
-
-/** 
-    require('process.php');
-    $projects =$process->getProjects();**/
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +30,6 @@
             <div id="nav_link" onclick="openNav()">
                 <span id="first"></span>
                 <span id="second"></span>
-                <span id="third"></span>
             </div>
         </div>
     </nav>
@@ -55,11 +45,11 @@
                     </a>
                 </div>
                 <div class="col r" id="slide">
-                    <h1 class="about">Explore Systems<br>We Build @<a href="#portifolio__section " class="active ">bckyrd</a>
+                    <h1 class="about">Explore Systems<br>We Build @ <a href="#portifolio__section " class="active ">bckyrd</a>
                     </h1>
-                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You Contact <br> #<a href="https://calendly.com/bckyrd-io">Hire</a>
+                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You Contact <br> # <a href="https://calendly.com/bckyrd-io">Hire</a>
                     </h1>
-                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems Bellow <br> &darr;<a href="#service__section">Get Started</a>
+                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems Bellow <br> # <a href="#service__section">Get Started</a>
                     </h1>
                 </div>
             </div>
