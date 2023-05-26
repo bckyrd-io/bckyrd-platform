@@ -20,51 +20,55 @@
 body {
     min-height: 100vh;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 !important;
     padding: 0 auto;
     background-color: var(--bg-clr-1);
     font-family: "gt-light";
     color: var(--clr);
 }
 
-body a {
+a {
     color: var(--clr);
     text-decoration: none;
 }
 
-#root {
-    width: var(--wid-mx);
-    margin: auto;
+.active {
+    color: var(--lit-clr);
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    color: var(--clr);
+    font-family: "gt-bold";
+}
+
+p {
+    font-size: 24px;
+    margin: 0;
 }
 
 
 /* PAGE STRUCTURE  */
 
+#root {
+    display: flex;
+    flex-direction: column;
+    width: var(--wid-mx);
+}
+
 main,
-section,
-nav,
+header,
 span {
     display: flex;
 }
 
-nav {
-    flex-direction: column;
-    margin-bottom: 4%;
-    cursor: pointer;
-    width: max-content;
-}
-
 main {
     flex-direction: column;
+    width: 100%;
 }
 
-main section {
-    width: 92%;
-    flex-direction: column;
-    margin: 4%;
-}
-
-main section.content .get-started {
+main .get-started {
     border: solid 2px var(--lnk-clr);
     padding: 4vh;
     padding-top: 1.5vh;
@@ -77,35 +81,13 @@ main section.content .get-started {
     color: var(--lnk-clr);
 }
 
-.active {
-    color: var(--lit-clr);
-}
-
-main h1 {
-    font-size: 48px;
-    margin: 0;
-    color: var(--clr);
-    font-family: "gt-bold";
-}
-
-main p {
-    font-size: 24px;
-    margin: 0;
-    width: 100%;
-}
-
-main h4 {
-    color: var(--lit-clr);
-    font-size: 24px;
-    margin: 0;
-}
-
-section.dashboard {
+header {
     flex-direction: column;
     flex-wrap: nowrap;
+    margin: 0;
 }
 
-section .action {
+header .action {
     flex-direction: column;
     height: 22vh;
     background: var(--bg-clr-2);
@@ -114,39 +96,11 @@ section .action {
     cursor: pointer;
 }
 
-section .action:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5)
+header .action:hover {
+    box-shadow: 0px 0px 10px var(--lnk-clr);
 }
 
-
-/* /* .box-shadow {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5)
-} */
-
-section .action p,
-section .action h4 {
+header .action p,
+header .action h4 {
     padding: 3%;
-}
-
-
-/* Media Queries for Desktop */
-
-@media (min-width: 768px) {
-    main {
-        flex-direction: row-reverse;
-    }
-    main p {
-        width: 60%;
-    }
-    main section.content {
-        width: 70%;
-    }
-    section.dashboard {
-        width: 30%;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    section.dashboard .action {
-        width: 100%;
-    }
 }
