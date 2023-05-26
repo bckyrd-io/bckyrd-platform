@@ -18,7 +18,8 @@
     <meta name="keywords" content="Software Developer, Coding,
         Backyard Workstation, Freelance Agency, Electronics Hacking,  Arduino Iot, Android Apps, Autonomous Machines">
     <!--PRE LOAD FONTS-->
-    <link rel="preload" href="../res/AdobeCleanUX-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../res/gt-walsheim-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../res/GT Walsheim Light.woff" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="../res/host.css">
     <link rel="shortcut icon" href="../res/favicon.ico" type="image/x-icon">
     <title>bckyrd :blog. our experience on projects we are working on</title>

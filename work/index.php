@@ -11,8 +11,8 @@
     <meta name="description" content="Discover a Company that works on Systems also freelance 
         with a team that is obbsessed with Electronics and constantly builds on advances.">
     <!--PRE LOAD FONTS-->
-    <link rel="preload" href="res/Mont Heavy DEMO.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="res/Mont ExtraLight DEMO.ttf" type="font/ttf" crossorigin>
+    <link rel="preload" href="res/gt-walsheim-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="res/GT Walsheim Light.woff" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="res/host.css">
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
     <title>bckyrd : where stuff gets built.</title>
@@ -175,15 +175,13 @@
                     </div>
                 </div>
                 <div class="col r">
-                    <p>We've been
+                    <p>'Been
                         <a href="https://dictionary.cambridge.org/dictionary/english/obsession">Obsessed</a> with taking apart Electronics. We'll break that
-                        <a href="https://www.scienceworld.ca/resource/take-apart/">Machine</a> and figure out out how it works. It's been our
-                        <a href="https://www.lifehack.org/articles/lifestyle/what-means-have-passion.html">Passion </a> for years.
-                    </p>
-                    <p>we've gained some mad
-                        <a href="https://www.urbandictionary.com/define.php?term=mad%20skills">Skills</a> along the way.And We've totally studied these
-                        <a href="https://en.wikipedia.org/wiki/Device">Devices</a> and we keep getting damn good. That's how our
-                        <a href="https://www.quora.com/Who-are-passionate-engineers">Career</a> was crafted.
+                        <a href="https://www.scienceworld.ca/resource/take-apart/">Machine</a> and figure out how it works. It's been our
+                        <a href="https://www.lifehack.org/articles/lifestyle/what-means-have-passion.html">Passion </a> for years. 
+                    we've gained some mad
+                        <a href="https://www.urbandictionary.com/define.php?term=mad%20skills">Skills</a> along the way. And have studied these
+                        <a href="https://en.wikipedia.org/wiki/Device">Devices</a> and we keep getting damn good'
                     </p>
                 </div>
             </div>
