@@ -9,10 +9,10 @@
     <meta name="keywords" content="Software Developer, Coding,
         Backyard Workstation, Freelance Agency, Electronics Hacking,  Arduino Iot, Android Apps, Autonomous Machines">
     <meta name="description" content="Discover a Company that works on Systems also freelance 
-        with a team that is obbsessed with Electronics and constantly builds on advances.">
+        with a team that is obsessed with Electronics and constantly builds on advances.">
     <!--PRE LOAD FONTS-->
     <link rel="preload" href="res/gt-walsheim-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="res/GT Walsheim Light.woff" type="font/woff2" crossorigin>
+    <link rel="preload" href="res/GT Walsheim Light.woff" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="res/host.css">
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
     <title>bckyrd : where stuff gets built.</title>
@@ -178,8 +178,8 @@
                     <p>'Been
                         <a href="https://dictionary.cambridge.org/dictionary/english/obsession">Obsessed</a> with taking apart Electronics. We'll break that
                         <a href="https://www.scienceworld.ca/resource/take-apart/">Machine</a> and figure out how it works. It's been our
-                        <a href="https://www.lifehack.org/articles/lifestyle/what-means-have-passion.html">Passion </a> for years. 
-                    we've gained some mad
+                        <a href="https://www.lifehack.org/articles/lifestyle/what-means-have-passion.html">Passion </a> for years.
+                        we've gained some mad
                         <a href="https://www.urbandictionary.com/define.php?term=mad%20skills">Skills</a> along the way. And have studied these
                         <a href="https://en.wikipedia.org/wiki/Device">Devices</a> and we keep getting damn good'
                     </p>
@@ -227,7 +227,7 @@
     <!--THE FOOTER INVERTED DESIGN-->
     <footer>
         <section id="footer__section">
-            <div class="max inverted">
+            <div class="max inverted ">
                 <div class="col l">
                     <a href="#move__top">
                         <img style="width:90%; height: auto;" src="res/error.svg" alt="inventor at backyard">
@@ -238,16 +238,11 @@
                     <p>It Was Written<br> And Its Been Compiled</p>
                     <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active"># linkedIn</a>
                     <a href="https://github.com/bckyrd-io?tab=repositories" class="active"># github</a>
-                    <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active"># linkedIn</a>
-                    <a href="https://github.com/bckyrd-io?tab=repositories" class="active"># github</a>
                 </div>
             </div>
         </section>
     </footer>
 
-
-    <script type="text/javascript" src="res/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="res/scrollreveal.min.js"></script>
     <script type="text/javascript" src="res/host.js"></script>
 
 </body>

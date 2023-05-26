@@ -1,12 +1,3 @@
-<?php
-
-/** *
-    require('../process.php');
-    $process = new Process();
-    $articles =$process->getArticles();**/
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -164,8 +155,6 @@
         </section>
     </footer>
 
-    <script src="../res/jquery-3.3.1.min.js"></script>
-    <script src="../res/scrollreveal.min.js"></script>
     <script src="../res/host.js"></script>
 
 </body>

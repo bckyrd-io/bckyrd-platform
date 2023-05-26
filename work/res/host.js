@@ -1,25 +1,3 @@
-/* *ON PAGE SCROLL* */
-const scrl = ScrollReveal({
-    origin: 'top',
-    distance: '70px',
-    duration: 300,
-    reset: true
-});
-scrl.reveal(
-    '#post__section p, iframe, .col-section p, footer p, .left-heading', { interval: 70 }
-);
-const scrl2 = ScrollReveal({
-    origin: 'bottom',
-    distance: '70px',
-    duration: 300,
-    reset: true
-});
-scrl2.reveal(
-    'h2, .brick,  .col-section, .max.inverted a img', { interval: 70 }
-);
-
-
-
 /* *ACCORDION SERVICES* */
 function initAccordion(accordionElem) {
     function handlePanelClick(event) {
