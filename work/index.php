@@ -49,7 +49,7 @@
                     </h1>
                     <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You Contact <br> # <a href="https://calendly.com/bckyrd-io">Hire</a>
                     </h1>
-                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects. To Get Started Select Systems Bellow <br> # <a href="#service__section">Get Started</a>
+                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects.<br> # <a href="#service__section">Get Started</a>
                     </h1>
                 </div>
             </div>

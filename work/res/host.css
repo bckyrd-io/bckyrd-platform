@@ -13,7 +13,7 @@ ALL NECESSARY CSS VARIABLES
     font-family: "gt-walsheim-light";
 }
 
- :root {
+:root {
     --dpr-bg: #000000;
     --ltr-clr: #16181d;
     --lnk-clr: #fff;
@@ -29,8 +29,8 @@ ALL NECESSARY CSS VARIABLES
     --rad: 0.5vh;
 }
 
- ::-webkit-scrollbar-thumb,
- ::-webkit-scrollbar {
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -238,8 +238,8 @@ h1.about {
 
 h1.about_text {
     color: var(--clr);
-    text-align: left;
     font-weight: 100;
+    text-align: initial;
 }
 
 h1 a {
@@ -625,6 +625,9 @@ section .fixed .col.r p {
         width: 100%;
         height: 40vh;
         margin-bottom: 6%;
+    }
+    h1.about_text {
+        font-size: 3em;
     }
 }
 
