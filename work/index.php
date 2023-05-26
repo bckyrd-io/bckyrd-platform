@@ -121,19 +121,19 @@
             <div class="max">
                 <div class="col-section">
                     <h2>FLEXIBLE</h2>
-                    <p>Firstly, break formal protocols to interact casually to better understand project needs.</p>
+                    <p>break formal protocols to interact casually to better understand project needs.</p>
                 </div>
                 <div class="col-section">
                     <h2>TEAM</h2>
-                    <p>Secondly, scale our freelance team based on project milestones to ensure fast completion.</p>
+                    <p>scale our freelance team based on project milestones to ensure fast completion.</p>
                 </div>
                 <div class="col-section">
                     <h2>MODULAR</h2>
-                    <p>Thirdly, utilize available resources and ideas to quickly iterate and improve on the prototype.</p>
+                    <p>utilize available resources and ideas to quickly iterate and improve on the prototype.</p>
                 </div>
                 <div class="col-section">
                     <h2>VALUE</h2>
-                    <p>Finally, deliver the required outcome that gains and benefit us to constantly advance the build.</p>
+                    <p>deliver the required outcome that profit us to constantly advance the build.</p>
                 </div>
             </div>
         </section>
