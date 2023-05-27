@@ -43,6 +43,12 @@ h1 {
     font-family: "gt-bold";
 }
 
+h4 {
+    color: var(--lit-clr);
+    font-size: 24px;
+    margin: 0;
+}
+
 p {
     font-size: 24px;
     margin: 0;
@@ -65,10 +71,14 @@ span {
 
 main {
     flex-direction: column;
-    width: 100%;
+    width: 92%;
+    padding: 3%;
+    position: relative;
+    z-index: 0;
+    top: 25vh;
 }
 
-main .get-started {
+main .btn {
     border: solid 2px var(--lnk-clr);
     padding: 4vh;
     padding-top: 1.5vh;
@@ -82,9 +92,14 @@ main .get-started {
 }
 
 header {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0;
+    flex-direction: row;
+    width: 100%;
+    margin: 3%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-clr-1);
+    z-index: 1;
 }
 
 header .action {
@@ -94,13 +109,37 @@ header .action {
     border-radius: 6px;
     margin-bottom: 4vh;
     cursor: pointer;
+    overflow: visible;
 }
 
 header .action:hover {
-    box-shadow: 0px 0px 10px var(--lnk-clr);
+    border: solid 2px var(--lnk-clr);
 }
 
 header .action p,
 header .action h4 {
     padding: 3%;
+}
+
+
+/* Media Queries for Desktop */
+
+@media (min-width: 768px) {
+    #root {
+        flex-direction: row-reverse;
+        position: relative;
+    }
+    main {
+        width: 75%;
+        position: initial;
+    }
+    main p {
+        width: 50%;
+    }
+    header {
+        width: 25%;
+        flex-direction: column;
+        position: sticky;
+        top: 0;
+    }
 }
