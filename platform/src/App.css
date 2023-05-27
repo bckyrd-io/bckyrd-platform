@@ -105,6 +105,7 @@ header {
 header .action {
     flex-direction: column;
     height: 22vh;
+    width: 94%;
     background: var(--bg-clr-2);
     border-radius: 6px;
     margin-bottom: 4vh;

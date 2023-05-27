@@ -88,7 +88,7 @@
                 <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
                 <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
             </div>
-            <div class="gallery-grid">
+            <div class="grid">
                 <div class="brick" style="background-image: url('etc/mgmt.png');">
                 </div>
                 <div class="brick" style="background-image: url('etc/pmodule.png');">
@@ -105,7 +105,7 @@
         <section id="event__section">
             <div class="mid" id="events">
                 <div>
-                    <p>Join the hobbyist Platform and work on desirable Projects from your workspace. <br><a href="https://work.bckyrd.io" class="active">Visit</a></p>
+                    <p>We are busy building a platform for hobbyist.  <a href="https://work.bckyrd.io" class="active">visit</a> </p>
                 </div>
             </div>
         </section>
@@ -113,25 +113,25 @@
 
 
         <!--OVERVIEW OF HOW WE WANNA WORK-->
-        <section id="approach__section">
+        <section id="portifolio__section">
             <div class="left-heading">
                 <a class="button" id="work" href="https://calendly.com/bckyrd-io/">Let's work</a>
                 <p>Our Approach to Collaborative Work To Avoid Compromise On Project. </p>
             </div>
-            <div class="max">
-                <div class="col-section">
+            <div class="grid">
+                <div class="brick">
                     <h2>FLEXIBLE</h2>
                     <p>break formal protocols to interact casually to better understand project needs.</p>
                 </div>
-                <div class="col-section">
+                <div class="brick">
                     <h2>TEAM</h2>
                     <p>scale our freelance team based on project milestones to ensure fast completion.</p>
                 </div>
-                <div class="col-section">
+                <div class="brick">
                     <h2>MODULAR</h2>
                     <p>utilize available resources and ideas to quickly iterate and improve on the prototype.</p>
                 </div>
-                <div class="col-section">
+                <div class="brick">
                     <h2>VALUE</h2>
                     <p>deliver the required outcome that profit us to constantly advance the build.</p>
                 </div>

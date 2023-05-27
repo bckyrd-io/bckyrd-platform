@@ -9,17 +9,6 @@ function App() {
           <p>Maker Spaces</p>
           <h4>0</h4>
         </span>
-        <span className="action">
-          <p>Maker Spaces</p>
-          <h4>0</h4>
-        </span>
-        <span className="action">
-          <p>Maker Spaces</p>
-          <h4>0</h4>
-        </span>
-      
-      
-       
       </header>
 
       <main className='content'>
