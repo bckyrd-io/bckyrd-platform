@@ -4,13 +4,8 @@ ALL NECESSARY CSS VARIABLES
 * * */
 
 @font-face {
-    src: url("gt-walsheim-regular-webfont.woff2") format("opentype");
-    font-family: "gt-walsheim-regular";
-}
-
-@font-face {
     src: url("GT\ Walsheim\ Light.woff") format("opentype");
-    font-family: "gt-walsheim-light";
+    font-family: "gt-light";
 }
 
 :root {
@@ -18,8 +13,10 @@ ALL NECESSARY CSS VARIABLES
     --ltr-clr: #16181d;
     --lnk-clr: #fff;
     --clr: #7d8590;
-    --bggr-fnt-size: 3em;
-    --md-fnt-size: 1.6em;
+    /* 3em */
+    --bggr-fnt-size: 48px;
+    /* --md-fnt-size: 1.6em; */
+    --md-fnt-size: 24px;
     --md-width: 50%;
     --mx-width: 100%;
     --def-width: 92%;
@@ -27,6 +24,10 @@ ALL NECESSARY CSS VARIABLES
     --neo: #00bfa6;
     --shd: 0px 0px 3px 1px var(--lnk-clr);
     --rad: 0.5vh;
+}
+
+* {
+    font-family: "gt-light";
 }
 
 ::-webkit-scrollbar-thumb,
@@ -47,7 +48,6 @@ body {
     min-height: var(--mx-height);
     background-color: var(--dpr-bg);
     color: var(--clr);
-    font-family: "gt-walsheim-light";
     font-weight: 100;
 }
 
@@ -171,7 +171,6 @@ nav a {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-size: var(--bggr-fnt-size);
-    font-family: "gt-walsheim-regular";
     margin-bottom: 2vh;
     width: max-content;
     cursor: pointer;
@@ -228,12 +227,11 @@ h1 {
     margin: 0;
     color: var(--lnk-clr);
     font-size: var(--bggr-fnt-size);
-    font-family: "gt-walsheim-regular";
 }
 
 h1.about {
     color: var(--clr);
-    font-size: 4em;
+    font-weight: 900;
 }
 
 h1.about_text {
@@ -454,7 +452,6 @@ section#experience__section {
 
 section#experience__section .left-heading {
     text-align: right;
-    margin-bottom: 2vh;
 }
 
 section .fixed .col.r {
@@ -504,7 +501,7 @@ section .fixed .col.r p {
 
 @media only screen and (max-width: 960px) {
      :root {
-        --md-width: 70%;
+        --md-width: 80%;
     }
     section div.col-section {
         max-height: 52vh;
@@ -521,12 +518,6 @@ section .fixed .col.r p {
 /* * RESPONSIVEN ON TABLET * */
 
 @media only screen and (max-width: 820px) {
-     :root {
-        --md-width: 80%;
-    }
-    h1.about {
-        font-size: 3em;
-    }
     .col {
         width: var(--mx-width);
         height: max-content auto !important;
@@ -543,7 +534,7 @@ section .fixed .col.r p {
         height: auto;
     }
     footer section .inverted {
-        min-height: auto !important;
+        min-height: 100vh !important;
     }
     section .store-items div.item {
         height: 35vh;
@@ -618,7 +609,7 @@ section .fixed .col.r p {
         margin-bottom: 6%;
     }
     h1.about_text {
-        font-size: 3em;
+        font-size: var(--bggr-fnt-size);
     }
     .grid .brick p {
         width: 80%;
