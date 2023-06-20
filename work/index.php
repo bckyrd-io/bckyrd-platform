@@ -59,24 +59,24 @@
         <!--DESCRIPTION OF SERVICES OFFERED AT STORE-->
         <section id="service__section">
             <div class="mid" id="service__accordion">
+                <div class="panel">
+                    <h2 class="header">EMBEDDED IOT</h2>
+                    <p class="body">Advance your device Automation and also remotely controllable IoT, created from Microcontrollers and other Arduino based platforms. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
+                </div>
                 <div class="panel active">
-                    <h2 class="header">MOBILE</h2>
+                    <h2 class="header">CODE APPS</h2>
                     <p class="body">Maximize your flexible work, with responsive systems featuring exceptional mobile UX and cross-platform app development including Android.
                         <a href="https://calendly.com/bckyrd-io" class="active-panel"> Select</a>
                     </p>
                 </div>
                 <div class="panel">
-                    <h2 class="header">EMBEDDED </h2>
-                    <p class="body">Advance your device Automation and also remotely controllable IoT, created from Microcontrollers and other Arduino based platforms. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
+                    <h2 class="header">MAKE MACHINES</h2>
+                    <p class="body">Enhance your performance with Modules designed for Autonomous operation and high Precision. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
                 </div>
                 <div class="panel">
-                    <h2 class="header">WEB API</h2>
+                    <h2 class="header">WRITE APIS</h2>
                     <p class="body">Create your scalable web systems with API backends for effortless integration across multiple interfaces, that are future adaptable. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a>
                     </p>
-                </div>
-                <div class="panel">
-                    <h2 class="header">MACHINES</h2>
-                    <p class="body">Enhance your performance with Modules designed for Autonomous operation and high Precision. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
                 </div>
             </div>
         </section>
@@ -89,8 +89,6 @@
                 <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
             </div>
             <div class="grid">
-                <div class="brick" style="background-image: url('etc/mgmt.png');">
-                </div>
                 <div class="brick" style="background-image: url('etc/pmodule.png');">
                 </div>
                 <div class="brick" style="background-image: url('etc/bckyrd.png');">
@@ -105,7 +103,7 @@
         <section id="event__section">
             <div class="mid" id="events">
                 <div>
-                    <p>We are busy building a platform for hobbyist.  <a href="https://work.bckyrd.io" class="active">visit</a> </p>
+                    <p>We are busy building a platform for hobbyist. <a href="https://work.bckyrd.io" class="active">visit</a> </p>
                 </div>
             </div>
         </section>
