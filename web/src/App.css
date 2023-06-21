@@ -102,7 +102,7 @@ header {
     z-index: 1;
 }
 
-header .action {
+header.action {
     flex-direction: column;
     height: 22vh;
     width: 94%;
@@ -113,11 +113,11 @@ header .action {
     overflow: visible;
 }
 
-header .action:hover {
+header.action:hover {
     border: solid 2px var(--lnk-clr);
 }
 
-header .action p,
+header.action p,
 header .action h4 {
     padding: 3%;
 }
