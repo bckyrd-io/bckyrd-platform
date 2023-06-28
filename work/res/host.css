@@ -10,9 +10,10 @@ ALL NECESSARY CSS VARIABLES
 
 :root {
     --dpr-bg: #000000;
-    --ltr-clr: #16181d;
+    --ltr-clr: #16181c;
     --lnk-clr: #fff;
     --clr: #7d8590;
+    --neo: #00bfa6;
     /* 3em */
     --bggr-fnt-size: 48px;
     /* --md-fnt-size: 1.6em; */
@@ -21,7 +22,6 @@ ALL NECESSARY CSS VARIABLES
     --mx-width: 100%;
     --def-width: 92%;
     --mx-height: 100vh;
-    --neo: #00bfa6;
     --shd: 0px 0px 3px 1px var(--lnk-clr);
     --rad: 0.5vh;
 }
@@ -351,7 +351,7 @@ section .mid {
     flex-direction: column;
     width: var(--md-width);
     height: auto;
-    margin: auto;
+    float: left;
 }
 
 section .mid#events {

@@ -60,16 +60,6 @@
         <section id="service__section">
             <div class="mid" id="service__accordion">
                 <div class="panel">
-                    <h2 class="header">EMBEDDED IOT</h2>
-                    <p class="body">Advance your device Automation and also remotely controllable IoT, created from Microcontrollers and other Arduino based platforms. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
-                </div>
-                <div class="panel active">
-                    <h2 class="header">CODE APPS</h2>
-                    <p class="body">Maximize your flexible work, with responsive systems featuring exceptional mobile UX and cross-platform app development including Android.
-                        <a href="https://calendly.com/bckyrd-io" class="active-panel"> Select</a>
-                    </p>
-                </div>
-                <div class="panel">
                     <h2 class="header">MAKE MACHINES</h2>
                     <p class="body">Enhance your performance with Modules designed for Autonomous operation and high Precision. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
                 </div>
@@ -101,6 +91,10 @@
 
         <!--UPCOMING EVENTS COLLABORATION-->
         <section id="event__section">
+            <div class="left-heading">
+                <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
+                <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
+            </div>
             <div class="mid" id="events">
                 <div>
                     <p>We are busy building a platform for hobbyist. <a href="https://work.bckyrd.io" class="active">visit</a> </p>
@@ -139,6 +133,10 @@
 
         <!--OUR WORKSTATION VIDEOS CHANNEL-->
         <section id="video__section">
+            <div class="left-heading">
+                <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
+                <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
+            </div>
             <div class="mid">
                 <iframe src="https://www.youtube.com/embed/qJl9qFrHYm4? 
                     controls">
