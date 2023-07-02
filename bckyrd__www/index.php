@@ -60,11 +60,11 @@
         <section id="service__section">
             <div class="mid" id="service__accordion">
                 <div class="panel">
-                    <h2 class="header">MAKE MACHINES</h2>
+                    <h2 class="header">MAKE MACHINE</h2>
                     <p class="body">Enhance your performance with Modules designed for Autonomous operation and high Precision. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
                 </div>
                 <div class="panel">
-                    <h2 class="header">CODE SYSTEMS</h2>
+                    <h2 class="header">CODE SYSTEM</h2>
                     <p class="body">Create your scalable web systems with API backends for effortless integration across multiple interfaces, that are future adaptable. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a>
                     </p>
                 </div>
@@ -93,6 +93,7 @@
         <section id="event__section">
             <div class="left-heading">
                 <h1><a href="https://github.com/h0zt/bckyrd">WhatsUp</a></h1>
+                <p>we can work with you, find out if we are interested to, we most times make stuff work.</p>
             </div>
             <div class="mid" id="events">
                 <div>
@@ -134,6 +135,7 @@
         <section id="video__section">
             <div class="left-heading">
                 <h1><a href="https://github.com/h0zt/bckyrd">OurSetup</a></h1>
+                <p>we are doing reviews as we work on others, doing reverse engineering, exploring diy internet projects</p>
             </div>
             <div class="mid">
                 <iframe src="https://www.youtube.com/embed/qJl9qFrHYm4? 
