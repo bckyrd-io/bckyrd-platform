@@ -14,9 +14,7 @@ ALL NECESSARY CSS VARIABLES
     --lnk-clr: #fff;
     --clr: #7d8590;
     --neo: #00bfa6;
-    /* 3em */
-    --bggr-fnt-size: 48px;
-    /* --md-fnt-size: 1.6em; */
+    --bggr-fnt-size: 72px;
     --md-fnt-size: 24px;
     --md-width: 50%;
     --mx-width: 100%;
@@ -402,8 +400,16 @@ section .mid video {
     height: 65vh;
     width: 100%;
     border-radius: var(--rad);
+    background-color: var(--ltr-clr);
     border: solid var(--ltr-clr) 3px;
     object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+section .mid iframe:hover,
+section .mid img:hover,
+section .mid video:hover {
+    border: solid var(--neo) 3px;
 }
 
 

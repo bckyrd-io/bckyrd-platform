@@ -47,9 +47,9 @@
                 <div class="col r" id="slide">
                     <h1 class="about">Explore Systems<br>We Build @ <a href="#portifolio__section " class="active ">bckyrd</a>
                     </h1>
-                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You Contact <br> # <a href="https://calendly.com/bckyrd-io">Hire</a>
+                    <h1 class="about_text" style="display:none">For Your Next Project Our Team is What You Contact <br><a class="active" href="https://calendly.com/bckyrd-io">Hire</a>
                     </h1>
-                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects.<br> # <a href="#service__section">Get Started</a>
+                    <h1 class="about_text" style="display:none ">We Are Open To Freelance Projects.<br><a class="active" href="#service__section">Get Started</a>
                     </h1>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     <p class="body">Enhance your performance with Modules designed for Autonomous operation and high Precision. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a></p>
                 </div>
                 <div class="panel">
-                    <h2 class="header">WRITE APIS</h2>
+                    <h2 class="header">CODE SYSTEMS</h2>
                     <p class="body">Create your scalable web systems with API backends for effortless integration across multiple interfaces, that are future adaptable. <a href="https://calendly.com/bckyrd-io" class="active-panel">Select</a>
                     </p>
                 </div>
@@ -92,8 +92,7 @@
         <!--UPCOMING EVENTS COLLABORATION-->
         <section id="event__section">
             <div class="left-heading">
-                <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
-                <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
+                <h1><a href="https://github.com/h0zt/bckyrd">WhatsUp</a></h1>
             </div>
             <div class="mid" id="events">
                 <div>
@@ -107,7 +106,7 @@
         <!--OVERVIEW OF HOW WE WANNA WORK-->
         <section id="portifolio__section">
             <div class="left-heading">
-                <a class="button" id="work" href="https://calendly.com/bckyrd-io/">Let's work</a>
+                <a class="button" id="work" href="https://calendly.com/bckyrd-io/">Let'sWork</a>
                 <p>Our Approach to Collaborative Work To Avoid Compromise On Project. </p>
             </div>
             <div class="grid">
@@ -134,8 +133,7 @@
         <!--OUR WORKSTATION VIDEOS CHANNEL-->
         <section id="video__section">
             <div class="left-heading">
-                <h1><a href="https://github.com/h0zt/bckyrd">PotifoliO</a></h1>
-                <p>Big Picture Of Kinds Of Projects We Have Worked On <a class="active" href="pgs/blog.php?project_id=id">view more</a> </p>
+                <h1><a href="https://github.com/h0zt/bckyrd">OurSetup</a></h1>
             </div>
             <div class="mid">
                 <iframe src="https://www.youtube.com/embed/qJl9qFrHYm4? 
@@ -233,6 +231,8 @@
                     <h1>Follow</h1>
                     <p>It Was Written<br> And Its Been Compiled</p>
                     <a href="https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true" class="active"># linkedIn</a>
+                    <a href="https://github.com/bckyrd-io?tab=repositories" class="active"># instagram</a>
+                    <a href="https://github.com/bckyrd-io?tab=repositories" class="active"># twitter</a>
                     <a href="https://github.com/bckyrd-io?tab=repositories" class="active"># github</a>
                 </div>
             </div>
