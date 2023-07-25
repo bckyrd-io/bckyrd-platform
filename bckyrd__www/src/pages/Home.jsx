@@ -4,17 +4,11 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 import web from '../assets/web.svg';
 import error from '../assets/error.svg';
-// import bckyrd from '../assets/bckyrd.png';
-// import pmodule from '../assets/pmodule.png';
-// import riseapp from '../assets/riseapp.png';
 import code from '../assets/code.jpg';
-
 import router from '../assets/router_ft.svg';
 import drone from '../assets/drone_ft.svg';
 import pad from '../assets/gamer_ft.svg';
 import vr from '../assets/virtual_reality_ft.svg';
-
-
 
 
 const Home = () => {
@@ -34,8 +28,9 @@ const Home = () => {
                     </Link>
                 </section>
                 <section className="col r ">
-                    <h1><Link to={"work"}>Where Stuff Gets Built</Link></h1>
-                    <p2>building a platform for Inventors. Scroll below to Explore a bigger picture of what we create. <Link className="no-clr" to={""}>#platform</Link> <Link className="no-clr" to={""}>#bckyrd</Link></p2>
+                    <h1 className="h1"><Link to={"work"}>where stuff gets build</Link></h1>
+                    {/* <p2 className="h2">building a platform for Inventors. Scroll below to Explore a bigger picture of what we create. <Link className="no-clr" to={""}>#platform</Link> <Link className="no-clr" to={""}>#bckyrd</Link></p2> */}
+                    <p> <Link className="no-clr" to={""}>#platform</Link></p>
                     <div className="row icon">
                         <Link to={"https://calendly.com/bckyrd-io/"}><button className="btn">Hi <GoCommentDiscussion /></button></Link>
                         <Link to={"/blog"}><button className="btn no-btn">Blog <GoLinkExternal /></button></Link>
@@ -90,7 +85,7 @@ const Home = () => {
                     </Link>
                 </section>
                 <section className="col r ">
-                    <h1><Link to={""}>WhatsUp</Link></h1>
+                    <h1><Link to={""}>WhatsHere</Link></h1>
                     <p>catch the latest builds. Always doing something at bckyrd</p>
                 </section>
             </main>
@@ -143,7 +138,7 @@ const Home = () => {
                     </div>
                 </section>
                 <section className="col r ">
-                    <h1><Link to={""}>OurSetup</Link></h1>
+                    <h1><Link to={""}>ThatSetup</Link></h1>
                     <p>break apart machines to review the inside workings. And  use what we figure to build our own projects.</p>
                     <p> <Link className="no-clr" to={""}>#electronics</Link> <Link className="no-clr" to={""}>#enthusiast</Link> </p>
                 </section>
@@ -180,13 +175,11 @@ const Home = () => {
                     </Link>
                 </section>
                 <section className="col r ">
-                    <h1><Link to={""}>GoFollow</Link></h1>
-                    <p>WE WERE LOMOSO, NO WE ARE MOSOLO.</p>
-                    <div className="col">
-                        <Link to={"https://threads.com/bckyrd.io"} className="active" ># Threads</Link>
+                    <h1><Link to={""}>YouFollow</Link></h1>
+                    <p className="h2">we were lomoso ,no we are mosolo.<Link to={"https://threads.com/bckyrd.io"} className="active" ># Threads</Link>
                         <Link to={"https://github.com/bckyrd-io?tab=repositories"} className="active" ># Github</Link>
                         <Link to={"https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true"} className="active" ># LinkedIn</Link>
-                    </div>
+                    </p>
                 </section>
             </main>
 

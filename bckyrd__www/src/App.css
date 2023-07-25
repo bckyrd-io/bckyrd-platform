@@ -15,8 +15,8 @@
     --lnk-clr: #fff;
     --active-clr: #00bfa6;
     --dpr-clr: #000;
-    --ltr-clr: #12181b;
-    --fnt-lg: 112px;
+    --ltr-clr: #12181a;
+    --fnt-lg: 96px;
     --fnt-md: calc(var(--fnt-lg) / 4);
     --border: solid var(--active-clr) 1px;
 }
@@ -100,15 +100,18 @@ main p,
 main h1 {
     margin: 0;
 }
-
+main h1.h1{
+    font-size: 120px;
+}
 main h1 {
     text-align: right;
     font-size: var(--fnt-lg);
     font-family: "gt-bold";
+    font-weight: 900;
+    /* text-transform: capitalize; */
 }
 
-main .col.r p,
-.h1 {
+main .col.r p {
     width: var(--col-wid);
 }
 
@@ -117,7 +120,9 @@ main p {
     margin-bottom: 2vh;
     text-align: justify;
 }
-
+main .h2{
+    text-transform: capitalize;
+}
 section.col img {
     width: 100%;
 }
@@ -131,7 +136,7 @@ section.row {
 
 section.row .brick {
     background-color: var(--ltr-clr);
-    border-radius: 0.5vh;
+    border-radius: 0vh;
     height: 80vh !important;
     width: 49% !important;
     margin-top: 4vh;
@@ -164,7 +169,7 @@ main.article img,
 iframe {
     width: 100%;
     min-height: 80vh;
-    border-radius: 0.5vh;
+    border-radius: 0vh;
     background-color: var(--ltr-clr);
     border: none !important;
 }
@@ -279,9 +284,12 @@ main.article img {
 @media only screen and (max-width: 720px) {
      :root {
         --def-wid: 90%;
-        --fnt-lg: 60px;
-        --fnt-md: 24px;
+        --fnt-lg: 56px;
+        --fnt-md: 20px;
         --col-wid: 100%;
+    }
+    main h1.h1{
+        font-size: 62px;
     }
     .row {
         flex-direction: column-reverse;

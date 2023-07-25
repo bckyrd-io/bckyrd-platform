@@ -18,7 +18,7 @@ const Blog = () => {
                 <section className="col r">
                     <h1>
                         <Link to={"github.com"}>#bckyrd</Link></h1>
-                    <p>WE ARE WORKING ON THE TOOLS TO PROGRESS CREATIVITY DONE IN BACKYARDS
+                    <p className="h2" > we are working on tools to progress creativity done at backyards
                     </p>
                     <div className="icon row">
                         <Link to={"/"} className="active" ><GoChevronLeft /></Link>
@@ -35,7 +35,7 @@ const Blog = () => {
                 </section>
                 <section className="col r">
                     <h1><Link to={""}>#riseApp</Link> </h1>
-                    <p>PRODUCTIVITY APP FOR THOSE WHO TRAVEL WITH THEIR WORKSPACES
+                    <p className="h2">productivity app for those who travel with their workspace
                     </p>
                     <div className="icon row">
                         <Link to={"/"} className="active" ><GoChevronLeft /></Link>
@@ -51,8 +51,8 @@ const Blog = () => {
                         failures with an Android app for efficient energy allocation while providing engineers with a simplified interface for complete control over the process. .</p>
                 </section>
                 <section className="col r">
-                    <h1><Link to={""}>#riseApp</Link> </h1>
-                    <p>MAKES CONTROLLING MULTIPLE MICRO POWER STATION EASIER ON ANDROID INTERFACE
+                    <h1><Link to={""}>#pModule</Link> </h1>
+                    <p className="h2"> makes controlling multiple micropower stations easier on android interface
                     </p>
                     <div className="icon row">
                         <Link to={"/"} className="active" ><GoChevronLeft /></Link>
@@ -77,13 +77,11 @@ const Blog = () => {
                     </Link>
                 </section>
                 <section className="col r">
-                    <h1><Link to={""}>GoFollow</Link></h1>
-                    <p>WE WERE MOLOSO NOW, WE ARE LOMOSO BRO</p>
-                    <div className="col">
-                        <Link to={"https://threads.com/bckyrd.io"} className="active" ># Threads</Link>
+                    <h1><Link to={""}>YouFollow</Link></h1>
+                    <p className="h2">we were lomoso ,no we are mosolo.<Link to={"https://threads.com/bckyrd.io"} className="active" ># Threads</Link>
                         <Link to={"https://github.com/bckyrd-io?tab=repositories"} className="active" ># Github</Link>
                         <Link to={"https://www.linkedin.com/company/bckyrd-io/?viewAsMember=true"} className="active" ># LinkedIn</Link>
-                    </div>
+                    </p>
                 </section>
             </main>
 
