@@ -7,7 +7,7 @@ import {
 import bckyrd from "../assets/bckyrd.png";
 import pmodule from "../assets/pmodule.png";
 import riseapp from "../assets/riseapp.png";
-import web from "../assets/web.svg";
+import social from "../assets/adhc-header-desktop.png.twimg.1920.png";
 
 const Blog = () => {
   return (
@@ -112,22 +112,23 @@ const Blog = () => {
         </section>
       </article>
 
-      <article className="row footer">
-        <section className="col l">
+      <article className="row footer ">
+        <section className="col l ">
           <Link to={"#main"}>
-            <img src={web} loading="lazy" alt="image web" />
+            <img src={social} loading="lazy" alt="image web" />
           </Link>
         </section>
-        <section className="col r">
+        <section className="col r ">
           <h1>
-            <Link to={""}>Follow</Link>
+            <Link to={""}>follow</Link>
           </h1>
-          <p className="h2">
-            we were lomoso ,no we are mosolo.
+          <p className="h2">we were lomoso ,no we are mosolo.</p>
+          <p>
             <Link
               to={"https://github.com/bckyrd-io?tab=repositories"}
               className="active"
             >
+              {" "}
               # Github
             </Link>
             <Link
@@ -136,6 +137,7 @@ const Blog = () => {
               }
               className="active"
             >
+              {" "}
               # LinkedIn
             </Link>
           </p>

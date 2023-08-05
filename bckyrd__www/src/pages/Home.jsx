@@ -1,13 +1,10 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { GoCode, GoCommentDiscussion, GoLinkExternal } from "react-icons/go";
-import web from "../assets/web.svg";
-import error from "../assets/error.svg";
-import code from "../assets/code.jpg";
-import router from "../assets/router_ft.svg";
-import drone from "../assets/drone_ft.svg";
-import pad from "../assets/gamer_ft.svg";
-import vr from "../assets/virtual_reality_ft.svg";
+import developer from "../assets/code.jpg";
+import social from "../assets/adhc-header-desktop.png.twimg.1920.png";
+import build from "../assets/APIv2_Launch_masthead_d.jpg.twimg.1920.jpg";
+import lab from "../assets/Photography-Equipment-The-Gear-You-Need-artificial-light-726x1088.jpg";
 import pmodule from "../assets/pmodule.png";
 import riseapp from "../assets/riseapp.png";
 import team from "../assets/team.png";
@@ -27,29 +24,22 @@ const Home = () => {
       <article className="row top" id="main">
         <section className="col l">
           <Link to={"#service"}>
-            <img src={web} loading="lazy" alt="image web" />
+            <img src={build} loading="lazy" alt="image web" />
           </Link>
         </section>
         <section className="col r ">
           <h1 className="h1">
             <Link to={"work"}>
-              where stuff <br /> gets build
+              where stuff <br /> is build
             </Link>
           </h1>
-          <p className="h2">
-            building a platform for ...
-            <Link className="no-clr" to={""}>
-              #bckyrd
-            </Link>{" "}
-            <Link className="no-clr" to={""}>
-              #platform
-            </Link>
-          </p>
+          <p className="h2">created for people who love to build ...</p>
+
           <div className="icon row">
-            <Link to={"/"} className="active">
+            <Link to={"/"} className="active animate-bounce">
               <GoCommentDiscussion />
             </Link>
-            <Link to={"/blog"} className="">
+            <Link to={"/blog"} className="animate-bounce">
               <GoLinkExternal />
             </Link>
           </div>
@@ -97,14 +87,14 @@ const Home = () => {
           <img src={riseapp} loading="lazy" alt="image web" />
         </section>
         <section className="col r ">
-          <p>
+          <p className="h2">
             only scratched the surface of what we can do. Still interested to
-            understand. Arent You ?
+            understand.
           </p>
           <div className="icon row">
             <Link to={"/blog"}>
-              <button className="btn">
-                ViewMore <GoLinkExternal />
+              <button className="btn animate-bounce">
+                View <GoLinkExternal />
               </button>
             </Link>
           </div>
@@ -120,14 +110,16 @@ const Home = () => {
       <article className="row ">
         <section className="col l ">
           <Link to={"#main"}>
-            <img src={code} loading="lazy" alt="image web" />
+            <img src={developer} loading="lazy" alt="image web" />
           </Link>
         </section>
         <section className="col r ">
           <h1>
-            <Link to={""}>WhatsHere</Link>
+            <Link to={""}>freelance</Link>
           </h1>
-          <p>catch the latest builds. Always doing something at bckyrd</p>
+          <p className="h2">
+            catch the latest builds. Always doing something at bckyrd
+          </p>
         </section>
       </article>
 
@@ -145,14 +137,14 @@ const Home = () => {
           <img src={value} loading="lazy" alt="image web" title="" />
         </section>
         <section className="col r ">
-          <p>
+          <p className="h2">
             Always looking for new collaborators, so if you have a project you
             think we would be a good fit for
           </p>
           <div className="icon row">
             <Link to={"https://calendly.com/bckyrd-io/"}>
-              <button className="btn">
-                LetsWork <GoCommentDiscussion />
+              <button className="btn animate-bounce">
+                Work <GoCommentDiscussion />
               </button>
             </Link>
           </div>
@@ -167,22 +159,19 @@ const Home = () => {
 
       <article className="row ">
         <section className="col l ">
+          <div className="row review">
+            <img src={lab} loading="lazy" alt="image web" />
+          </div>
           <iframe
             src="https://www.youtube.com/embed/qJl9qFrHYm4? 
                     controls"
           ></iframe>
-          <div className="row review">
-            <img src={pad} loading="lazy" alt="image web" />
-            <img src={vr} loading="lazy" alt="image web" />
-            <img src={router} loading="lazy" alt="image web" />
-            <img src={drone} loading="lazy" alt="image web" />
-          </div>
         </section>
         <section className="col r ">
           <h1>
-            <Link to={""}>ThatSetup</Link>
+            <Link to={""}>reviews</Link>
           </h1>
-          <p>
+          <p className="h2">
             break apart machines to review the inside workings. And use what we
             figure to build our own projects.
           </p>
@@ -230,19 +219,20 @@ const Home = () => {
       <article className="row footer ">
         <section className="col l ">
           <Link to={"#main"}>
-            <img src={error} loading="lazy" alt="image web" />
+            <img src={social} loading="lazy" alt="image web" />
           </Link>
         </section>
         <section className="col r ">
           <h1>
-            <Link to={""}>Follow</Link>
+            <Link to={""}>follow</Link>
           </h1>
-          <p className="h2">
-            we were lomoso ,no we are mosolo.
+          <p className="h2">we were lomoso ,no we are mosolo.</p>
+          <p>
             <Link
               to={"https://github.com/bckyrd-io?tab=repositories"}
               className="active"
             >
+              {" "}
               # Github
             </Link>
             <Link
@@ -251,6 +241,7 @@ const Home = () => {
               }
               className="active"
             >
+              {" "}
               # LinkedIn
             </Link>
           </p>
