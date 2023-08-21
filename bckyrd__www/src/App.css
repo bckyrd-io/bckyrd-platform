@@ -1,12 +1,3 @@
-@font-face {
-  src: url("assets/gt-walsheim-Light.woff") format("opentype");
-  font-family: "gt-light";
-}
-
-@font-face {
-  src: url("assets/gt-walsheim-regular-webfont.woff2") format("opentype");
-  font-family: "gt-bold";
-}
 
 :root {
   --def-wid: 96%;
@@ -102,6 +93,7 @@ article p,
 article h1 {
   margin: 0;
 }
+
 article h1 {
   text-align: right;
   font-size: var(--fnt-lg);
@@ -119,6 +111,7 @@ article p {
   margin-bottom: 2vh;
   text-align: justify;
 }
+
 article .h2 {
   text-transform: capitalize;
   background-color: var(--ltr-clr);
@@ -128,6 +121,7 @@ article .h2 {
   border-radius: 1vh;
   text-align: left;
 }
+
 section.col img {
   width: 100%;
 }
@@ -240,7 +234,7 @@ article.article img {
 /* *ITEMS* */
 
 .row.review {
-  margin-bottom:  20vh;
+  margin-bottom: 20vh;
 }
 
 
@@ -253,25 +247,32 @@ article.article img {
     --fnt-lg: 40px;
     --col-wid: 100%;
   }
+
   .row {
     flex-direction: column-reverse;
   }
+
   .col {
     width: 100%;
   }
+
   article .h2 {
     width: 94% !important;
   }
+
   section.col.r {
     height: auto;
   }
+
   section.col.r .icon {
     flex-direction: row;
   }
+
   article.article img,
   iframe {
     min-height: 50vh;
   }
+
   article.footer,
   article.top {
     min-height: 100vh;
