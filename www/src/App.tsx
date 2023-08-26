@@ -1,21 +1,24 @@
 // App.tsx
 import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+
 
 function App() {
 
 	return (
 		<>
-			<article className='main'>
-				<section className='col l'>
-					<img src="" alt="" />
-				</section>
-				<section className='col r'>
-					<h1>bckyrd</h1>
-					<p className='card'>test</p>
-				</section>
-			</article>
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="blog" element={<Blog />} />
+				</Routes>
+			</BrowserRouter>
 		</>
 	)
+	
 }
+
 
 export default App

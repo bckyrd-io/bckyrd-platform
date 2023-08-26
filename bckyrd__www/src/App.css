@@ -99,6 +99,7 @@ article h1 {
   font-size: var(--fnt-lg);
   font-family: "gt-bold";
   font-weight: 900;
+  text-align: right;
   /* text-transform: capitalize; */
 }
 

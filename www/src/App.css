@@ -1,34 +1,69 @@
 #root {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
-
-
 
 article {
   display: flex;
-  width: 100% !important;
   flex-direction: row;
+  margin-bottom: 40vh;
 }
 
 article section.col {
+  display: flex;
   flex-direction: column;
+  padding: 2em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 article section.col.l {
-  background-color: lightblue;
   width: 65%;
 }
+article{
+  background-color: var(--bg-dpr);
+}
+article#follow{
+  margin-bottom: 0;
+}
+article section.col.l img {
+  width: 100%;
+}
+
+article section.col.l button {
+  background-color: transparent;
+  border: solid var(--bg-ltr);
+  width: max-content;
+  color: var(--active);
+}
+
+
+article#main section.col.l.img {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./assets/APIv2_Launch_masthead_d.jpg.twimg.1920.jpg');
+}
+article#follow section.col.l.img {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('./assets/Photography-Equipment-The-Gear-You-Need-artificial-light-726x1088.jpg');
+}
+
 
 article section.col.r {
   width: 35%;
-  align-self: flex-end;
+  height: max-content;
+  align-items: flex-end;
+  position: sticky;
+  top: 0;
 }
 
 .card {
   padding: 2em;
-  margin: 3%;
+  margin: 0;
+  text-transform: capitalize;
   background-color: var(--bg-ltr);
-  width: 50%;
+  width: 65%;
+  align-self: flex-end;
+  border-radius: var(--rad);
 }
