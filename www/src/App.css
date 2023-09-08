@@ -1,69 +1,256 @@
-#root {
+/* Index.css */
+:root {
+  --bg-dpr: #000000;
+  --bg-ltr: #0d1117;
+  --fnt-lg: 40px;
+  --fnt-md: 20px !important;
+  --clr: #7d8590;
+  --active: #00bfa6;
+  --lnk: #ffffff;
+  --rad: 8px;
+}
+
+@font-face {
+  font-family: gt-bold;
+  src: url(./assets/gt-walsheim-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: gt-light;
+  src: url(./assets/gt-walsheim-Light.woff);
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  margin: 0 auto;
-}
-
-article {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 40vh;
-}
-
-article section.col {
-  display: flex;
-  flex-direction: column;
-  padding: 2em;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-article section.col.l {
-  width: 65%;
-}
-article{
+  font-size: var(--fnt-md);
+  color: var(--clr);
   background-color: var(--bg-dpr);
-}
-article#follow{
-  margin-bottom: 0;
-}
-article section.col.l img {
-  width: 100%;
+  font-family: "gt-light";
+  overflow-x: unset !important;
 }
 
-article section.col.l button {
-  background-color: transparent;
-  border: solid var(--bg-ltr);
-  width: max-content;
+a {
+  text-decoration: none;
+  color: var(--lnk);
+}
+
+a.active {
   color: var(--active);
 }
 
-
-article#main section.col.l.img {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./assets/APIv2_Launch_masthead_d.jpg.twimg.1920.jpg');
-}
-article#follow section.col.l.img {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url('./assets/Photography-Equipment-The-Gear-You-Need-artificial-light-726x1088.jpg');
+h1 {
+  font-size: 160px;
+  margin: 0;
+  font-family: "gt-bold";
+  color: var(--lnk);
 }
 
+h2 {
+  font-size: var(--fnt-lg);
+  margin-top: 0;
+  text-transform: capitalize;
+}
 
-article section.col.r {
-  width: 35%;
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 40vh;
+  background-color: var(--bg-dpr);
+}
+
+section aside.l {
+  width: 68%;
+}
+
+section aside.r {
+  width: 32%;
   height: max-content;
-  align-items: flex-end;
+
+}
+
+section aside.r {
+  height: max-content;
   position: sticky;
-  top: 0;
+  top: 0vh;
+}
+
+section aside.r .img {
+  width: 80px;
+  height: 80px;
+  background-color: var(--bg-ltr);
+  border-radius: 50%;
+}
+
+article {
+  padding: 2.4em;
+}
+
+article img {
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+section.x aside.l {
+  background-size: cover;
+  min-height: 100vh;
+}
+
+section.x aside.l article {
+  justify-content: flex-end;
+  height: 100%;
+}
+
+section.x aside.l h2 {
+  width: 80%;
+  color: var(--lnk);
+}
+
+section.x span {
+  background-color: #0d1117d0;
+}
+
+
+section#main{
+  background-image:
+  url('./assets/arduino.png') !important;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#main aside.l {
+  background-image:
+    url('./assets/arduino.png') !important;
+  background-attachment: fixed;
+}
+
+section#footer aside.l {
+  background-image:
+    url('./assets/arduino.png') !important;
+  background-attachment: fixed;
+}
+
+section#footer {
+  margin-bottom: 0;
+}
+
+aside.l p {
+  width: 80%;
 }
 
 .card {
-  padding: 2em;
-  margin: 0;
-  text-transform: capitalize;
-  background-color: var(--bg-ltr);
-  width: 65%;
-  align-self: flex-end;
-  border-radius: var(--rad);
+  background: var(--bg-ltr);
+  min-height: 22vh;
+  padding: 1em;
+  margin-top: 0;
+  border-radius: 8px;
+  max-width: 380px;
+}
+
+button {
+  border: none;
+  border-radius: 400px;
+  font-size: var(--fnt-md);
+  padding: 1.4em;
+  padding-top: .7em;
+  padding-bottom: .7em;
+  font-family: "gt-bold";
+  width: max-content;
+  cursor: pointer;
+}
+
+button#l {
+  background-color: var(--active);
+  color: var(--lnk);
+}
+
+button#r {
+  background-color: var(--bg-dpr);
+  color: var(--lnk);
+}
+
+button.f {
+  background-color: var(--lnk) !important;
+  color: var(--bg-dpr) !important;
+  margin-bottom: 1em;
+}
+
+#l {
+  margin-right: 20px;
+}
+
+/* *RESPONSIVE*WEB* */
+@media only screen and (max-width: 960px) {
+  aside {
+    width: 100% !important;
+  }
+
+  section {
+    margin-bottom: 20vh;
+    flex-direction: column-reverse !important;
+  }
+
+  section.x {
+    flex-direction: column !important;
+  }
+
+  section#footer aside.l,
+  section#main aside.l {
+    min-height: 70vh;
+  }
+
+  .row,
+  .col {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .col.r {
+    /* background-color: var(--bg-dpr); */
+  }
+
+  article {
+    padding: 1.2em;
+  }
+
+  section.x aside.l article {
+    width: auto !important;
+  }
+
+  article img {
+    min-height: auto;
+  }
+
+  h1 {
+    font-size: 80px;
+
+  }
+
+  aside.l p {
+    width: 100%;
+  }
+
+  section aside.r {
+    position: unset;
+  }
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {}
 }
