@@ -71,10 +71,18 @@ const Blog = () => {
                         </p>
                         <p>
                             <Link to={""} id="l" className="active">&raquo; github </Link>
+                        </p>
+                        <p>
                             <Link to={""} id="l" className="active">&raquo; linkedin </Link>
-                            <Link to={""} id="l" className="active">&raquo; threads </Link>
+                        </p>
+                        <p>
                             <Link to={""} id="l" className="active">&raquo; youtube </Link>
+                        </p>
+                        <p>
                             <Link to={""} id="l" className="active">&raquo; tiktok </Link>
+                        </p>
+                        <p>
+                            <Link to={""} id="l" className="active">&raquo; threads </Link>
                         </p>
                     </article>
                 </aside>

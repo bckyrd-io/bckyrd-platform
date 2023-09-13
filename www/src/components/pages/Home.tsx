@@ -1,7 +1,12 @@
 // Home.tsx
+import React, { useState, useEffect } from "react";
+import { useScroll, useAnimation } from "framer-motion";
 import { Link } from "react-router-dom";
-import value from "../../assets/code.jpg"
-import flexb from "../../assets/pieces.jpg"
+// page assets
+import value from "../../assets/Laboratoř-při-extrémním-přetaktování-kdy-byla-na-Core-i9-13900K-dosažena-frekvence-9008-MHz-upoutavka.jpg";
+import flex from "../../assets/Security-Intel-Hacking-Lab_SHO1129.webp";
+import module from "../../assets/pax-workbench-1.jpg";
+import resource from "../../assets/csm_macgyver_ba09a60a26.jpg";
 
 
 const Home = () => {
@@ -12,21 +17,22 @@ const Home = () => {
                 <aside className="col l">
                     <article className="col">
                         <h2><span>
-                            the ultimate platform for enthusiast that build from ideas freely.
+                            An Ultimate Platform for Enthusiasts Who Build Freely from Ideas
                         </span></h2>
                         <p>
-                            <button id="l">Explore</button>
-                            <Link to={"/signup"}><button id="r">Join</button></Link>
+                            <Link to={"/explore"}><button id="l">Explore</button></Link>
+                            <Link to={"/signup"}><button id="r">SignUp</button></Link>
                         </p>
                     </article>
                 </aside>
                 <aside className="col r">
                     <article>
-                        {/* <p className="img"></p> */}
                         <p className="card">
-                            😏ssdfadas  <br />
-                            <Link to={""}>work@bckyrd.io</Link>
+                            <span>Discover the boundless resources waiting to bring your ideas to life. Prepare to be amazed as we make the connections.</span>
+                            <br /> <br />
+                            <Link to={"mailto:work@bckyrd.io"}>Contact Us: work@bckyrd.io</Link>
                         </p>
+
                     </article>
                 </aside>
             </section>
@@ -36,14 +42,9 @@ const Home = () => {
                     <article>
                         <h1>bckyrd</h1>
                         <p>
-                            <Link to="/apps" className="active" id="l">🕹️ Apps</Link>
-                            <Link to="/embedded" className="active">🤖 Embedded</Link>
+                            Join our creative community! Easily access tools, knowledge, and a marketplace for your projects. Whether for profit or fun, your creative journey starts here <br />
+                            <b>👇  overall in your backyard </b>
                         </p>
-                        <p>
-                            <b>We are a team of experienced embedded systems and app developers who also freelance.</b> We help our clients create innovative products that improve people's lives.
-                            Our expertise includes:
-                        </p>
-
                     </article>
                 </aside>
             </section>
@@ -51,31 +52,31 @@ const Home = () => {
             <section className="row" id="faq">
                 <aside className="col l">
                     <article>
-                        <img src={value} alt="" loading="lazy" />
+                        <iframe
+                            src="https://www.youtube.com/embed/qJl9qFrHYm4?rel=0&autoplay=1"
+                            title="YouTube Video"
+                            frameBorder="0"
+                            allow="autoplay; encrypted-media"
+                            allowFullScreen
+                        ></iframe>
                     </article>
                 </aside>
                 <aside className="col r">
                     <article>
                         <p className="card">
-                            what we are doing with the platform. and other stuff we use and do. find out here.
-                            Each project is a unique experience. check them out.
+                            "Every Project Offers a Distinct Journey 🚀. Explore Our Platform's Endeavors 🛠️, Tools 🔧, and More 🌟."
                             .</p>
-                        <p><Link to={"/blog"} className="active"><span>view &raquo; projects </span></Link></p>
+                        <p><Link to={"/blog"} className="active"><span>view &raquo; blog </span></Link></p>
                     </article>
                 </aside>
             </section>
-
-
 
             <section className="row" id="review">
                 <aside className="col l">
                     <article>
                         {/* <Link to={""} className="active">its going down </Link> */}
-                        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, debitis. Harum, dolor.</h2>
-                        <p>
-                            <button id="l" className="f">marketplace</button>
-                            <button id="l" className="f">resources</button>
-                        </p>
+                        <h2>build from where you want and advance from where they left off</h2>
+
                     </article>
                 </aside>
                 <aside className="col r">
@@ -85,29 +86,32 @@ const Home = () => {
             <section className="row" id="approach">
                 <aside className="col l">
                     <article>
-                        <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>value</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
+                        <img src={flex} alt="" loading="lazy" />
+                        <p><Link to={""}><b>1. Flexible:</b></Link> Work where you want, whether in makerspaces or your beloved basement. Our platform adapts to your workspace preferences, allowing you to create freely.</p>
                     </article>
                     <article>
-                        <img src={flexb} alt="" loading="lazy" />
-                        <p><Link to={""}>value</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
+                        <img src={module} alt="" loading="lazy" />
+                        <p><Link to={""}><b>2. Modular:</b></Link> Share and access resources with ease. Build on others' progress effortlessly. Our platform encourages resourceful, modular project development.</p>
                     </article>
                     <article>
-                        <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>value</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
+                        <img src={resource} alt="" loading="lazy" />
+                        <p><Link to={""}><b>3. Faster:</b></Link> Achieve project milestones swiftly by collaborating with like-minded enthusiasts. Depending on project scale, you can connect with others to accelerate progress.</p>
                     </article>
                     <article>
                         <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>value</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
+                        <p><Link to={""}><b>4. Value:</b></Link> Reap rewards from your creative projects. Gain benefits, from potential sponsorship opportunities to scaling your creations for the marketplace.</p>
                     </article>
                 </aside>
+
                 <aside className="col r">
                     <article>
-                        <p className="card">🛰️ a place you can just work freely as an enthusiat</p>
+                        <p><Link to={"/"}>🪫 powerful  features  with approach to get you project going: </Link></p>
+                        <p>
+                            <Link to={"/projects"}><button id="l" className="f">Project</button></Link>
+                            <Link to={"/places"}><button id="l" className="f">Workspace</button></Link>
+                            <Link to={"/markets"}> <button id="l" className="f">Innovation</button></Link>
+                            <Link to={"/resources"}><button id="l" className="f">Community</button></Link>
+                        </p>
                     </article>
                 </aside>
             </section>
@@ -116,13 +120,10 @@ const Home = () => {
                 <aside className="col l">
                     <article>
                         <h1>work</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis asperiores,
-                            eos ex repudiandae ullam reprehenderit. Eum itaque blanditiis, illo nam dolores numquam deleniti maxime
-                            distinctio, alias officiis voluptatem laborum natus quos omnis iusto qui veritatis delectus ipsa cumque!
-                            Iste quos magni cumque delectus mollitia illum tenetur deleniti distinctio dolorum dolores.</p>
                         <p>
-                            <Link to={""} className="active" id="l">🧑‍💻Hires</Link>
-                            <Link to={""} className="active">💰Investors</Link>
+                            simple we, only work with passionate team to create cool electronics,
+                            from <Link to={"/"} className="active"><b>🕹️Apps</b></Link> that are adaptable to api's
+                            and <Link to={"/"} className="active"><b>🤖Embedded</b></Link> systems with iot integrated
                         </p>
                     </article>
                 </aside>
@@ -144,16 +145,25 @@ const Home = () => {
                 <aside className="col r">
                     <article>
                         <br />
-                        <p className="card">text
+                        <p className="card"><span>developers contributes to the platform so that we can
+                            build more together.</span>
                             <br />
                             <Link to={"mailto:work@bckyrd.io"}>read documentation</Link>
                         </p>
                         <p>
-                            <Link to={""} className="active">github, </Link>
-                            <Link to={""} className="active">linkedin, </Link>
-                            <Link to={""} className="active">threads, </Link>
-                            <Link to={""} className="active">youtube, </Link>
-                            <Link to={""} className="active">tiktok </Link>
+                            <Link to={""} id="l" className="active">&raquo; github </Link>
+                        </p>
+                        <p>
+                            <Link to={""} id="l" className="active">&raquo; linkedin </Link>
+                        </p>
+                        <p>
+                            <Link to={""} id="l" className="active">&raquo; youtube </Link>
+                        </p>
+                        <p>
+                            <Link to={""} id="l" className="active">&raquo; tiktok </Link>
+                        </p>
+                        <p>
+                            <Link to={""} id="l" className="active">&raquo; threads </Link>
                         </p>
                     </article>
                 </aside>

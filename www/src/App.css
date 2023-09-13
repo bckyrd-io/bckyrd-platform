@@ -1,15 +1,4 @@
 /* Index.css */
-:root {
-  --bg-dpr: #000000;
-  --bg-ltr: #0d1117;
-  --fnt-lg: 40px;
-  --fnt-md: 20px !important;
-  --clr: #7d8590;
-  --active: #00bfa6;
-  --lnk: #ffffff;
-  --rad: 8px;
-}
-
 @font-face {
   font-family: gt-bold;
   src: url(./assets/gt-walsheim-regular-webfont.woff2);
@@ -20,8 +9,19 @@
   src: url(./assets/gt-walsheim-Light.woff);
 }
 
+:root {
+  --bg-dpr: #000000;
+  --bg-ltr: hsl(216, 28%, 7%);
+  --fnt-lg: 44px;
+  --fnt-md: 22px !important;
+  --clr: #7d8590;
+  --active: #00bfa6;
+  --lnk: #ffffff;
+  --rad: 4px;
+}
+
 html {
-  overflow-y: scroll;
+  overflow-y: auto;
   scroll-behavior: smooth;
 }
 
@@ -47,8 +47,10 @@ a.active {
 }
 
 h1 {
-  font-size: 160px;
+  font-size: 172px;
   margin: 0;
+  padding: 0;
+  line-height: 1.1;
   font-family: "gt-bold";
   color: var(--lnk);
 }
@@ -99,11 +101,13 @@ section aside.r .img {
 
 article {
   padding: 2.4em;
+  padding-bottom: 1em !important;
 }
 
 article img {
-  min-height: 100vh;
+  min-height: auto;
   max-width: 100%;
+  border-radius: var(--rad);
 }
 
 section.x aside.l {
@@ -125,23 +129,22 @@ section.x span {
   background-color: #0d1117d0;
 }
 
-
-section#main{
+section#main {
   background-image:
-  url('./assets/arduino.png') !important;
+    url('./assets/FACSICDTYRFRRGZ6LKPBVSQUHM.jpg') !important;
   background-size: cover;
   background-attachment: fixed;
 }
 
-section#main aside.l {
+/* section#main aside.l {
   background-image:
     url('./assets/arduino.png') !important;
   background-attachment: fixed;
-}
+} */
 
 section#footer aside.l {
   background-image:
-    url('./assets/arduino.png') !important;
+    url('./assets/Security-Intel-Hacking-Lab_SHO1107.webp') !important;
   background-attachment: fixed;
 }
 
@@ -158,18 +161,24 @@ aside.l p {
   min-height: 22vh;
   padding: 1em;
   margin-top: 0;
-  border-radius: 8px;
+  border-radius: var(--rad);
   max-width: 380px;
+}
+
+p.card span {
+  background:none;
+  text-transform: capitalize;
 }
 
 button {
   border: none;
-  border-radius: 400px;
+  /* border-radius: var(--rad); */
+  border-radius: 300px;
   font-size: var(--fnt-md);
-  padding: 1.4em;
-  padding-top: .7em;
-  padding-bottom: .7em;
-  font-family: "gt-bold";
+  padding: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-family: "gt-light";
   width: max-content;
   cursor: pointer;
 }
@@ -186,16 +195,47 @@ button#r {
 
 button.f {
   background-color: var(--lnk) !important;
+  border: none;
   color: var(--bg-dpr) !important;
   margin-bottom: 1em;
+}
+
+a.btn {
+  border: solid var(--bg-ltr);
+  padding: .4em;
+  border-radius: var(--rad);
 }
 
 #l {
   margin-right: 20px;
 }
 
+iframe {
+  width: 100%;
+  min-height: 100vh;
+}
+
+form input {
+  border: none;
+  border-bottom: var(--lnk) solid 1px;
+  padding: 1em;
+  font-size: 22px;
+  margin: 0;
+  background-color: #0d1117d0;
+  color: var(--active);
+  font-family: "gt-light";
+}
+
+form input::placeholder {
+  color: var(--lnk);
+}
+
 /* *RESPONSIVE*WEB* */
 @media only screen and (max-width: 960px) {
+  iframe {
+    min-height: 50vh;
+  }
+
   aside {
     width: 100% !important;
   }
@@ -211,17 +251,13 @@ button.f {
 
   section#footer aside.l,
   section#main aside.l {
-    min-height: 70vh;
+    min-height: max-content;
   }
 
   .row,
   .col {
     flex-direction: column;
     width: 100%;
-  }
-
-  .col.r {
-    /* background-color: var(--bg-dpr); */
   }
 
   article {
@@ -236,9 +272,11 @@ button.f {
     min-height: auto;
   }
 
+
+
+
   h1 {
     font-size: 80px;
-
   }
 
   aside.l p {
