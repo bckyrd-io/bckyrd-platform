@@ -1,12 +1,8 @@
-/* Index.css */
-@font-face {
-  font-family: gt-bold;
-  src: url(./assets/gt-walsheim-regular-webfont.woff2);
-}
+
 
 @font-face {
-  font-family: gt-light;
-  src: url(./assets/gt-walsheim-Light.woff);
+  font-family: gt;
+  src: url(./assets/gt-walsheim-regular-webfont.woff2);
 }
 
 :root {
@@ -33,7 +29,7 @@ body {
   font-size: var(--fnt-md);
   color: var(--clr);
   background-color: var(--bg-dpr);
-  font-family: "gt-light";
+  font-family: "gt";
   overflow-x: unset !important;
 }
 
@@ -47,11 +43,11 @@ a.active {
 }
 
 h1 {
-  font-size: 172px;
+  font-size: 176px;
   margin: 0;
   padding: 0;
   line-height: 1.1;
-  font-family: "gt-bold";
+  font-family: "gt";
   color: var(--lnk);
 }
 
@@ -178,7 +174,7 @@ button {
   padding: 1em;
   padding-top: .5em;
   padding-bottom: .5em;
-  font-family: "gt-light";
+  font-family: "gt";
   width: max-content;
   cursor: pointer;
 }
@@ -223,7 +219,7 @@ form input {
   margin: 0;
   background-color: #0d1117d0;
   color: var(--active);
-  font-family: "gt-light";
+  font-family: "gt";
 }
 
 form input::placeholder {

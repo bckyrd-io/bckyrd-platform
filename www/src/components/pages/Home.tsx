@@ -1,6 +1,6 @@
 // Home.tsx
 import React, { useState, useEffect } from "react";
-import { useScroll, useAnimation } from "framer-motion";
+import { useScroll, useAnimation, useTransform, useViewportScroll, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 // page assets
 import value from "../../assets/Laboratoř-při-extrémním-přetaktování-kdy-byla-na-Core-i9-13900K-dosažena-frekvence-9008-MHz-upoutavka.jpg";
@@ -11,18 +11,39 @@ import resource from "../../assets/csm_macgyver_ba09a60a26.jpg";
 
 const Home = () => {
 
+
+    const { scrollYProgress } = useViewportScroll()
+    const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
+
+
     return (
         <>
             <section className="row x" id="main">
                 <aside className="col l">
                     <article className="col">
-                        <h2><span>
-                            An Ultimate Platform for Enthusiasts Who Build Freely from Ideas
-                        </span></h2>
-                        <p>
+                        <motion.h2
+                            variants={{
+                                hidden: { opacity: 0, y: 75 },
+                                visible: { opacity: 1, y: 0 },
+                            }}
+                            initial="hidden"
+                            animate="visible"
+                        >
+                            <span>
+                                An Ultimate Platform for Enthusiasts Who Build Freely from Ideas
+                            </span>
+                        </motion.h2>
+                        <motion.p
+                            variants={{
+                                hidden: { opacity: 0, y: 75 },
+                                visible: { opacity: 1, y: 0 },
+                            }}
+                            initial="hidden"
+                            animate="visible"
+                        >
                             <Link to={"/explore"}><button id="l">Explore</button></Link>
                             <Link to={"/signup"}><button id="r">SignUp</button></Link>
-                        </p>
+                        </motion.p>
                     </article>
                 </aside>
                 <aside className="col r">
