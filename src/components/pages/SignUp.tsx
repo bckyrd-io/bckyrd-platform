@@ -9,7 +9,7 @@ const SignUp = () => {
             <section className="row x" id="footer">
                 <aside className="col l">
                     <article className="col">
-                        <h2><span>Join And get more benefit you can share with others</span></h2>
+                        {/* <h2><span>Join And get more benefit you can share with others</span></h2> */}
                     </article>
                 </aside>
                 <aside className="col r">
@@ -22,12 +22,9 @@ const SignUp = () => {
                             <input type="text" placeholder="enter username" name="" id="" />
                             <input type="text" placeholder="enter password" name="" id="" />
                             <input type="text" placeholder="enter email" name="" id="" />
+                            <br />
+                            <Link to={""} className="btn" id="l">enter</Link>
                         </form>
-                        <p>
-                            <button id="l">Enter</button>
-                        </p>
-
-
                     </article>
                 </aside>
             </section>

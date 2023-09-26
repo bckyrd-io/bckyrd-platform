@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: gt;
   src: url(./assets/gt-walsheim-regular-webfont.woff2);
@@ -7,13 +5,13 @@
 
 :root {
   --bg-dpr: #000000;
-  --bg-ltr: hsl(216, 28%, 7%);
-  --fnt-lg: 44px;
-  --fnt-md: 22px !important;
+  --bg-ltr: #0d1117;
+  --fnt-lg: 40px;
+  --fnt-md: 20px !important;
   --clr: #7d8590;
   --active: #00bfa6;
   --lnk: #ffffff;
-  --rad: 4px;
+  --rad: 6px;
 }
 
 html {
@@ -25,7 +23,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100% !important;
   font-size: var(--fnt-md);
   color: var(--clr);
   background-color: var(--bg-dpr);
@@ -33,17 +31,9 @@ body {
   overflow-x: unset !important;
 }
 
-a {
-  text-decoration: none;
-  color: var(--lnk);
-}
-
-a.active {
-  color: var(--active);
-}
-
 h1 {
-  font-size: 176px;
+  font-size: calc(var(--fnt-md) * 22);
+  width: 100%;
   margin: 0;
   padding: 0;
   line-height: 1.1;
@@ -52,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--fnt-lg);
+  font-size: calc(var(--fnt-md)*2);
   margin-top: 0;
   text-transform: capitalize;
 }
@@ -60,6 +50,7 @@ h2 {
 .row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .col {
@@ -68,16 +59,16 @@ h2 {
 }
 
 section {
-  margin-bottom: 40vh;
+  margin-bottom: 50vh;
   background-color: var(--bg-dpr);
 }
 
 section aside.l {
-  width: 68%;
+  width: 66%;
 }
 
 section aside.r {
-  width: 32%;
+  width: 34%;
   height: max-content;
 
 }
@@ -132,20 +123,16 @@ section#main {
   background-attachment: fixed;
 }
 
-/* section#main aside.l {
-  background-image:
-    url('./assets/arduino.png') !important;
-  background-attachment: fixed;
-} */
-
-section#footer aside.l {
-  background-image:
-    url('./assets/Security-Intel-Hacking-Lab_SHO1107.webp') !important;
-  background-attachment: fixed;
+section#footer aside.r {
+  background-color: var(--bg-dpr);
+  height: 100vh;
 }
 
 section#footer {
   margin-bottom: 0;
+  background-image:
+    url('./assets/FACSICDTYRFRRGZ6LKPBVSQUHM.jpg') !important;
+  background-attachment: fixed;
 }
 
 aside.l p {
@@ -162,48 +149,8 @@ aside.l p {
 }
 
 p.card span {
-  background:none;
+  background: none;
   text-transform: capitalize;
-}
-
-button {
-  border: none;
-  /* border-radius: var(--rad); */
-  border-radius: 300px;
-  font-size: var(--fnt-md);
-  padding: 1em;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  font-family: "gt";
-  width: max-content;
-  cursor: pointer;
-}
-
-button#l {
-  background-color: var(--active);
-  color: var(--lnk);
-}
-
-button#r {
-  background-color: var(--bg-dpr);
-  color: var(--lnk);
-}
-
-button.f {
-  background-color: var(--lnk) !important;
-  border: none;
-  color: var(--bg-dpr) !important;
-  margin-bottom: 1em;
-}
-
-a.btn {
-  border: solid var(--bg-ltr);
-  padding: .4em;
-  border-radius: var(--rad);
-}
-
-#l {
-  margin-right: 20px;
 }
 
 iframe {
@@ -228,9 +175,10 @@ form input::placeholder {
 
 /* *RESPONSIVE*WEB* */
 @media only screen and (max-width: 960px) {
-  iframe {
-    min-height: 50vh;
+  section.x aside.l h2 {
+    width: 100%;
   }
+
 
   aside {
     width: 100% !important;
@@ -245,10 +193,7 @@ form input::placeholder {
     flex-direction: column !important;
   }
 
-  section#footer aside.l,
-  section#main aside.l {
-    min-height: max-content;
-  }
+
 
   .row,
   .col {
@@ -268,9 +213,6 @@ form input::placeholder {
     min-height: auto;
   }
 
-
-
-
   h1 {
     font-size: 80px;
   }
@@ -281,10 +223,60 @@ form input::placeholder {
 
   section aside.r {
     position: unset;
+    background-color: var(--bg-dpr) ;
+  }
+
+  section#footer aside.l,
+  section#footer aside.r,
+  section#main aside.l {
+    min-height: max-content !important;
+    height: max-content !important;
   }
 
 }
 
 @media (prefers-color-scheme: light) {
   :root {}
+}
+
+
+
+a {
+  text-decoration: none;
+  color: var(--lnk);
+}
+
+.active {
+  color: var(--active);
+}
+
+.btn {
+  border: none;
+  border-radius: var(--rad);
+  /* border-radius: 300px; */
+  font-size: var(--fnt-md);
+  padding: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-family: "gt";
+  width: max-content;
+  cursor: pointer;
+}
+
+.btn#l {
+  background-color: var(--active);
+  color: var(--lnk);
+  margin-right: 20px;
+}
+
+.btn#r {
+  background-color: var(--bg-dpr);
+  color: var(--lnk);
+}
+
+.btn.f {
+  border: solid var(--clr) 2px !important;
+  background-color: transparent !important;
+  color: var(--active) !important;
+  margin-bottom: 1em;
 }
