@@ -47,8 +47,9 @@ const Home = () => {
                     </article>
                 </aside>
                 <aside className="col r">
-                    <article className="col">
-                        <b><Link to={""} className="active">👇 work@bckyrd.io</Link> </b>
+                    <article>
+                        <p className="card">
+                            buy from these stuff that you have here. or check them out for inspiration.</p>
                     </article>
                 </aside>
             </section>
@@ -58,6 +59,7 @@ const Home = () => {
                 <aside className="col">
                     <article>
                         <h1>bckyrd</h1>
+                        {/* <Link to={""} className="active"> work@bckyrd.io</Link> */}
                     </article>
                 </aside>
             </section>
