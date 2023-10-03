@@ -10,6 +10,7 @@ import resource from "../../assets/apr16-01-184777571.jpg";
 import sponsor from "../../assets/code.jpg";
 
 
+
 const Home = () => {
 
 
@@ -74,19 +75,19 @@ const Home = () => {
                 <aside className="col l">
                     <article>
                         <img src={flex} alt="" loading="lazy" />
-                        <p> Work where you want, whether in makerspaces 🪫 or your beloved basement. Our platform adapts to your workspace preferences, allowing you to create freely.</p>
+                        <p>🪫 Work where you want, whether in makerspaces or your beloved basement. Our platform adapts to your workspace preferences, allowing you to create freely.</p>
                     </article>
                     <article>
                         <img src={resource} alt="" loading="lazy" />
-                        <p>Achieve project milestones swiftly 🎮 by collaborating with like-minded enthusiasts. Depending on project scale, you can connect with others to accelerate progress.</p>
+                        <p>🎮 Achieve project milestones swiftly  by collaborating with like-minded enthusiasts. Depending on project scale, you can connect with others to accelerate progress.</p>
                     </article>
                     <article>
                         <img src={module} alt="" loading="lazy" />
-                        <p> Share and access resources with ease. Build 🧩 on others' progress effortlessly. Our platform encourages resourceful, modular project development.</p>
+                        <p>🧩 Share and access resources with ease. Build  on others' progress effortlessly. Our platform encourages resourceful, modular project development.</p>
                     </article>
                     <article>
                         <img src={value} alt="" loading="lazy" />
-                        <p> Reap rewards 💎 from your creative projects. Gain benefits, from potential sponsorship opportunities to scaling your creations for the marketplace.</p>
+                        <p>💎 Reap rewards  from your creative projects. Gain benefits, from potential sponsorship opportunities to scaling your creations for the marketplace.</p>
                     </article>
                 </aside>
                 <aside className="col r">

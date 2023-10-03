@@ -280,14 +280,10 @@ a {
 
 .btn#l {
     background-color: var(--active);
-    color: var(--lnk);
+    color: var(--bg-ltr);
     margin-right: 20px;
 }
 
-.btn#r {
-    background-color: var(--bg-dpr);
-    color: var(--lnk);
-}
 
 .btn.f {
     border: solid #0d1117d0 2px !important;
