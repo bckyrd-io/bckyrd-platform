@@ -5,9 +5,6 @@ the page contains routes for all pages
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
-import Blog from './components/pages/Blog';
-import Login from './components/pages/Login';
-import SignUp from './components/pages/SignUp';
 import Explore from './components/pages/Explore';
 import Projects from './components/pages/Projects';
 import Places from './components/pages/Places';
@@ -22,9 +19,6 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/blog" element={<Blog />} />
-					<Route path="/login" element={<Login />} />
-					<Route path="/signup" element={<SignUp />} />
 					<Route path="/explore" element={<Explore />} />
 					<Route path="/projects" element={<Projects />} />
 					<Route path="/places" element={<Places />} />
