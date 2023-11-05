@@ -21,7 +21,7 @@ const Home = () => {
                         </p>
                         <p className="row">
                             <Link to={""} className="btn active">Sign In</Link>
-                            <Link to={""} className="btn light">Contact Us</Link>
+                            <Link to={""} className="btn light">Contact</Link>
                         </p>
                     </article>
                 </aside>
