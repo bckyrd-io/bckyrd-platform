@@ -1,7 +1,8 @@
 // Home.tsx
 // import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import value from "../../assets/Security-Intel-Hacking-Lab_SHO1107.webp";
+import value from "../../assets/apr16-01-184777571.jpg";
+import space from "../../assets/makerspaces-story-7.jpg";
 
 
 const Home = () => {
@@ -16,8 +17,7 @@ const Home = () => {
                     <article>
                         <p>
                             <span>
-                                platform with enthusiast that progress to build stuff in unusual spaces. Find
-                                necessities here!</span>
+                                Platform that progress to build stuff in unusual spaces. Reap benefits other enthusiast </span>
                         </p>
                         <p className="row">
                             <Link to={""} className="btn active">Sign In</Link>
@@ -43,27 +43,28 @@ const Home = () => {
             <section className="row margin">
                 <aside className="col left">
                     <article>
-                        <img src={value} alt="" loading="lazy" />
-                        <p><b> hosting today hackathon in bt</b></p>
-                        <p className="row">
-                            <span className="tag">time: <i>2323/2323/23</i> </span>
-                            <span className="tag">space: <i>40 people</i> </span>
-                        </p>
+                        <a href="">
+                            <img src={value} alt="" loading="lazy" />
+                            <p><b> hosting today hackathon in bt</b></p>
+                            <p className="row">
+                                <span className="tag">time: <i>2323/2323/23</i> </span>
+                                <span className="tag">space: <i>40 people</i> </span>
+                            </p>
+                        </a>
                     </article>
                     <article>
-                        <img src={value} alt="" loading="lazy" />
-                        <p><b> hosting today hackathon in bt</b></p>
+                        <img src={space} alt="" loading="lazy" />
+                        <p><b>makerspace available in your area </b></p>
                         <p className="row">
-                            <span className="tag">time: <i>2323/2323/23</i> </span>
-                            <span className="tag">space: <i>40 people</i> </span>
+                            <span className="tag">location: <i>blantyre</i> </span>
+                            <span className="tag">tools: <i>cnc, 3d printers, lab</i> </span>
                         </p>
                     </article>
 
                 </aside>
                 <aside className="col right">
-                    <article>
+                    <article className="features">
                         <p>Select the article and see what you can do from whats available:</p>
-
                         <p className="row">
                             <Link to={""} className="btn active">New</Link>
                             <Link to={""} className="btn ">Search</Link>

@@ -63,7 +63,7 @@ section {
 section aside.right {
     height: max-content;
     position: sticky;
-    top: 0;
+    top: -1px;
     width: 40%;
 }
 
@@ -140,7 +140,10 @@ article a.active {
     }
 
     section.row {
-        flex-direction: column !important;
+        flex-direction: column-reverse;
+    }
+    body .row.reverse {
+        flex-direction: column;
     }
 
     section aside.col {
@@ -155,5 +158,9 @@ article a.active {
     section article {
         padding: 1.5rem;
         padding-bottom: 3rem;
+        margin-top: 0;
+    }
+    section article.features{
+        background-color: var(--dark);
     }
 }
