@@ -62,9 +62,7 @@ const Home = () => {
                 </aside>
                 <aside className="col right">
                     <article>
-                        <p>keep on building stuff with other get benfit from it and progress on
-                            other inventions
-                        </p>
+                        <p>Select the article and see what you can do from whats available:</p>
 
                         <p className="row">
                             <Link to={""} className="btn active">New</Link>
