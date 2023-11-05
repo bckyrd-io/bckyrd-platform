@@ -1,39 +1,30 @@
 // Home.tsx
 import { Link } from "react-router-dom";
 import value from "../../assets/code.jpg"
-import flexb from "../../assets/pieces.jpg"
 
 
 const Projects = () => {
 
     return (
         <>
-            <section className="row" id="approach">
-                <aside className="col l">
+            <section className="row margin">
+                <aside className="col left">
                     <article>
-                        <p>
-                            <button id="l" className="f">share (7)</button>
-                            <button id="l" className="f">search (0)</button>
-                        </p>
-                    </article>
-                    <article>
-                        <h2>1. building a plotter for the cnc</h2>
                         <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>📍 status, complete</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
-                    </article>
-                    <article>
-                        <h2>1. building a plotter for the cnc</h2>
-                        <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>📍 status, complete</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
                     </article>
                 </aside>
-                <aside className="col r">
+                <aside className="col right">
                     <article>
-                        <p className="card">
-                           buy from these stuff that you have here. or check them out for inspiration.</p>
-                        <p><Link to={"/"} className="active"><span>&laquo; home </span></Link></p>
+                        <h1>Build the space</h1>
+                    </article>
+                    <article>
+                        {/* <p>keep on building stuff with other get benfit from it and progress on
+                                other inventions
+                            </p> */}
+                        <p className="row">
+                            <Link to={""} className="btn active">Next</Link>
+                            <Link to={""} className="btn">home</Link>
+                        </p>
                     </article>
                 </aside>
             </section>

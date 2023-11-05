@@ -1,41 +1,45 @@
 // Home.tsx
 import { Link } from "react-router-dom";
 import value from "../../assets/code.jpg"
-import flexb from "../../assets/pieces.jpg"
 
 
 const Explore = () => {
 
     return (
         <>
-         
-            <section className="row">
-                <aside className="col l">
+            
+
+           
+
+            <section className="row margin">
+                <aside className="col left">
                     <article>
-                        <h2><Link to={""}>marketplace</Link></h2>
-                        <h2>1. poly design studio offers free space for hobbyist to work on their design</h2>
                         <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>📍 MUBAS, blantyre</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
-                    </article>
-                    <article>
-                        <h2>2. poly design studio offers free space for hobbyist to work on their design</h2>
-                        <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>📍 MUBAS, blantyre</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
-                    </article>
-                    <article>
-                        <h2>3. poly design studio offers free space for hobbyist to work on their design</h2>
-                        <img src={value} alt="" loading="lazy" />
-                        <p><Link to={""}>📍 MUBAS, blantyre</Link>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                            explicabo rerum cumque eaque autem, maxime minima dolores hic quidem?</p>
-                    </article>
-                </aside>
-                <aside className="col r">
-                    <article>
+                        <p><b> hosting today hackathon in bt</b></p>
                         <p className="row">
-                            <Link to={"/projects"} className="btn f" id="l">projects (4)</Link>
-                            <Link to={"/projects"} className="btn f" id="l"> &; </Link>
+                            <span className="tag">time: <i>2323/2323/23</i> </span> 
+                            <span className="tag">space: <i>40 people</i> </span>
+                        </p>
+                    </article>
+                    <article>
+                        <img src={value} alt="" loading="lazy" />
+                        <p><b> hosting today hackathon in bt</b></p>
+                        <p className="row">
+                            <span className="tag">time: <i>2323/2323/23</i> </span> 
+                            <span className="tag">space: <i>40 people</i> </span>
+                        </p>
+                    </article>
+                    
+                </aside>
+                <aside className="col right">
+                    <article>
+                        <p>keep on building stuff with other get benfit from it and progress on 
+                            other inventions
+                        </p>
+                       
+                        <p className="row">
+                            <Link to={""} className="btn active">Home</Link>
+                            <Link to={""} className="btn ">Search</Link>
                         </p>
                     </article>
                 </aside>
