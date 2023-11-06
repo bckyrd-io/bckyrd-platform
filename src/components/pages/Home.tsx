@@ -11,17 +11,17 @@ const Home = () => {
         <>
             <section className="row bg">
                 <aside className="col left">
-
                 </aside>
                 <aside className="col right">
                     <article>
                         <p>
                             <span>
-                                Platform that progress to build stuff in unusual spaces. Reap benefits other enthusiast </span>
+                            platform that progresses you to build anything, anywhere, and reap the benefits of a Enthusiast community
+                                </span>
                         </p>
                         <p className="row">
                             <Link to={""} className="btn active">Sign In</Link>
-                            <Link to={""} className="btn light">Contact</Link>
+                            <Link to={"calendly.com/bckyrd-io"} className="btn light">Contact</Link>
                         </p>
                     </article>
                 </aside>
@@ -35,7 +35,7 @@ const Home = () => {
                 </aside>
                 <aside className="col right">
                     <article>
-                        <Link to={"/"} className="active">About</Link>
+                        <Link to={"linkedin.com/bckyrd-io"} className="active">About</Link>
                     </article>
                 </aside>
             </section>
@@ -64,10 +64,10 @@ const Home = () => {
                 </aside>
                 <aside className="col right">
                     <article className="features">
-                        <p>Select the article and see what you can do from whats available:</p>
+                        <p>SELECT WHAT YOU WANT FROM THE POSTED FEATURES</p>
                         <p className="row">
-                            <Link to={""} className="btn active">New</Link>
-                            <Link to={""} className="btn ">Search</Link>
+                            <Link to={"/new"} className="btn active">New</Link>
+                            <Link to={"/search"} className="btn ">Search</Link>
                         </p>
                     </article>
                 </aside>

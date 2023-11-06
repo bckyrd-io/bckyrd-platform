@@ -67,14 +67,16 @@ section aside.right {
     width: 40%;
 }
 
-section.margin {
-    margin-bottom: 0vh;
-}
-
 section aside.left {
     justify-content: flex-end;
     width: 60%;
 }
+
+section.margin {
+    margin-bottom: 0vh;
+}
+
+
 
 section.bg {
     background-image: url('./assets/bg.webp');
@@ -88,6 +90,7 @@ section.bg {
 article {
     padding: 4rem;
 }
+
 article img {
     max-width: 100%;
     border-radius: var(--rad);
@@ -95,14 +98,18 @@ article img {
 
 article span {
     background-color: var(--dark);
+    text-transform: capitalize;
 }
-article span.tag{
-margin-right: 1rem;
-} 
-article span.tag i{
+
+article span.tag {
+    margin-right: 1rem;
+}
+
+article span.tag i {
     color: var(--fade);
     font-style: normal;
 }
+
 article .btn {
     margin-right: 1rem;
     border: none;
@@ -142,6 +149,7 @@ article a.active {
     section.row {
         flex-direction: column-reverse;
     }
+
     body .row.reverse {
         flex-direction: column;
     }
@@ -155,12 +163,17 @@ article a.active {
         margin-bottom: 30vh;
     }
 
+    section .right {
+        height: max-content;
+    }
+
     section article {
         padding: 1.5rem;
-        padding-bottom: 3rem;
-        margin-top: 0;
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
-    section article.features{
+
+    section article.features {
         background-color: var(--dark);
     }
 }
