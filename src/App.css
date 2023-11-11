@@ -11,6 +11,10 @@
     font-family: gt;
     src: url(./assets/gt-walsheim-regular-webfont.woff2);
 }
+@font-face {
+    font-family: gt-bold;
+    src: url(./assets/GT-Walsheim-Bold.woff);
+}
 
 
 /* STYLE ON BODY */
@@ -47,8 +51,9 @@ body a {
 }
 
 body h1 {
-    font-size: calc(var(--font-size)*4);
+    font-size: calc(var(--font-size)*5);
     text-transform: capitalize;
+    font-family: 'gt-bold';
     font-weight: 900;
     margin: 0;
 }
@@ -122,12 +127,12 @@ article .btn {
 
 article .btn.active {
     background-color: var(--active);
-    color: var(--light);
+    color: var(--dark);
 }
 
 article .btn.light {
     background-color: var(--light);
-    color: var(--active);
+    color: var(--dark);
 }
 
 article a.active {

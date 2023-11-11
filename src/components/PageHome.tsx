@@ -1,9 +1,11 @@
 // Home.tsx
 // import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import value from "../../assets/apr16-01-184777571.jpg";
-import space from "../../assets/makerspaces-story-7.jpg";
-
+import value from "../assets/1_s3G5nsnRWplMhct3HU6wVg.png";
+import space from "../assets/makerspaces-story-7.jpg";
+import ButtonLogin from "./ButtonLogin";
+import ButtonLogout from "./ButtonLogout";
+import AuthProfile from "./authProfile";
 
 const Home = () => {
 
@@ -15,13 +17,16 @@ const Home = () => {
                 <aside className="col right">
                     <article>
                         <p>
-                            <span>
-                            platform that progresses you to build anything, anywhere, and reap the benefits of a Enthusiast community
-                                </span>
+                            <b> <span>
+                                platform that progresses you to build anything, anywhere. and reap the benefits From the Enthusiasts
+                            </span></b>
                         </p>
                         <p className="row">
-                            <Link to={""} className="btn active">Sign In</Link>
-                            <Link to={"calendly.com/bckyrd-io"} className="btn light">Contact</Link>
+                            <ButtonLogin />
+                            <ButtonLogout />
+                            <AuthProfile />
+                            <Link to={""} className="btn active">SignIn</Link>
+                            <Link to={"calendly.com/bckyrd-io"} className="btn light">Explore</Link>
                         </p>
                     </article>
                 </aside>
@@ -35,7 +40,7 @@ const Home = () => {
                 </aside>
                 <aside className="col right">
                     <article>
-                        <Link to={"linkedin.com/bckyrd-io"} className="active">About</Link>
+                        <Link to={"linkedin.com/bckyrd-io"} className="active">About / Contacts</Link>
                     </article>
                 </aside>
             </section>
@@ -60,11 +65,10 @@ const Home = () => {
                             <span className="tag">tools: <i>cnc, 3d printers, lab</i> </span>
                         </p>
                     </article>
-
                 </aside>
                 <aside className="col right">
                     <article className="features">
-                        <p>SELECT WHAT YOU WANT FROM THE POSTED FEATURES</p>
+                        <p>OTHERS ARE WORKING HERE, ENGAGE ON STUFF THEY SHARE</p>
                         <p className="row">
                             <Link to={"/new"} className="btn active">New</Link>
                             <Link to={"/search"} className="btn ">Search</Link>
