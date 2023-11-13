@@ -15,7 +15,6 @@
 
 ```
 my-fullstack-app/
-  |- public/
   |- src/
       |- components/
       |- App.js
@@ -28,6 +27,7 @@ my-fullstack-app/
       |- routes/
       |- app.js
   |- package.json (root package.json)
+
 ```
 >>>>>>>
 >>>>>>> 82697850901811fa408043560dbea67367dc82b2
