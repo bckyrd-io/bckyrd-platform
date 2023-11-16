@@ -76,13 +76,13 @@ const Home = () => {
                             formData.map((item) => (
                                 <article key={item.id}>
                                     <a href="">
-                                        <img src={`http://localhost:3000/${item.image}`} alt="" loading="lazy" />
+                                        <img src={`${item.image}`} alt="" loading="lazy" />
                                         <p>
                                             <b>{item.title}</b>
                                         </p>
                                         <p className="row">
                                             <span className="tag">time: <i>{item.additionalContent}</i></span>
-
+                                            <span className="tag">time: <i>{item.additionalContent}</i></span>
                                         </p>
                                     </a>
                                 </article>
@@ -91,26 +91,7 @@ const Home = () => {
                         )
                     }
                 </aside>
-                {/* <aside className="col left">
-                    <article>
-                        <a href="">
-                            <img src={value} alt="" loading="lazy" />
-                            <p><b> hosting today hackathon in bt</b></p>
-                            <p className="row">
-                                <span className="tag">time: <i>2323/2323/23</i> </span>
-                                <span className="tag">space: <i>40 people</i> </span>
-                            </p>
-                        </a>
-                    </article>
-                    <article>
-                        <img src={space} alt="" loading="lazy" />
-                        <p><b>makerspace available in your area </b></p>
-                        <p className="row">
-                            <span className="tag">location: <i>blantyre</i> </span>
-                            <span className="tag">tools: <i>cnc, 3d printers, lab</i> </span>
-                        </p>
-                    </article>
-                </aside> */}
+
                 <aside className="col right">
                     <article className="features">
                         <p>OTHERS ARE WORKING HERE, ENGAGE ON STUFF THEY SHARE</p>
