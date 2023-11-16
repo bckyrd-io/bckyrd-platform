@@ -15,7 +15,7 @@ const FormAdd: React.FC = () => {
     } = useForm<Inputs>();
 
     const [currentPhase, setCurrentPhase] = useState<number>(1);
-    const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+    const [, setIsSubmitting] = useState<boolean>(false);
 
     const onSubmit: SubmitHandler<Inputs> = async (data) => {
         try {
