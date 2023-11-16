@@ -5,7 +5,7 @@ import value from "../assets/1_s3G5nsnRWplMhct3HU6wVg.png";
 import space from "../assets/makerspaces-story-7.jpg";
 import ButtonLogin from "./ButtonLogin";
 import ButtonLogout from "./ButtonLogout";
-import AuthProfile from "./authProfile";
+import AuthProfile from "./AuthProfile";
 
 const Home = () => {
 
@@ -35,7 +35,7 @@ const Home = () => {
             <section className="row reverse">
                 <aside className="col left">
                     <article>
-                        <h1>Leverage on the next tech revolution to build</h1>
+                        <h1>we Leverage on the next tech revolution to build Now</h1>
                     </article>
                 </aside>
                 <aside className="col right">
@@ -70,7 +70,7 @@ const Home = () => {
                     <article className="features">
                         <p>OTHERS ARE WORKING HERE, ENGAGE ON STUFF THEY SHARE</p>
                         <p className="row">
-                            <Link to={"/new"} className="btn active">New</Link>
+                            <Link to={"/add"} className="btn active">New</Link>
                             <Link to={"/search"} className="btn ">Search</Link>
                         </p>
                     </article>

@@ -1,0 +1,18 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "@prisma/client"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model FormData {
+  id                Int      @id @default(autoincrement())
+  title             String
+  image             String
+  additionalContent String
+}

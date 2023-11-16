@@ -1,6 +1,6 @@
 :root {
     --dark: #000000;
-    --font-size: 20px;
+    --font-size: 1.2rem;
     --light: #ffffff;
     --fade: #a2a2a2;
     --active: #00bfa6;
@@ -51,7 +51,7 @@ body a {
 }
 
 body h1 {
-    font-size: calc(var(--font-size)*5);
+    font-size: calc(var(--font-size)*4.5);
     text-transform: capitalize;
     font-family: 'gt-bold';
     font-weight: 900;
