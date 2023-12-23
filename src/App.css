@@ -1,19 +1,19 @@
 :root {
     --dark: #000000;
-    --font-size: 1.2rem;
+    --font-size: 20px;
     --light: #ffffff;
     --fade: #a2a2a2;
     --active: #00bfa6;
-    --rad: .25rem;
+    --rad: 6px;
 }
 
 @font-face {
     font-family: gt;
-    src: url(./assets/gt-walsheim-regular-webfont.woff2);
+    src: url(./assets/GTWalsheimPro-Thin.woff2);
 }
 @font-face {
     font-family: gt-bold;
-    src: url(./assets/GT-Walsheim-Bold.woff);
+    src: url(./assets/GTWalsheim.woff2);
 }
 
 
@@ -26,7 +26,9 @@ body {
     color: var(--light);
     font-size: var(--font-size);
     font-family: 'gt';
+    font-weight:100;
 }
+
 
 body .row {
     display: flex;
@@ -51,7 +53,8 @@ body a {
 }
 
 body h1 {
-    font-size: calc(var(--font-size)*4.5);
+    font-size: calc(var(--font-size)*4);
+    line-height: calc(var(--font-size)*4);
     text-transform: capitalize;
     font-family: 'gt-bold';
     font-weight: 900;
@@ -61,20 +64,22 @@ body h1 {
 
 /* STYLE ON SECTIONS */
 section {
-    min-height: 100vh;
-    margin-bottom: 50vh;
+    min-height: max-content;
+    margin-bottom: 20vh;
 }
+
+
 
 section aside.right {
     height: max-content;
     position: sticky;
     top: -1px;
-    width: 40%;
+    width: 50%;
+    justify-content: flex-end;
 }
 
 section aside.left {
-    justify-content: flex-end;
-    width: 60%;
+    width: 50%;
 }
 
 section.margin {
@@ -83,22 +88,21 @@ section.margin {
 
 
 
-section.bg {
-    background-image: url('./assets/bg.webp');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
+
+
+
 
 
 /* STYLE ON ARTICLE */
 article {
-    padding: 4rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
 }
 
 article img {
     max-width: 100%;
-    border-radius: var(--rad);
+    /* border-radius: var(--rad); */
 }
 
 article span {
@@ -122,37 +126,62 @@ article .btn {
     padding-top: .6rem;
     padding-bottom: .6rem;
     border-radius: var(--rad);
+    font-family: "gt";
+    font-weight: 100;
     margin-top: .5rem;
 }
 
 article .btn.active {
     background-color: var(--active);
-    color: var(--dark);
+    color: var(--light);
 }
-
-article .btn.light {
+article .btn.lighter {
     background-color: var(--light);
     color: var(--dark);
+}
+article .btn.lnk {
+    color: var(--active);
+    text-decoration: underline !important;
+}
+
+
+article .btn.active.tag {
+    background-color: var(--dark);
+    border: var(--active) solid 1px;
+    color: var(--active);
+}
+article .btn.light.tag {
+    /* background-color:  */
+    border: var(--light) solid 1px !important;
+    color: var(--light) !important;
 }
 
 article a.active {
     color: var(--active);
 }
 
+article p b{
+    font-family: "gt-bold";
+    text-transform: capitalize;
+}
+
 
 
 /* STYLE ON MOBILE */
 @media only screen and (max-width: 960px) {
+    :root{
+        --font-size: 20px;
+    }
     body h1 {
-        font-size: calc(var(--font-size)*3);
+        font-size: calc(var(--font-size)*2.4);
+        line-height: calc(var(--font-size)*2.4);
+       
     }
 
-    section.bg {
-        min-height: 50vh;
-    }
+  
 
     section.row {
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
     }
 
     body .row.reverse {
@@ -165,7 +194,7 @@ article a.active {
 
     section {
         min-height: max-content;
-        margin-bottom: 30vh;
+        margin-bottom: 15vh;
     }
 
     section .right {
@@ -173,7 +202,8 @@ article a.active {
     }
 
     section article {
-        padding: 1.5rem;
+        padding: 6rem;
+        padding-top: 0rem;
         padding-left: .5rem;
         padding-right: .5rem;
     }

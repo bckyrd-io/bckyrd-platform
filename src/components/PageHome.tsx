@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import ButtonLogin from "./ButtonLogin";
 import ButtonLogout from "./ButtonLogout";
 import AuthProfile from "./AuthProfile";
+import video from "../assets/Photography-Equipment-The-Gear-You-Need-artificial-light-726x1088.jpg";
 
 const Home = () => {
     const [formData, setFormData] = useState<FormDataItem[]>([]);
@@ -35,54 +36,63 @@ const Home = () => {
 
     return (
         <>
-            <section className="row bg">
-                <aside className="col left">
-                </aside>
-                <aside className="col right">
+            <section className="row bg reverse">
+                <aside className="col w">
                     <article>
-                        <p>
-                            <b> <span>
-                                platform that progresses you to build anything, anywhere. and reap the benefits From the Enthusiasts
-                            </span></b>
-                        </p>
+                        <h1>Leverage the next tech revolution To Reap the benefits From the Enthusiast </h1>
                         <p className="row">
-                            <ButtonLogin />
+                            {/* <ButtonLogin />
                             <ButtonLogout />
-                            <AuthProfile />
-                            <Link to={""} className="btn active">SignIn</Link>
-                            <Link to={"calendly.com/bckyrd-io"} className="btn light">Explore</Link>
+                            <AuthProfile /> */}
+                            <Link to={""} className="btn active tag">Get Started</Link>
+                            <Link to={"calendly.com/bckyrd-io"} className="btn lnk">Contacts / About </Link>
                         </p>
-                    </article>
-                </aside>
-            </section>
-
-            <section className="row reverse">
-                <aside className="col left">
-                    <article>
-                        <h1>we Leverage on the next tech revolution to build Now</h1>
-                    </article>
-                </aside>
-                <aside className="col right">
-                    <article>
-                        <Link to={"linkedin.com/bckyrd-io"} className="active">About / Contacts</Link>
                     </article>
                 </aside>
             </section>
 
             <section className="row margin">
                 <aside className="col left">
+                    <article>
+                        <a href="">
+                            <img src={video} alt="" loading="lazy" />
+                            <h4>The Next Big Thing Going On With The Startups  In The Scene Of Technology From The Fourth Industrial Revolution</h4>
+                            <p className="row">
+                                <span className="tag"><b>time:</b> text</span>
+                                <span className="tag">play: <i>text</i></span>
+                            </p>
+                            <p>
+                                <Link to={""} className="btn active">add</Link>
+                            </p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <img src={video} alt="" loading="lazy" />
+                            <h4>The Next Big Thing Going On With The Startups In The Scene Of Technology From The Fourth Industrial Revolution</h4>
+                            <p className="row">
+                                <span className="tag"><b>time:</b> text</span>
+                                <span className="tag">play: <i>text</i></span>
+                            </p>
+                            <p>
+                                <Link to={""} className="btn lighter">add</Link>
+                            </p>
+                        </a>
+                    </article>
+
                     {
                         formData.length > 0 && (
                             formData.map((item) => (
                                 <article key={item.id}>
                                     <a href="">
                                         <img src={`${item.image}`} alt="" loading="lazy" />
-                                        <p>
-                                            <b>{item.title}</b>
-                                        </p>
+                                        <p><b>{item.title}</b></p>
                                         <p className="row">
                                             <span className="tag">time: <i>{item.additionalContent}</i></span>
-                                            <span className="tag">time: <i>{item.additionalContent}</i></span>
+                                            <span className="tag">play: <i>{item.additionalContent}</i></span>
+                                        </p>
+                                        <p>
+                                            <Link to={""} className="btn active">add</Link>
                                         </p>
                                     </a>
                                 </article>
@@ -94,10 +104,16 @@ const Home = () => {
 
                 <aside className="col right">
                     <article className="features">
-                        <p>OTHERS ARE WORKING HERE, ENGAGE ON STUFF THEY SHARE</p>
+                        {/* <Link to={""} className="active"><h1>Explore</h1></Link> */}
+                        <p>
+                            <span>
+                                platform that 👋 progresses you to build anything, anywhere.
+                            </span>
+                        </p>
                         <p className="row">
-                            <Link to={"/add"} className="btn active">New</Link>
-                            <Link to={"/search"} className="btn ">Search</Link>
+                            <Link to={"/add"} className="btn lighter">View More</Link>
+                            <Link to={"/add"} className="btn light tag">Search</Link>
+                            <Link to={"/add"} className="btn light tag">Buy</Link>
                         </p>
                     </article>
                 </aside>
