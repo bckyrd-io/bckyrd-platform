@@ -6,6 +6,7 @@ import ButtonLogout from "./ButtonLogout";
 import AuthProfile from "./AuthProfile";
 import video from "../assets/Photography-Equipment-The-Gear-You-Need-artificial-light-726x1088.jpg";
 
+
 const Home = () => {
     const [formData, setFormData] = useState<FormDataItem[]>([]);
     const [loading, setLoading] = useState(true);
@@ -28,7 +29,6 @@ const Home = () => {
         }
     };
 
-
     useEffect(() => {
         fetchData();
     }, []); // Empty dependency array ensures the effect runs only once, similar to componentDidMount
@@ -36,7 +36,7 @@ const Home = () => {
 
     return (
         <>
-            <section className="row bg reverse">
+            <section className="row">
                 <aside className="col w">
                     <article>
                         <h1>Leverage the next tech revolution To Reap the benefits From the Enthusiast </h1>
@@ -44,42 +44,37 @@ const Home = () => {
                             {/* <ButtonLogin />
                             <ButtonLogout />
                             <AuthProfile /> */}
-                            <Link to={""} className="btn active tag">Get Started</Link>
-                            <Link to={"calendly.com/bckyrd-io"} className="btn lnk">Contacts / About </Link>
+                            <Link to={""} className="btn active">Get Started</Link>
                         </p>
                     </article>
                 </aside>
             </section>
 
-            <section className="row margin">
+            <section className="row" id="full__bg">
+                <aside className="col w" id="full__bg">
+                    <article>
+                        {/* <p>Leverage the next tech revolution To Reap the benefits From the Enthusiast </p> */}
+                    </article>
+                </aside>
+            </section>
+
+
+            <section className="row">
                 <aside className="col left">
                     <article>
-                        <a href="">
-                            <img src={video} alt="" loading="lazy" />
-                            <h4>The Next Big Thing Going On With The Startups  In The Scene Of Technology From The Fourth Industrial Revolution</h4>
-                            <p className="row">
-                                <span className="tag"><b>time:</b> text</span>
-                                <span className="tag">play: <i>text</i></span>
-                            </p>
-                            <p>
-                                <Link to={""} className="btn active">add</Link>
-                            </p>
-                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis cum aut accusamus unde repudiandae accusantium eius nisi rerum non porro! Quaerat tenetur veniam corrupti adipisci culpa quo nisi eius, quis nemo reprehenderit asperiores commodi earum reiciendis. Velit inventore amet labore non maxime sed, facere, consequuntur quaerat voluptates at corrupti in. </p>
                     </article>
-                    <article>
-                        <a href="">
-                            <img src={video} alt="" loading="lazy" />
-                            <h4>The Next Big Thing Going On With The Startups In The Scene Of Technology From The Fourth Industrial Revolution</h4>
-                            <p className="row">
-                                <span className="tag"><b>time:</b> text</span>
-                                <span className="tag">play: <i>text</i></span>
-                            </p>
-                            <p>
-                                <Link to={""} className="btn lighter">add</Link>
-                            </p>
-                        </a>
-                    </article>
+                </aside>
+            </section>
 
+            <section className="row">
+                <aside className="col left">
+                    {/* <article>
+                        <a href="">
+                            <img src={video} alt="" loading="lazy" />
+                            <p>The Next Big Thing Going On With The Startups  In The Scene Of Technology From The Fourth Industrial Revolution</p>
+                        </a>
+                    </article> */}
                     {
                         formData.length > 0 && (
                             formData.map((item) => (
@@ -91,30 +86,34 @@ const Home = () => {
                                             <span className="tag">time: <i>{item.additionalContent}</i></span>
                                             <span className="tag">play: <i>{item.additionalContent}</i></span>
                                         </p>
-                                        <p>
-                                            <Link to={""} className="btn active">add</Link>
-                                        </p>
                                     </a>
                                 </article>
                             ))
-
                         )
                     }
                 </aside>
 
                 <aside className="col right">
                     <article className="features">
-                        {/* <Link to={""} className="active"><h1>Explore</h1></Link> */}
-                        <p>
-                            <span>
-                                platform that 👋 progresses you to build anything, anywhere.
-                            </span>
-                        </p>
                         <p className="row">
-                            <Link to={"/add"} className="btn lighter">View More</Link>
+                            <Link to={"/add"} className="btn lighter">Add New</Link>
                             <Link to={"/add"} className="btn light tag">Search</Link>
-                            <Link to={"/add"} className="btn light tag">Buy</Link>
                         </p>
+                    </article>
+                </aside>
+            </section>
+
+            <section className="row">
+                <aside className="col w">
+                    <article>
+                        <h1>Lets Work </h1>
+                        <p>
+                            <Link to={"/add"} className="btn active tag">Contact</Link>
+                            <Link to={"/add"} className="btn ">About</Link>
+                            <Link to={"/add"} className="btn ">Register</Link>
+                            <Link to={"/add"} className="btn ">Careers</Link>
+                        </p>
+
                     </article>
                 </aside>
             </section>
