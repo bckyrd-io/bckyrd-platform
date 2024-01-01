@@ -67,7 +67,7 @@ const Home = () => {
                 </aside>
             </section>
 
-            <section className="row">
+            <section className="row" id="content__map">
                 <aside className="col left">
                     {/* <article>
                         <a href="">
@@ -107,7 +107,7 @@ const Home = () => {
                 <aside className="col w">
                     <article>
                         <h1>Lets Work </h1>
-                        <p>
+                        <p className="row">
                             <Link to={"/add"} className="btn active tag">Contact</Link>
                             <Link to={"/add"} className="btn ">About</Link>
                             <Link to={"/add"} className="btn ">Register</Link>

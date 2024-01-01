@@ -188,8 +188,8 @@ article p b{
 
   
 
-    section.row {
-        /* flex-direction: column-reverse; */
+    section#content__map {
+        flex-direction: column-reverse;
     }
 
     body .row.reverse {
