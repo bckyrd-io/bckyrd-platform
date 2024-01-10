@@ -1,14 +1,20 @@
 // Home.tsx
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import image from "../assets/apr16-01-184777571.jpg";
+import challenge from "../assets/paysafe-1.jpg";
+import space1 from "../assets/space1.jpg";
+import space2 from "../assets/space2.jpg";
+import space3 from "../assets/space3.jpg";
+import space4 from "../assets/space4.jpg";
+// Authentication Links
 import ButtonLogin from "./ButtonLogin";
 import ButtonLogout from "./ButtonLogout";
 import AuthProfile from "./AuthProfile";
-import video from "../assets/Photography-Equipment-The-Gear-You-Need-artificial-light-726x1088.jpg";
 
 
 const Home = () => {
-    const [formData, setFormData] = useState<FormDataItem[]>([]);
+    const [formData, setFormData] = useState < FormDataItem[] > ([]);
     const [loading, setLoading] = useState(true);
 
     const fetchData = async () => {
@@ -45,12 +51,14 @@ const Home = () => {
                             <ButtonLogout />
                             <AuthProfile /> */}
                             <Link to={""} className="btn active">Get Started</Link>
+                            <Link to={""} className="btn lnk">Contact Us </Link>
+
                         </p>
                     </article>
                 </aside>
             </section>
 
-            <section className="row" id="full__bg">
+            <section className="row" id="challenge__section">
                 <aside className="col w" id="full__bg">
                     <article>
                         {/* <p>Leverage the next tech revolution To Reap the benefits From the Enthusiast </p> */}
@@ -59,22 +67,101 @@ const Home = () => {
             </section>
 
 
-            <section className="row">
+            <section className="row" id="approach__section">
                 <aside className="col left">
                     <article>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis cum aut accusamus unde repudiandae accusantium eius nisi rerum non porro! Quaerat tenetur veniam corrupti adipisci culpa quo nisi eius, quis nemo reprehenderit asperiores commodi earum reiciendis. Velit inventore amet labore non maxime sed, facere, consequuntur quaerat voluptates at corrupti in. </p>
+                        <h2>Features</h2>
+                        <p>Join a community where enthusiasts turn ideas into reality. Collaborate, create, and commercialize your projects in a dynamic marketplace.</p>
+                    </article>
+                    <article className="features">
+                        <p className="row">
+
+                            <Link to={"/addWorkSpace"} className="btn active tag">Add More</Link>
+                            <Link to={"/workSpace"} className="btn light tag">Spaces</Link>
+                            <Link to={"/marketplace"} className="btn light tag">Products</Link>
+                            <Link to={"/challenge"} className="btn light tag">Challenges</Link>
+                        </p>
                     </article>
                 </aside>
             </section>
 
-            <section className="row" id="content__map">
-                <aside className="col left">
-                    {/* <article>
+
+            <section className="row" id="workspace__section">
+                <aside className="col left" id="space_1">
+                    <article>
                         <a href="">
-                            <img src={video} alt="" loading="lazy" />
-                            <p>The Next Big Thing Going On With The Startups  In The Scene Of Technology From The Fourth Industrial Revolution</p>
+                            <img src={space1} alt="" loading="lazy" />
                         </a>
-                    </article> */}
+                    </article>
+                    {
+                        formData.length > 0 && (
+                            formData.map((item) => (
+                                <article key={item.id}>
+                                    <a href="">
+                                        <img src={`${item.image}`} alt="" loading="lazy" />
+                                        <p><b>{item.title}</b></p>
+                                        <p className="row">
+                                            <span className="tag">time: <i>{item.additionalContent}</i></span>
+                                            <span className="tag">play: <i>{item.additionalContent}</i></span>
+                                        </p>
+                                    </a>
+                                </article>
+                            ))
+                        )
+                    }
+                </aside>
+                <aside className="col left" id="space_1">
+                    <article>
+                        <a href="">
+                            <img src={space2} alt="" loading="lazy" />
+                        </a>
+                    </article>
+                    {
+                        formData.length > 0 && (
+                            formData.map((item) => (
+                                <article key={item.id}>
+                                    <a href="">
+                                        <img src={`${item.image}`} alt="" loading="lazy" />
+                                        <p><b>{item.title}</b></p>
+                                        <p className="row">
+                                            <span className="tag">time: <i>{item.additionalContent}</i></span>
+                                            <span className="tag">play: <i>{item.additionalContent}</i></span>
+                                        </p>
+                                    </a>
+                                </article>
+                            ))
+                        )
+                    }
+                </aside>
+                <aside className="col left" id="space_1">
+                    <article>
+                        <a href="">
+                            <img src={space3} alt="" loading="lazy" />
+                        </a>
+                    </article>
+                    {
+                        formData.length > 0 && (
+                            formData.map((item) => (
+                                <article key={item.id}>
+                                    <a href="">
+                                        <img src={`${item.image}`} alt="" loading="lazy" />
+                                        <p><b>{item.title}</b></p>
+                                        <p className="row">
+                                            <span className="tag">time: <i>{item.additionalContent}</i></span>
+                                            <span className="tag">play: <i>{item.additionalContent}</i></span>
+                                        </p>
+                                    </a>
+                                </article>
+                            ))
+                        )
+                    }
+                </aside>
+                <aside className="col left" id="space_1">
+                    <article>
+                        <a href="">
+                            <img src={space4} alt="" loading="lazy" />
+                        </a>
+                    </article>
                     {
                         formData.length > 0 && (
                             formData.map((item) => (
@@ -93,30 +180,37 @@ const Home = () => {
                     }
                 </aside>
 
-                <aside className="col right">
-                    <article className="features">
-                        <p className="row">
-                            <Link to={"/add"} className="btn lighter">Add New</Link>
-                            <Link to={"/add"} className="btn light tag">Search</Link>
-                        </p>
-                    </article>
-                </aside>
             </section>
 
-            <section className="row">
-                <aside className="col w">
+            <section className="row" id="company__section">
+                <aside className="col left">
                     <article>
-                        <h1>Lets Work </h1>
+                        <h1>Let's Work</h1>
+                    </article>
+                    <article>
+                        <p>Explore the opportunities and join our innovative community. Whether you're a hobbyist, a tech enthusiast, or a professional, there's a place for you here.</p>
                         <p className="row">
-                            <Link to={"/add"} className="btn active tag">Contact</Link>
-                            <Link to={"/add"} className="btn ">About</Link>
-                            <Link to={"/add"} className="btn ">Register</Link>
-                            <Link to={"/add"} className="btn ">Careers</Link>
+                            <Link to={"/register"} className="btn active">Register Profile</Link>
+                            <Link to={"/about"} className="btn lnk">About Us</Link>
                         </p>
-
+                    </article>
+                    <article>
+                        <a href="/gallery">
+                            <img src={image} alt="Company Image" loading="lazy" />
+                        </a>
+                    </article>
+                </aside>
+                <aside className="col right">
+                    <article>
+                        <p className="row">
+                            <Link to={"/events"} className="btn lnk">Register For Events</Link>
+                            <Link to={"/careers"} className="btn lnk">Careers As An Enthusiast</Link>
+                            <Link to={"/challenges"} className="btn lnk">Solve Sponsored Challenges</Link>
+                        </p>
                     </article>
                 </aside>
             </section>
+
 
         </>
     );

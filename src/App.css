@@ -11,6 +11,7 @@
     font-family: gt;
     src: url(./assets/GTWalsheimPro-Thin.woff2);
 }
+
 @font-face {
     font-family: gt-bold;
     src: url(./assets/GTWalsheim.woff2);
@@ -26,7 +27,7 @@ body {
     color: var(--light);
     font-size: var(--font-size);
     font-family: 'gt';
-    font-weight:100;
+    font-weight: 100;
 }
 
 
@@ -60,17 +61,22 @@ body h1 {
     font-weight: 900;
     margin: 0;
 }
+body h2{
+    font-size: var(--font-size);
+    font-family: 'gt-bold';
+    font-weight: 900;
+}
 
 
 /* STYLE ON SECTIONS */
 section {
     min-height: max-content;
-    margin-bottom: 20vh;
+    margin-bottom: 40vh;
 }
 
 
-section#full__bg{
-    background-image: url('./assets/apr16-01-184777571.jpg');
+section#challenge__section {
+    background-image: url('./assets/bg.webp');
     background-size: cover;
     height: 80vh;
     align-items: center;
@@ -95,6 +101,8 @@ section.margin {
 
 
 
+/* CONETT MAP  */
+
 
 
 
@@ -103,13 +111,11 @@ section.margin {
 /* STYLE ON ARTICLE */
 article {
     padding: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 6rem;
 }
 
 article img {
     max-width: 100%;
-    max-height: 80vh;
+    /* max-height: 80vh; */
     /* border-radius: var(--rad); */
 }
 
@@ -135,7 +141,7 @@ article .btn {
     padding-bottom: .6rem;
     border-radius: var(--rad);
     font-family: "gt";
-    font-weight: 100;
+    font-weight: 100 !important;
     margin-top: .5rem;
 }
 
@@ -143,13 +149,15 @@ article .btn.active {
     background-color: var(--active);
     color: var(--light);
 }
+
 article .btn.lighter {
     background-color: var(--light);
     color: var(--dark);
 }
+
 article .btn.lnk {
     color: var(--active);
-    text-decoration: underline !important;
+    padding-left: 0;
 }
 
 
@@ -158,6 +166,7 @@ article .btn.active.tag {
     border: var(--active) solid 1px;
     color: var(--active);
 }
+
 article .btn.light.tag {
     /* background-color:  */
     border: var(--light) solid 1px !important;
@@ -168,7 +177,7 @@ article a.active {
     color: var(--active);
 }
 
-article p b{
+article p b {
     font-family: "gt-bold";
     text-transform: capitalize;
 }
@@ -177,19 +186,14 @@ article p b{
 
 /* STYLE ON MOBILE */
 @media only screen and (max-width: 960px) {
-    :root{
+    :root {
         --font-size: 20px;
     }
+
     body h1 {
         font-size: calc(var(--font-size)*2.4);
         line-height: calc(var(--font-size)*2.4);
-       
-    }
 
-  
-
-    section#content__map {
-        flex-direction: column-reverse;
     }
 
     body .row.reverse {
