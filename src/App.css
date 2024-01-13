@@ -4,7 +4,7 @@
     --light: #ffffff;
     --fade: #a2a2a2;
     --active: #00bfa6;
-    --rad: 6px;
+    --rad: 8px;
 }
 
 @font-face {
@@ -27,7 +27,6 @@ body {
     color: var(--light);
     font-size: var(--font-size);
     font-family: 'gt';
-    font-weight: 100;
 }
 
 
@@ -49,8 +48,7 @@ body .col {
 body a {
     text-decoration: none;
     color: var(--light);
-    font-weight: bolder !important;
-
+    font-family: "gt-bold" !important;
 }
 
 body h1 {
@@ -58,13 +56,11 @@ body h1 {
     line-height: calc(var(--font-size)*4);
     text-transform: capitalize;
     font-family: 'gt-bold';
-    font-weight: 900;
     margin: 0;
 }
 body h2{
     font-size: var(--font-size);
     font-family: 'gt-bold';
-    font-weight: 900;
 }
 
 
@@ -116,7 +112,7 @@ article {
 article img {
     max-width: 100%;
     /* max-height: 80vh; */
-    /* border-radius: var(--rad); */
+    border-radius: var(--rad);
 }
 
 article span {
@@ -141,7 +137,6 @@ article .btn {
     padding-bottom: .6rem;
     border-radius: var(--rad);
     font-family: "gt";
-    font-weight: 100 !important;
     margin-top: .5rem;
 }
 

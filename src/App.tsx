@@ -10,6 +10,7 @@ import MarketPlace from "./components/PageMarketPlace";
 import WorkSpace from "./components/PageWorkSpace";
 import Challenge from "./components/PageChallenge";
 import ChallengeView from './components/PageChallengeView';
+import WorkSpaceView from './components/PageWorkSpaceView';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 					<Route path="/" element={<PageHome />} />
 					<Route path="/marketPlace" element={<MarketPlace/>} />
 					<Route path="/workSpace" element={<WorkSpace/>} />
+					<Route path="/workSpaceView" element={<WorkSpaceView/>} />
 					<Route path="/challenge" element={<Challenge/>} />
 					<Route path="/challengeView" element={<ChallengeView/>} />
 					<Route path="/addWorkSpace" element={<AddWorkSpace />} />

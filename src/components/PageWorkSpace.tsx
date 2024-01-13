@@ -8,7 +8,7 @@ import space4 from "../assets/space4.jpg";
 
 
 const WorkSpace = () => {
-  
+
 
     return (
         <>
@@ -28,9 +28,9 @@ const WorkSpace = () => {
             <section className="row" id="workspace__section">
                 <aside className="col left" id="space_1">
                     <article>
-                        <a href="">
+                        <Link to={"/WorkSpaceView"}>
                             <img src={space1} alt="" loading="lazy" />
-                        </a>
+                        </Link>
                     </article>
                     {/* {
                         formData.length > 0 && (
@@ -51,23 +51,23 @@ const WorkSpace = () => {
                 </aside>
                 <aside className="col left" id="space_1">
                     <article>
-                        <a href="">
+                        <Link to={"/WorkSpaceView"}>
                             <img src={space2} alt="" loading="lazy" />
-                        </a>
+                        </Link>
                     </article>
                 </aside>
                 <aside className="col left" id="space_1">
                     <article>
-                        <a href="">
+                        <Link to={"/WorkSpaceView"}>
                             <img src={space3} alt="" loading="lazy" />
-                        </a>
+                        </Link>
                     </article>
                 </aside>
                 <aside className="col left" id="space_1">
                     <article>
-                        <a href="">
+                        <Link to={"/WorkSpaceView"}>
                             <img src={space4} alt="" loading="lazy" />
-                        </a>
+                        </Link>
                     </article>
                 </aside>
 
