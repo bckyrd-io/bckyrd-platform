@@ -11,6 +11,7 @@ import WorkSpace from "./components/PageWorkSpace";
 import Challenge from "./components/PageChallenge";
 import ChallengeView from './components/PageChallengeView';
 import WorkSpaceView from './components/PageWorkSpaceView';
+import Profile from './components/PageProfile';
 
 
 function App() {
@@ -20,12 +21,13 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<PageHome />} />
-					<Route path="/marketPlace" element={<MarketPlace/>} />
-					<Route path="/workSpace" element={<WorkSpace/>} />
-					<Route path="/workSpaceView" element={<WorkSpaceView/>} />
-					<Route path="/challenge" element={<Challenge/>} />
-					<Route path="/challengeView" element={<ChallengeView/>} />
+					<Route path="/marketPlace" element={<MarketPlace />} />
+					<Route path="/workSpace" element={<WorkSpace />} />
+					<Route path="/workSpaceView" element={<WorkSpaceView />} />
+					<Route path="/challenge" element={<Challenge />} />
+					<Route path="/challengeView" element={<ChallengeView />} />
 					<Route path="/addWorkSpace" element={<AddWorkSpace />} />
+					<Route path="/profile" element={<Profile />} />
 				</Routes>
 			</BrowserRouter>
 		</>

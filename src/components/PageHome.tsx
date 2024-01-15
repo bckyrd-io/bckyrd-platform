@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import image from "../assets/apr16-01-184777571.jpg";
 import challenge from "../assets/paysafe-1.jpg";
-import space1 from "../assets/space1.jpg";
-import space2 from "../assets/space2.jpg";
-import space3 from "../assets/space3.jpg";
-import space4 from "../assets/space4.jpg";
+import challengesImage from "../assets/space1.jpg";
+import spacesImage from "../assets/space2.jpg";
+import d from "../assets/space3.jpg";
+import marketplaceImage from "../assets/build.jpg";
 // Authentication Links
 import ButtonLogin from "./ButtonLogin";
 import ButtonLogout from "./ButtonLogout";
@@ -14,7 +14,7 @@ import AuthProfile from "./AuthProfile";
 
 
 const Home = () => {
-    const [formData, setFormData] = useState < FormDataItem[] > ([]);
+    const [formData, setFormData] = useState<FormDataItem[]>([]);
     const [loading, setLoading] = useState(true);
 
     const fetchData = async () => {
@@ -45,80 +45,52 @@ const Home = () => {
             <section className="row">
                 <aside className="col w">
                     <article>
-                        <h1>Leverage the next tech <Link to={"/industrial revolution"} className="active"> revolution</Link> To Reap the benefits From the Electronics Enthusiast </h1>
+                        <h1>Leverage the next tech revolution To Reap the benefits From Electronics Enthusiast </h1>
+                    </article>
+                    <article className="row between">
                         <p className="row">
-                            {/* <ButtonLogin />
-                            <ButtonLogout />
-                            <AuthProfile /> */}
                             <Link to={""} className="btn active">Get Started</Link>
-                            <Link to={""} className="btn lnk">Contact </Link>
-
+                            <Link to={"/profile"} className="btn lnk">Sign In </Link>
+                        </p>
+                        <p className="row">
+                            <Link to={"/profile"} className="btn light tag">Dark Mode </Link>
                         </p>
                     </article>
                 </aside>
             </section>
 
             <section className="row" id="challenge__section">
-                <aside className="col w" id="full__bg">
+                <aside className="col w">
                     <article>
                         {/* <p>Leverage the next tech revolution To Reap the benefits From the Enthusiast </p> */}
                     </article>
                 </aside>
             </section>
 
-
             <section className="row" id="approach__section">
                 <aside className="col left">
                     <article>
-                        <h2>Features</h2>
                         <p>Join a community where enthusiasts turn ideas into reality. Collaborate, create, and commercialize your projects in a dynamic marketplace.</p>
                     </article>
                     <article className="features">
                         <p className="row">
-                            <Link to={"/addWorkSpace"} className="btn active tag">Add More</Link>
-                            <Link to={"/workSpace"} className="btn light tag">Search</Link>
+                            <Link to={"/addWorkSpace"} className="btn active tag">+ Create</Link>
+                            <Link to={"/workSpace"} className="btn light tag">- Search</Link>
                         </p>
                     </article>
                 </aside>
             </section>
 
-
             <section className="row" id="workspace__section">
-                <aside className="col left" id="space_1">
-                    <article>
-                        <a href="">
-                            <img src={space1} alt="" loading="lazy" />
-                        </a>
+                <aside className="row grid">
+                    <article className="col" style={{ backgroundImage: `url(${challengesImage})` }}>
+                        <Link to={"/challenge"}>Challenges</Link>
                     </article>
-                    {
-                        formData.length > 0 && (
-                            formData.map((item) => (
-                                <article key={item.id}>
-                                    <a href="">
-                                        <img src={`${item.image}`} alt="" loading="lazy" />
-                                        <p><b>{item.title}</b></p>
-                                        <p className="row">
-                                            <span className="tag">time: <i>{item.additionalContent}</i></span>
-                                            <span className="tag">play: <i>{item.additionalContent}</i></span>
-                                        </p>
-                                    </a>
-                                </article>
-                            ))
-                        )
-                    }
-                </aside>
-                <aside className="col left" id="space_1">
-                    <article>
-                        <a href="">
-                            <img src={space2} alt="" loading="lazy" />
-                        </a>
+                    <article className="col" style={{ backgroundImage: `url(${marketplaceImage})` }}>
+                        <Link to={"/marketplace"}>Market Place</Link>
                     </article>
-                </aside>
-                <aside className="col left" id="space_1">
-                    <article>
-                        <a href="">
-                            <img src={space3} alt="" loading="lazy" />
-                        </a>
+                    <article className="col" style={{ backgroundImage: `url(${spacesImage})` }}>
+                        <Link to={"/workspaces"}>Work Spaces</Link>
                     </article>
                 </aside>
             </section>
@@ -126,10 +98,9 @@ const Home = () => {
             <section className="row">
                 <aside className="col w">
                     <article>
-                        <h1>Lets Work <Link to={"/"} className="active">Together</Link>. As Part of Those Building Stuff With Real Impact </h1>
+                        <h1>Lets Work</h1>
                         <p className="row">
-                            <Link to={"/register"} className="btn active">Register Profile</Link>
-                            <Link to={"/about"} className="btn lnk">About</Link>
+                            <Link to={"mailto:work@bckyrd.io"} className="btn lnk">📧 Contact Us Today</Link>
                         </p>
                     </article>
                 </aside>
@@ -138,7 +109,6 @@ const Home = () => {
             <section className="row" id="company__section">
                 <aside className="col left">
                     <article>
-                        <h2>Approach</h2>
                         <p>Explore the opportunities and join our innovative community. Whether you're a hobbyist, a tech enthusiast, or a professional, there's a place for you here.</p>
                     </article>
                     <article>
@@ -150,9 +120,10 @@ const Home = () => {
                 <aside className="col right">
                     <article>
                         <p className="row">
-                            <Link to={"/events"} className="btn active tag">Register For Events &nbsp; ,</Link>
-                            <Link to={"/careers"} className="btn active tag">Careers As An Enthusiast &nbsp; ,</Link>
-                            <Link to={"/challenges"} className="btn active tag">Solve Sponsored Challenges </Link>
+                            <Link to={"/events"} className="btn active tag">Register For Events</Link>
+                            <Link to={"/challenges"} className="btn active tag">Solve Sponsored Challenges</Link>
+                            <Link to={"/careers"} className="btn active tag">Careers As An Enthusiast</Link>
+                            <Link to={"/challenges"} className="btn active tag">Know About Company</Link>
                         </p>
                     </article>
                 </aside>

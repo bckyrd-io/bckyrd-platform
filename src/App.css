@@ -1,11 +1,15 @@
 :root {
-    --dark: #000000;
-    --font-size: 20px;
-    --light: #ffffff;
+    --light: #000000;
+    --dark: #ffffff;
+    --dark: #000000; 
+    --light: #ffffff; 
+    --font-size: 1.1em;
     --fade: #a2a2a2;
-    --active: #00bfa6;
-    --rad: 8px;
+    --active: #00bfa6a4;
+    --rad: 2px;
 }
+
+
 
 @font-face {
     font-family: gt;
@@ -17,12 +21,14 @@
     src: url(./assets/GTWalsheim.woff2);
 }
 
+* {
+    margin: 0;
+}
 
 /* STYLE ON BODY */
 html,
 body {
     background-color: var(--dark);
-    margin: 0;
     padding: 0;
     color: var(--light);
     font-size: var(--font-size);
@@ -40,6 +46,10 @@ body .row.reverse {
     flex-direction: row-reverse;
 }
 
+body .row.between {
+    justify-content: space-between;
+}
+
 body .col {
     display: flex;
     flex-direction: column;
@@ -53,12 +63,14 @@ body a {
 
 body h1 {
     font-size: calc(var(--font-size)*4);
-    line-height: calc(var(--font-size)*4);
+    line-height: calc(var(--font-size));
     text-transform: capitalize;
     font-family: 'gt-bold';
-    margin: 0;
+    text-align: justify;
 }
-body h2{
+
+
+body h2 {
     font-size: var(--font-size);
     font-family: 'gt-bold';
 }
@@ -96,14 +108,6 @@ section.margin {
 }
 
 
-
-/* CONETT MAP  */
-
-
-
-
-
-
 /* STYLE ON ARTICLE */
 article {
     padding: 1rem;
@@ -111,23 +115,11 @@ article {
 
 article img {
     max-width: 100%;
-    /* max-height: 80vh; */
+    max-height: 80vh;
     border-radius: var(--rad);
 }
 
-article span {
-    background-color: var(--dark);
-    text-transform: capitalize;
-}
 
-article span.tag {
-    margin-right: 1rem;
-}
-
-article span.tag i {
-    color: var(--fade);
-    font-style: normal;
-}
 
 article .btn {
     margin-right: 1rem;
@@ -158,7 +150,7 @@ article .btn.lnk {
 
 article .btn.active.tag {
     background-color: var(--dark);
-    border: var(--active) solid 1px;
+    border: var(--light) solid 0.25px;
     color: var(--active);
 }
 
@@ -178,6 +170,31 @@ article p b {
 }
 
 
+aside.grid {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+aside.grid article {
+    padding: 0;
+    background-image: url('./assets/bg.webp');
+    width: 49.4%;
+    height: 80vh;
+    margin-bottom: 1rem;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+
+aside.grid article a {
+    background-color: var(--active);
+    padding: 1rem;
+    width: max-content;
+}
+
 
 /* STYLE ON MOBILE */
 @media only screen and (max-width: 960px) {
@@ -188,7 +205,6 @@ article p b {
     body h1 {
         font-size: calc(var(--font-size)*2.4);
         line-height: calc(var(--font-size)*2.4);
-
     }
 
     body .row.reverse {
@@ -215,7 +231,15 @@ article p b {
         padding-right: .5rem;
     }
 
-    section article.features {
-        background-color: var(--dark);
+    aside.grid article {
+        width: 100%;
+        height: 40vh;
     }
+
+    section#challenge__section {
+        height: 40vh;
+    }
+
+
+
 }
