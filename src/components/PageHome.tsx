@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 import image from "../assets/apr16-01-184777571.jpg";
 import challenge from "../assets/paysafe-1.jpg";
 import challengesImage from "../assets/space1.jpg";
-import spacesImage from "../assets/space2.jpg";
-import d from "../assets/space3.jpg";
-import marketplaceImage from "../assets/build.jpg";
+import spacesImage from "../assets/space4.jpg";
+import herofix from "../assets/work.jpg";
+import marketplaceImage from "../assets/arduino.png";
+import download from "../assets/download.jpg";
 // Authentication Links
 import ButtonLogin from "./ButtonLogin";
 import ButtonLogout from "./ButtonLogout";
@@ -45,12 +46,12 @@ const Home = () => {
             <section className="row">
                 <aside className="col w">
                     <article>
-                        <h1>Leverage the next tech revolution To Reap the benefits From Electronics Enthusiast </h1>
+                        <h1>Leverage tech revolutions To Reap benefits From Electronics Enthusiast </h1>
                     </article>
                     <article className="row between">
                         <p className="row">
-                            <Link to={""} className="btn active">Get Started</Link>
-                            <Link to={"/profile"} className="btn lnk">Sign In </Link>
+                            <Link to={""} className="btn active">Sign In</Link>
+                            <Link to={"/#approach__section"} className="btn lnk">Get Started</Link>
                         </p>
                         <p className="row">
                             <Link to={"/profile"} className="btn light tag">Dark Mode </Link>
@@ -59,7 +60,7 @@ const Home = () => {
                 </aside>
             </section>
 
-            <section className="row" id="challenge__section">
+            <section className="row" id="challenge__section" style={{ backgroundImage: `url(${herofix})` }}>
                 <aside className="col w">
                     <article>
                         {/* <p>Leverage the next tech revolution To Reap the benefits From the Enthusiast </p> */}
@@ -72,10 +73,10 @@ const Home = () => {
                     <article>
                         <p>Join a community where enthusiasts turn ideas into reality. Collaborate, create, and commercialize your projects in a dynamic marketplace.</p>
                     </article>
-                    <article className="features">
+                    <article className="feature">
                         <p className="row">
-                            <Link to={"/addWorkSpace"} className="btn active tag">+ Create</Link>
-                            <Link to={"/workSpace"} className="btn light tag">- Search</Link>
+                            <Link to={"/addWorkSpace"} className="btn active tag">Create</Link>
+                            <Link to={"/workSpace"} className="btn light tag">Search</Link>
                         </p>
                     </article>
                 </aside>
@@ -109,11 +110,16 @@ const Home = () => {
             <section className="row" id="company__section">
                 <aside className="col left">
                     <article>
-                        <p>Explore the opportunities and join our innovative community. Whether you're a hobbyist, a tech enthusiast, or a professional, there's a place for you here.</p>
+                        <p>As You Have already figured. Bckyrd exist because of our belief in Electronics Enthusiast. You do understand 
+                            that these electronics guys can build anything. So We wanna make that profitable to The World. Be resourceful and Make that Faster Also 
+                            to Compete with corporates made Solves. Explore the opportunities and join our innovative community. Whether you're a hobbyist, a tech enthusiast, 
+                            or a professional, there's a place for you here.</p>
+                       <p><b>Bckyrd App</b></p>
                     </article>
+                 
                     <article>
                         <a href="/gallery">
-                            <img src={image} alt="Company Image" loading="lazy" />
+                            <img src={download} alt="Company Image" loading="lazy" />
                         </a>
                     </article>
                 </aside>

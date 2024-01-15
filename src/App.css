@@ -5,7 +5,7 @@
     --light: #ffffff; 
     --font-size: 1.1em;
     --fade: #a2a2a2;
-    --active: #00bfa6a4;
+    --active: #00bfa6;
     --rad: 2px;
 }
 
@@ -111,6 +111,7 @@ section.margin {
 /* STYLE ON ARTICLE */
 article {
     padding: 1rem;
+    background-size: cover;
 }
 
 article img {
@@ -164,10 +165,14 @@ article a.active {
     color: var(--active);
 }
 
+article p{
+    padding-bottom: 1rem;
+}
 article p b {
     font-family: "gt-bold";
     text-transform: capitalize;
 }
+
 
 
 aside.grid {
