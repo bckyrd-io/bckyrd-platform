@@ -71,7 +71,7 @@ const Home = () => {
             <section className="row" id="approach__section">
                 <aside className="col left">
                     <article>
-                        <p>Join a community where enthusiasts turn ideas into reality. Collaborate, create, and commercialize your projects in a dynamic marketplace.</p>
+                        <p>Explore the opportunities and join our innovative community. Whether you're a hobbyist, a tech enthusiast, or a professional, there's a place for you here.</p>
                     </article>
                     <article className="feature">
                         <p className="row">
@@ -85,18 +85,18 @@ const Home = () => {
             <section className="row" id="workspace__section">
                 <aside className="row grid">
                     <article className="col" style={{ backgroundImage: `url(${challengesImage})` }}>
-                        <Link to={"/challenge"}>Challenges</Link>
+                        <Link to={"/challenge"}>Challenge</Link>
                     </article>
                     <article className="col" style={{ backgroundImage: `url(${marketplaceImage})` }}>
                         <Link to={"/marketplace"}>Market Place</Link>
                     </article>
                     <article className="col" style={{ backgroundImage: `url(${spacesImage})` }}>
-                        <Link to={"/workspaces"}>Work Spaces</Link>
+                        <Link to={"/workspaces"}>Resource</Link>
                     </article>
                 </aside>
             </section>
 
-            <section className="row">
+            <section className="row" id="contact__section">
                 <aside className="col w">
                     <article>
                         <h1>Lets Work</h1>
@@ -110,13 +110,9 @@ const Home = () => {
             <section className="row" id="company__section">
                 <aside className="col left">
                     <article>
-                        <p>As You Have already figured. Bckyrd exist because of our belief in Electronics Enthusiast. You do understand 
-                            that these electronics guys can build anything. So We wanna make that profitable to The World. Be resourceful and Make that Faster Also 
-                            to Compete with corporates made Solves. Explore the opportunities and join our innovative community. Whether you're a hobbyist, a tech enthusiast, 
-                            or a professional, there's a place for you here.</p>
-                       <p><b>Bckyrd App</b></p>
+                        <p>As You Have already figured.Bckyrd exist because of our belief in Electronics <a href="">Enthusiast</a>. So We wanna make that <a href=""> profitable</a> to The World.</p>
                     </article>
-                 
+
                     <article>
                         <a href="/gallery">
                             <img src={download} alt="Company Image" loading="lazy" />
