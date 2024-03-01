@@ -4,13 +4,8 @@ the page contains routes for all pages
 */
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Index from "./components/PageIndex";
 import PageHome from "./components/PageHome";
-import AddWorkSpace from "./components/PageAdd";
-import MarketPlace from "./components/PageMarketPlace";
-import WorkSpace from "./components/PageWorkSpace";
-import Challenge from "./components/PageChallenge";
-import ChallengeView from './components/PageChallengeView';
-import WorkSpaceView from './components/PageWorkSpaceView';
 import Profile from './components/PageProfile';
 
 
@@ -20,13 +15,8 @@ function App() {
 		<>
 			<BrowserRouter>
 				<Routes>
-					<Route path="/" element={<PageHome />} />
-					<Route path="/marketPlace" element={<MarketPlace />} />
-					<Route path="/workSpace" element={<WorkSpace />} />
-					<Route path="/workSpaceView" element={<WorkSpaceView />} />
-					<Route path="/challenge" element={<Challenge />} />
-					<Route path="/challengeView" element={<ChallengeView />} />
-					<Route path="/addWorkSpace" element={<AddWorkSpace />} />
+					<Route path="/" element={<Index />} />
+					<Route path="/Home" element={<PageHome />} />
 					<Route path="/profile" element={<Profile />} />
 				</Routes>
 			</BrowserRouter>

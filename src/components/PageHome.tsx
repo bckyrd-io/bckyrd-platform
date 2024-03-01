@@ -46,15 +46,15 @@ const Home = () => {
             <section className="row">
                 <aside className="col w">
                     <article>
-                        <h1>Leverage tech revolutions To Reap benefits From Electronics Enthusiast </h1>
+                        <h1>Leverage Next tech revolutions To benefits From Electronics Enthusiast</h1>
                     </article>
                     <article className="row between">
                         <p className="row">
-                            <Link to={""} className="btn active">Sign In</Link>
+                            <Link to={""} className="btn active"> Login</Link>
                             <Link to={"/#approach__section"} className="btn lnk">Get Started</Link>
                         </p>
                         <p className="row">
-                            <Link to={"/profile"} className="btn light tag">Dark Mode </Link>
+                            <Link to={"/profile"} className="btn light tag mode">Dark Mode </Link>
                         </p>
                     </article>
                 </aside>
@@ -99,10 +99,7 @@ const Home = () => {
             <section className="row" id="contact__section">
                 <aside className="col w">
                     <article>
-                        <h1>Lets Work</h1>
-                        <p className="row">
-                            <Link to={"mailto:work@bckyrd.io"} className="btn lnk">📧 Contact Us Today</Link>
-                        </p>
+                        <h1>Lets Work Together To Build Profitable something for Electronics</h1>
                     </article>
                 </aside>
             </section>
@@ -111,6 +108,9 @@ const Home = () => {
                 <aside className="col left">
                     <article>
                         <p>As You Have already figured.Bckyrd exist because of our belief in Electronics <a href="">Enthusiast</a>. So We wanna make that <a href=""> profitable</a> to The World.</p>
+                        <p className="row">
+                            <Link to={"mailto:work@bckyrd.io"} className="btn ">📧 work@bckyrd.io</Link>
+                        </p>
                     </article>
 
                     <article>
