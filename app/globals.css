@@ -87,6 +87,14 @@ body h2 {
     text-align: left;
     line-height: normal;
 }
+body h4 {
+    font-size: calc(var(--font-size)*1);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+    line-height: normal;
+}
 
 
 /* CLASSES */
