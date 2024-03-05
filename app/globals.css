@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+
+/* my own style */
+:root {
+    --black: #0c0c0c;
+    /* Deep matte black */
+    --white: #F9FAFB;
+    /* Light, readable primary text */
+    --font-size: 1.075rem;
+    --primary: #10B981;
+    /* Vibrant Emerald primary */
+    --rad: 6px;
+}
+
+* {
+    min-width: 0 !important;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    word-break: break-word;
+}
+
+/* ELEMENTS */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--font-size);
+    font-weight: 100;
+}
+
+section {
+    margin-bottom: 40vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    padding: 1em;
+}
+
+
+body h1 {
+    font-size: calc(var(--font-size)*4);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0 !important;
+    text-align: left;
+    line-height: 1;
+}
+
+body h2 {
+    font-size: calc(var(--font-size)*2);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+    line-height: normal;
+}
+
+
+/* CLASSES */
+body .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body .row.between {
+    justify-content: space-between;
+}
+
+body .col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+/* BUTTONS  */
+a,
+.active {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.btn,
+.tag {
+    display: inline-block;
+    /* Aligning buttons/tags inline */
+    cursor: pointer;
+    font-size: var(--font-size);
+    margin-right: 1rem;
+    background-color: transparent;
+    color: var(--light);
+    padding: 0.5rem 1rem;
+    border-radius: var(--rad);
+    box-shadow: 0 0 0 1px var(--primary);
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.btn.active,
+.tag:hover {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+
+/* SECTION BACKGROUND */
+section#__back aside.maxed {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5vh;
+    margin-top: 35vh;
+    background-attachment: fixed;
+
+}
+
+a.active {
+    color: var(--primary);
+}
+
+section#__talk {
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 4px;
+    min-height: 35vh;
+    margin-bottom: 1rem;
+}
+
+.right {
+    height: max-content;
+    position: sticky;
+    top: 0px;
+    justify-content: flex-end;
+}
+
+
+
+/* STYLE ON MOBILE */
+@media only screen and (max-width: 960px) {
+
+    body h1 {
+        font-size: calc(var(--font-size)*2.5);
+        text-align: left;
+    }
+
+    body h3 {
+        font-size: calc(var(--font-size)*1.5);
+    }
+
+    section aside.col {
+        width: 100%;
+    }
+
+    article .col {
+        width: 100%;
+    }
+
+    article.col {
+        width: 94%;
+    }
+
+    section#__back aside.maxed {
+        height: 60vh;
+    }
+
+    body .row.reverse {
+        flex-direction: column-reverse;
+    }
+
+    body .row.reverse .right {
+        position: relative;
+    }
+
+    section {
+        margin-bottom: 15vh;
+    }
+
+    article {
+        margin-bottom: 5vh;
+        padding: .5em;
+    }
+
+
+
+
+
+}
