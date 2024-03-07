@@ -55,7 +55,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-size: var(--font-size);
-    font-weight: 100;
+    font-weight: 300;
 }
 
 section {
@@ -120,6 +120,7 @@ a,
 .active {
     color: var(--light);
     text-decoration: none;
+    font-weight: 400;
 }
 
 .btn,
@@ -131,7 +132,7 @@ a,
     margin-right: 1rem;
     background-color: transparent;
     color: var(--light);
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     border-radius: var(--rad);
     box-shadow: 0 0 0 1px var(--primary);
     transition: background-color 0.3s, color 0.3s;

@@ -9,12 +9,12 @@ export default function Home() {
             <section id="__start">
                 <aside className=" maxed">
                     <article>
-                        <h1>Leverage next industrial revolution to benefit from electronics Enthusiast</h1>
+                        <h1>Leverage next industrial revolution to Reap From electronics Enthusiast</h1>
                     </article>
                     <article>
                         <p className="">
                             <Link href="/about" className="btn active">Get Started </Link>
-                            <Link href="/on" className="tag">🔅</Link>
+                            {/* <Link href="/on" className="tag">🔅</Link> */}
                         </p>
                     </article>
                 </aside>
@@ -88,7 +88,7 @@ export default function Home() {
                         />
                         <h4>Profitable </h4>
                         <p>
-Enthusiast brands are profitable because their authentic passion attracts loyal customers, fostering a community that values quality and innovation, driving sales and growth..</p>
+                            Enthusiast brands are profitable because their authentic passion attracts loyal customers, fostering a community that values quality and innovation, driving sales and growth..</p>
                     </article>
 
                 </aside>
