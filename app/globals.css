@@ -36,7 +36,7 @@ body {
     --white: #F9FAFB;/* Light, readable primary text */
     --font-size: 1.075rem;
     --primary: #10B981;/* Vibrant Emerald primary */
-    --rad: 8px;
+    --rad: 10px;
 }
 
 * {
