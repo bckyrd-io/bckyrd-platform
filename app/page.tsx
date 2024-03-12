@@ -9,10 +9,8 @@ export default function Home() {
             <section id="__start">
                 <aside className=" maxed">
                     <article>
-                        <h1>Leverage next industrial revolution to Reap From electronics Enthusiast</h1>
-                    </article>
-                    <article>
-                        <p className="">
+                        <h1>Leverage next industrial revolution That Benefit electronics Enthusiast</h1>
+                        <p className="row">
                             <Link href="/about" className="btn active">Get Started </Link>
                             {/* <Link href="/on" className="tag">🔅</Link> */}
                         </p>
@@ -26,7 +24,8 @@ export default function Home() {
                 </aside>
                 <aside className="col">
                     <article>
-                        <p className="col">Get started , with your electronics projects you wanna see . See the posts and post for others to Benefit </p>                  </article>
+                        <p className="col">" Get started ,with your electronics projects you wanna see . See the posts and post for others to Benefit " </p>
+                    </article>
                 </aside>
             </section>
 
@@ -45,7 +44,7 @@ export default function Home() {
                             layout='responsive'
                         />
                         <h4>Leverage </h4>
-                        <p>modern workshop equipped with CNC machines and robotic arms, emphasizing precision, automation, and the seamless integration of technology in the manufacturing process. </p>
+                        <p className="col">modern workshop equipped with CNC machines and robotic arms, emphasizing precision, automation, and the seamless integration of technology in the manufacturing process. </p>
                     </article>
                     <article>
                         <Image
@@ -59,7 +58,7 @@ export default function Home() {
                             layout='responsive'
                         />
                         <h4>Enthusiastic </h4>
-                        <p>Working with enthusiasts ensures passion, creativity, dedication, high energy, and a deep commitment to quality and innovation in every task.</p>
+                        <p className="col">Working with enthusiasts ensures passion, creativity, dedication, high energy, and a deep commitment to quality and innovation in every task.</p>
                     </article>
                     <article>
                         <Image
@@ -73,7 +72,7 @@ export default function Home() {
                             layout='responsive'
                         />
                         <h4>Simplicity </h4>
-                        <p>sharpen fundamentals, inspire creativity, and build confidence for tackling more complex challenges efficiently.</p>
+                        <p className="col">sharpen fundamentals, inspire creativity, and build confidence for tackling more complex challenges efficiently.</p>
                     </article>
                     <article>
                         <Image
@@ -87,17 +86,16 @@ export default function Home() {
                             layout='responsive'
                         />
                         <h4>Profitable </h4>
-                        <p>
+                        <p className="col">
                             Enthusiast brands are profitable because their authentic passion attracts loyal customers, fostering a community that values quality and innovation, driving sales and growth..</p>
                     </article>
 
                 </aside>
                 <aside className="col right">
-                    <article className="row">
-
-                        <Link href="/events" className="tag">🧑‍🚀 Discover</Link>
-                        <Link href="/challenges" className="tag">🎲 Read More</Link>
-
+                    <article className="col">
+                        <p> <Link href="/events" className="tag">🧑‍🚀 Discover</Link>
+                            <Link href="/challenges" className="tag">🎲 Read More</Link>
+                            </p>
                     </article>
                 </aside>
             </section>
@@ -106,13 +104,12 @@ export default function Home() {
             <section id="__talk" className="row reverse">
                 <aside className="col right" >
                     <article className="">
-                        <Link href="/" className="active">Download App 💎</Link>
+                        <Link href="/" className="active">Get The App 🤖</Link>
                     </article>
                 </aside>
                 <aside className="col">
                     <article className="col">
-                        <h2>Step into the space where you will be able to roll out your product as an electronics enthusiast Quickly </h2>
-
+                        <h2>Step into the space where you will be able to roll out your proof of concept </h2>
                     </article>
                 </aside>
 
