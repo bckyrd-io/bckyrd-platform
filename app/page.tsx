@@ -24,7 +24,7 @@ export default function Home() {
                 </aside>
                 <aside className="col">
                     <article>
-                        <p className="col">" Get started ,with your electronics projects you wanna see . See the posts and post for others to Benefit " </p>
+                        <p className="col"> Get started ,with your electronics projects you wanna see . See the posts and post for others to Benefit </p>
                     </article>
                 </aside>
             </section>
