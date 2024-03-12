@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bckyrd: Where Stuff Is Build",
+  title: "Bckyrd_ Where Stuff Is Build",
   description: "The platform leverages next industrial revolution to build electronics for electronics enthusiast",
 };
 
