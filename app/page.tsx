@@ -24,7 +24,7 @@ export default function Home() {
                 </aside>
                 <aside className="col">
                     <article>
-                        <p className="col"> Get started ,with your electronics projects you wanna see . See the posts and post for others to Benefit </p>
+                        <p className="col"> Get started ,with your electronics projects you wanna see. See the posts and post for others to Benefit.</p>
                     </article>
                 </aside>
             </section>
@@ -103,7 +103,7 @@ export default function Home() {
             {/* END SECTION */}
             <section id="__talk" className="row reverse">
                 <aside className="col right" >
-                    <article className="">
+                    <article className="col">
                         <Link href="/" className="active">Get The App 🤖</Link>
                     </article>
                 </aside>
