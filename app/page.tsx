@@ -104,7 +104,7 @@ export default function Home() {
             <section id="__talk" className="row reverse">
                 <aside className="col right" >
                     <article className="col">
-                        <Link href="/" className="active">Get The App 🤖</Link>
+                        <Link href="/" className="active">🤖 Get The App</Link>
                     </article>
                 </aside>
                 <aside className="col">
