@@ -9,7 +9,7 @@ export default function Home() {
             <section id="__start">
                 <aside className=" maxed">
                     <article>
-                        <h1>Leverage next industrial revolution That Benefit electronics Enthusiast</h1>
+                        <h1>Empower your tech reviewing journey with the next industrial revolution.</h1>
                         <p className="row">
                             <Link href="/about" className="btn active">Get Started </Link>
                             {/* <Link href="/on" className="tag">🔅</Link> */}
@@ -20,11 +20,11 @@ export default function Home() {
 
             {/* IMAGE SECTION */}
             <section id="__back" >
-                <aside className="maxed" style={{ backgroundImage: `url("./worksho.jpg")` }}>
+                <aside className="maxed"  >
                 </aside>
                 <aside className="col">
                     <article>
-                        <p className="col"> Get started ,with your electronics projects you wanna see. See the posts and post for others to Benefit.</p>
+                        <p className="col">Unleash your potential and expertise. Build projects with ease using pre-made kits, showcase your skills, and connect with a passionate tech community.</p>
                     </article>
                 </aside>
             </section>
@@ -43,8 +43,10 @@ export default function Home() {
                             // If you need the image to be responsive and maintain aspect ratio, use layout='responsive'
                             layout='responsive'
                         />
-                        <h4>Leverage </h4>
-                        <p className="col">modern workshop equipped with CNC machines and robotic arms, emphasizing precision, automation, and the seamless integration of technology in the manufacturing process. </p>
+                        <h4> Streamlined Workflow:</h4>
+                        <p className="col">
+                            Focus on content creation. Pre-built kits and intuitive tools simplify the project building process
+                        </p>
                     </article>
                     <article>
                         <Image
@@ -57,37 +59,24 @@ export default function Home() {
                             // If you need the image to be responsive and maintain aspect ratio, use layout='responsive'
                             layout='responsive'
                         />
-                        <h4>Enthusiastic </h4>
-                        <p className="col">Working with enthusiasts ensures passion, creativity, dedication, high energy, and a deep commitment to quality and innovation in every task.</p>
-                    </article>
-                    <article>
-                        <Image
-                            src="/simplify.webp" // Correct path, assuming 'hobby.webp' is directly in the 'public' folder
-                            alt="Company Logo"
-                            loading="lazy"
-                            // Assuming you know the dimensions of the image; for example, 500x500
-                            width={500}
-                            height={500}
-                            // If you need the image to be responsive and maintain aspect ratio, use layout='responsive'
-                            layout='responsive'
-                        />
-                        <h4>Simplicity </h4>
-                        <p className="col">sharpen fundamentals, inspire creativity, and build confidence for tackling more complex challenges efficiently.</p>
-                    </article>
-                    <article>
-                        <Image
-                            src="/profit.webp" // Correct path, assuming 'hobby.webp' is directly in the 'public' folder
-                            alt="Company Logo"
-                            loading="lazy"
-                            // Assuming you know the dimensions of the image; for example, 500x500
-                            width={500}
-                            height={500}
-                            // If you need the image to be responsive and maintain aspect ratio, use layout='responsive'
-                            layout='responsive'
-                        />
-                        <h4>Profitable </h4>
+                        <h4>Connect & Collaborate:</h4>
                         <p className="col">
-                            Enthusiast brands are profitable because their authentic passion attracts loyal customers, fostering a community that values quality and innovation, driving sales and growth..</p>
+                            Network with fellow enthusiasts, share knowledge, and work together on groundbreaking projects.
+                        </p>
+                    </article>
+                    <article>
+                        <Image
+                            src="/worksho.jpg" // Correct path, assuming 'hobby.webp' is directly in the 'public' folder
+                            alt="Company Logo"
+                            loading="lazy"
+                            width={500}
+                            height={500}
+                            layout='responsive'
+                        />
+                        <h4>Expand Your Influence:</h4>
+                        <p className="col">
+                            Showcase your work to a wider audience and establish yourself as a leader in the tech review community.
+                        </p>
                     </article>
 
                 </aside>
@@ -95,7 +84,7 @@ export default function Home() {
                     <article className="col">
                         <p> <Link href="/events" className="tag">🧑‍🚀 Discover</Link>
                             <Link href="/challenges" className="tag">🎲 Read More</Link>
-                            </p>
+                        </p>
                     </article>
                 </aside>
             </section>
@@ -104,12 +93,12 @@ export default function Home() {
             <section id="__talk" className="row reverse">
                 <aside className="col right" >
                     <article className="col">
-                        <Link href="/" className="active">🤖 Get The App</Link>
+                        <Link href="/" className="active">🤖 APP INSTALL</Link>
                     </article>
                 </aside>
                 <aside className="col">
                     <article className="col">
-                        <h2>Step into the space where you will be able to roll out your proof of concept </h2>
+                        <h2>Step into the future and bring your innovative ideas to life. </h2>
                     </article>
                 </aside>
 
