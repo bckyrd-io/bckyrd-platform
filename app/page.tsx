@@ -27,9 +27,9 @@ export default function Home() {
                         <p className="col">Unleash your potential and expertise. Build projects with ease using pre-made kits, showcase your skills, and connect with a passionate tech community.</p>
                     </article>
                     <article className="">
-                        <p> <Link href="/events" className="tag">🧑‍🚀 Discover</Link>
-                            <Link href="/challenges" className="tag">🎲 Read More</Link>
-                            <Link href="/challenges" className="tag">⏱️ Dm</Link>
+                        <p>
+                            <Link href="https://www.youtube.com/@bckyrd-io" className="tag">🧑‍🚀 Discover</Link>
+                            <Link href="https://mw.linkedin.com/company/bckyrd-io?trk=similar-pages" className="tag">🎲 Read More</Link>
                         </p>
                     </article>
                 </aside>
@@ -77,9 +77,8 @@ export default function Home() {
                     </article>
                     <article className="">
                         <p>
-                            <Link href="/" className="active">Download &nbsp; &nbsp;</Link>
-                            <Link href="/" className="active">Github &nbsp; &nbsp;</Link>
-                            <Link href="/" className="active">Terms &nbsp; &nbsp;</Link>
+                            <Link href="https://play.google.com/store/apps" className="active">Download &nbsp; &nbsp;</Link>
+                            <Link href="https://github.com/bckyrd-io/bckyrd-platform" className="active">Github &nbsp; &nbsp;</Link>
                         </p>
                     </article>
                 </aside>
