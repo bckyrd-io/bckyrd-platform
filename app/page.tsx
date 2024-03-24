@@ -56,32 +56,17 @@ export default function Home() {
                     </article>
                     <article>
                         <Image
-                            src="/enthusia.jpg" // Correct path, assuming 'hobby.webp' is directly in the 'public' folder
+                            src="/enthusiast.webp" // Correct path, assuming 'hobby.webp' is directly in the 'public' folder
                             alt="Company Logo"
                             loading="lazy"
                             // Assuming you know the dimensions of the image; for example, 500x500
                             width={500}
                             height={500}
-                            // If you need the image to be responsive and maintain aspect ratio, use layout='responsive'
                             layout='responsive'
                         />
                         <h4>Connect & Collaborate:</h4>
                         <p className="col">
                             Network with fellow enthusiasts, share knowledge, and work together on groundbreaking projects.
-                        </p>
-                    </article>
-                    <article>
-                        <Image
-                            src="/worksho.jpg" // Correct path, assuming 'hobby.webp' is directly in the 'public' folder
-                            alt="Company Logo"
-                            loading="lazy"
-                            width={500}
-                            height={500}
-                            layout='responsive'
-                        />
-                        <h4>Expand Your Influence:</h4>
-                        <p className="col">
-                            Showcase your work to a wider audience and establish yourself as a leader in the tech review community.
                         </p>
                     </article>
 
