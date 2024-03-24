@@ -20,17 +20,23 @@ export default function Home() {
 
             {/* IMAGE SECTION */}
             <section id="__back" >
-                <aside className="maxed"  >
+                <aside className="maxed" >
                 </aside>
                 <aside className="col">
                     <article>
                         <p className="col">Unleash your potential and expertise. Build projects with ease using pre-made kits, showcase your skills, and connect with a passionate tech community.</p>
                     </article>
+                    <article className="">
+                        <p> <Link href="/events" className="tag">🧑‍🚀 Discover</Link>
+                            <Link href="/challenges" className="tag">🎲 Read More</Link>
+                            <Link href="/challenges" className="tag">⏱️ Dm</Link>
+                        </p>
+                    </article>
                 </aside>
             </section>
 
-            {/* POST SECTION */}
-            <section id="__post" className="row reverse">
+            {/* END SECTION */}
+            <section id="__talk" className="row">
                 <aside className="col left">
                     <article>
                         <Image
@@ -82,26 +88,16 @@ export default function Home() {
                 </aside>
                 <aside className="col right">
                     <article className="col">
-                        <p> <Link href="/events" className="tag">🧑‍🚀 Discover</Link>
-                            <Link href="/challenges" className="tag">🎲 Read More</Link>
+                        <h2>Step into the future and bring your innovative ideas to life. </h2>
+                    </article>
+                    <article className="">
+                        <p>
+                            <Link href="/" className="active">Download &nbsp; &nbsp;</Link>
+                            <Link href="/" className="active">Github &nbsp; &nbsp;</Link>
+                            <Link href="/" className="active">Terms &nbsp; &nbsp;</Link>
                         </p>
                     </article>
                 </aside>
-            </section>
-
-            {/* END SECTION */}
-            <section id="__talk" className="row reverse">
-                <aside className="col right" >
-                    <article className="col">
-                        <Link href="/" className="active">🤖 APP INSTALL</Link>
-                    </article>
-                </aside>
-                <aside className="col">
-                    <article className="col">
-                        <h2>Step into the future and bring your innovative ideas to life. </h2>
-                    </article>
-                </aside>
-
             </section>
         </>
     )
